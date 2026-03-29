@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+.venv/
+*.log
+application.log
+catalog-v001.xml

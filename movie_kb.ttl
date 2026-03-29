@@ -1,0 +1,6228 @@
+@prefix mv: <http://moviekg.local/resource/> .
+@prefix mvo: <http://moviekg.local/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mvo:hasActor a owl:ObjectProperty ;
+    rdfs:domain mvo:Movie ;
+    rdfs:range mvo:Person .
+
+mvo:hasDirector a owl:ObjectProperty ;
+    rdfs:domain mvo:Movie ;
+    rdfs:range mvo:Person .
+
+mvo:hasGenre a owl:ObjectProperty ;
+    rdfs:domain mvo:Movie ;
+    rdfs:range mvo:Genre .
+
+mvo:hasTitle a owl:ObjectProperty ;
+    rdfs:domain mvo:Movie .
+
+mvo:producedBy a owl:ObjectProperty ;
+    rdfs:domain mvo:Movie ;
+    rdfs:range mvo:ProductionCompany .
+
+mvo:releaseYear a owl:ObjectProperty ;
+    rdfs:domain mvo:Movie .
+
+mv:movie_1003596 a mvo:Movie ;
+    mvo:hasActor mv:person_1083010,
+        mv:person_53650,
+        mv:person_556356,
+        mv:person_60898,
+        mv:person_74568 ;
+    mvo:hasDirector mv:person_19271,
+        mv:person_19272 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Avengers: Doomsday"^^xsd:string ;
+    mvo:producedBy mv:company_106544,
+        mv:company_176762,
+        mv:company_420 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1010581 a mvo:Movie ;
+    mvo:hasActor mv:person_1251336,
+        mv:person_2527414,
+        mv:person_2786960,
+        mv:person_4105602,
+        mv:person_970027 ;
+    mvo:hasDirector mv:person_1739102 ;
+    mvo:hasGenre mv:Drama,
+        mv:Romance,
+        mv:Thriller ;
+    mvo:hasTitle "My Fault"^^xsd:string ;
+    mvo:producedBy mv:company_208240,
+        mv:company_32485 ;
+    mvo:releaseYear 2023 .
+
+mv:movie_1019361 a mvo:Movie ;
+    mvo:hasDirector mv:person_2115056 ;
+    mvo:hasTitle "Hamdan"^^xsd:string ;
+    mvo:releaseYear 2013 .
+
+mv:movie_10528 a mvo:Movie ;
+    mvo:hasActor mv:person_1665,
+        mv:person_2983,
+        mv:person_3223,
+        mv:person_53714,
+        mv:person_9642 ;
+    mvo:hasDirector mv:person_956 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Crime,
+        mv:Mystery ;
+    mvo:hasTitle "Sherlock Holmes"^^xsd:string ;
+    mvo:producedBy mv:company_174,
+        mv:company_1885,
+        mv:company_23202,
+        mv:company_79 ;
+    mvo:releaseYear 2009 .
+
+mv:movie_10538 a mvo:Movie ;
+    mvo:hasActor mv:person_10814,
+        mv:person_21089,
+        mv:person_27422,
+        mv:person_3197,
+        mv:person_46924 ;
+    mvo:hasDirector mv:person_40230 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Thriller ;
+    mvo:hasTitle "Passenger 57"^^xsd:string ;
+    mvo:producedBy mv:company_174 ;
+    mvo:releaseYear 1992 .
+
+mv:movie_1054867 a mvo:Movie ;
+    mvo:hasActor mv:person_1121,
+        mv:person_2228,
+        mv:person_35705,
+        mv:person_3914706,
+        mv:person_6193 ;
+    mvo:hasDirector mv:person_4762 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Crime,
+        mv:Thriller ;
+    mvo:hasTitle "One Battle After Another"^^xsd:string ;
+    mvo:producedBy mv:company_174,
+        mv:company_178,
+        mv:company_216687 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1058710 a mvo:Movie ;
+    mvo:hasActor mv:person_1090686,
+        mv:person_2138,
+        mv:person_343,
+        mv:person_6905,
+        mv:person_8169 ;
+    mvo:hasDirector mv:person_1272981 ;
+    mvo:hasGenre mv:Horror,
+        mv:Thriller ;
+    mvo:hasTitle "Bloodline Killer"^^xsd:string ;
+    mvo:producedBy mv:company_111951,
+        mv:company_143302,
+        mv:company_212925,
+        mv:company_228157,
+        mv:company_64580 ;
+    mvo:releaseYear 2024 .
+
+mv:movie_1061474 a mvo:Movie ;
+    mvo:hasActor mv:person_1785590,
+        mv:person_3292,
+        mv:person_39391,
+        mv:person_51797,
+        mv:person_993774 ;
+    mvo:hasDirector mv:person_15218 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Superman"^^xsd:string ;
+    mvo:producedBy mv:company_11565,
+        mv:company_184898,
+        mv:company_216687,
+        mv:company_94218 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1062722 a mvo:Movie ;
+    mvo:hasActor mv:person_1137824,
+        mv:person_2034418,
+        mv:person_25072,
+        mv:person_27319,
+        mv:person_3631223 ;
+    mvo:hasDirector mv:person_10828 ;
+    mvo:hasGenre mv:Drama,
+        mv:Fantasy,
+        mv:Horror ;
+    mvo:hasTitle "Frankenstein"^^xsd:string ;
+    mvo:producedBy mv:company_101082,
+        mv:company_10678,
+        mv:company_279898 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1081676 a mvo:Movie ;
+    mvo:hasActor mv:person_1382678,
+        mv:person_140651,
+        mv:person_2120976,
+        mv:person_2309286,
+        mv:person_2932520 ;
+    mvo:hasDirector mv:person_1786499 ;
+    mvo:hasGenre mv:Drama,
+        mv:Romance ;
+    mvo:hasTitle "Forgotten Love"^^xsd:string ;
+    mvo:producedBy mv:company_101302,
+        mv:company_209620 ;
+    mvo:releaseYear 2023 .
+
+mv:movie_1084242 a mvo:Movie ;
+    mvo:hasActor mv:person_1183672,
+        mv:person_23532,
+        mv:person_417,
+        mv:person_62861,
+        mv:person_690 ;
+    mvo:hasDirector mv:person_1318201,
+        mv:person_76595 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Animation,
+        mv:Comedy,
+        mv:Family,
+        mv:Mystery ;
+    mvo:hasTitle "Zootopia 2"^^xsd:string ;
+    mvo:producedBy mv:company_158526,
+        mv:company_6125 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1108427 a mvo:Movie ;
+    mvo:hasActor mv:person_1753341,
+        mv:person_18918,
+        mv:person_205406,
+        mv:person_4247263,
+        mv:person_7241 ;
+    mvo:hasDirector mv:person_1485823 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Comedy,
+        mv:Family,
+        mv:Fantasy ;
+    mvo:hasTitle "Moana"^^xsd:string ;
+    mvo:producedBy mv:company_2,
+        mv:company_34081,
+        mv:company_73669 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1119449 a mvo:Movie ;
+    mvo:hasActor mv:person_1286328,
+        mv:person_1545693,
+        mv:person_36594,
+        mv:person_454,
+        mv:person_6807 ;
+    mvo:hasDirector mv:person_1704 ;
+    mvo:hasGenre mv:Action,
+        mv:Comedy,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Good Luck, Have Fun, Don't Die"^^xsd:string ;
+    mvo:producedBy mv:company_10262,
+        mv:company_214700,
+        mv:company_47,
+        mv:company_787 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_11235 a mvo:Movie ;
+    mvo:hasActor mv:person_12982,
+        mv:person_13784,
+        mv:person_20899,
+        mv:person_47698,
+        mv:person_68686 ;
+    mvo:hasDirector mv:person_68687 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Drama ;
+    mvo:hasTitle "Local Hero"^^xsd:string ;
+    mvo:producedBy mv:company_12016,
+        mv:company_500,
+        mv:company_7049 ;
+    mvo:releaseYear 1983 .
+
+mv:movie_11431 a mvo:Movie ;
+    mvo:hasActor mv:person_11669,
+        mv:person_1240,
+        mv:person_69423,
+        mv:person_69597,
+        mv:person_74151 ;
+    mvo:hasDirector mv:person_7395,
+        mv:person_7396 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Romance ;
+    mvo:hasTitle "Fever Pitch"^^xsd:string ;
+    mvo:producedBy mv:company_1508,
+        mv:company_19813,
+        mv:company_6401,
+        mv:company_6402,
+        mv:company_711,
+        mv:company_73953 ;
+    mvo:releaseYear 2005 .
+
+mv:movie_114891 a mvo:Movie ;
+    mvo:hasActor mv:person_1330581,
+        mv:person_1331936,
+        mv:person_1339498,
+        mv:person_275257,
+        mv:person_560025 ;
+    mvo:hasDirector mv:person_585435 ;
+    mvo:hasGenre mv:Romance ;
+    mvo:hasTitle "Pathinaaru"^^xsd:string ;
+    mvo:producedBy mv:company_26160 ;
+    mvo:releaseYear 2011 .
+
+mv:movie_1159559 a mvo:Movie ;
+    mvo:hasActor mv:person_14405,
+        mv:person_1508653,
+        mv:person_1972974,
+        mv:person_2174509,
+        mv:person_9206 ;
+    mvo:hasDirector mv:person_26458 ;
+    mvo:hasGenre mv:Crime,
+        mv:Horror,
+        mv:Mystery ;
+    mvo:hasTitle "Scream 7"^^xsd:string ;
+    mvo:producedBy mv:company_130448,
+        mv:company_143790,
+        mv:company_4 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1167307 a mvo:Movie ;
+    mvo:hasActor mv:person_1677363,
+        mv:person_1822256,
+        mv:person_2507851,
+        mv:person_2805492,
+        mv:person_5981973 ;
+    mvo:hasDirector mv:person_2508883,
+        mv:person_2838796 ;
+    mvo:hasGenre mv:Animation,
+        mv:Drama,
+        mv:Family ;
+    mvo:hasTitle "David"^^xsd:string ;
+    mvo:producedBy mv:company_165435,
+        mv:company_206626,
+        mv:company_223271,
+        mv:company_30216 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1171145 a mvo:Movie ;
+    mvo:hasActor mv:person_103,
+        mv:person_1290466,
+        mv:person_1525043,
+        mv:person_4587,
+        mv:person_74568 ;
+    mvo:hasDirector mv:person_859754 ;
+    mvo:hasGenre mv:Crime,
+        mv:Thriller ;
+    mvo:hasTitle "Crime 101"^^xsd:string ;
+    mvo:producedBy mv:company_10163,
+        mv:company_122772,
+        mv:company_183787,
+        mv:company_210099,
+        mv:company_23949 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_117878 a mvo:Movie ;
+    mvo:hasActor mv:person_1066283,
+        mv:person_1066284,
+        mv:person_18658,
+        mv:person_47368,
+        mv:person_583051 ;
+    mvo:hasDirector mv:person_225586 ;
+    mvo:hasGenre mv:Romance,
+        mv:TV_Movie ;
+    mvo:hasTitle "Kiss at Pine Lake"^^xsd:string ;
+    mvo:producedBy mv:company_114956,
+        mv:company_3958,
+        mv:company_50076,
+        mv:company_53015 ;
+    mvo:releaseYear 2012 .
+
+mv:movie_1180831 a mvo:Movie ;
+    mvo:hasActor mv:person_105563,
+        mv:person_1394758,
+        mv:person_1904884,
+        mv:person_225810,
+        mv:person_3783386 ;
+    mvo:hasDirector mv:person_87877 ;
+    mvo:hasGenre mv:Action,
+        mv:Fantasy,
+        mv:Thriller ;
+    mvo:hasTitle "Troll 2"^^xsd:string ;
+    mvo:producedBy mv:company_108394 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1182199 a mvo:Movie ;
+    mvo:hasActor mv:person_1480267,
+        mv:person_1494240,
+        mv:person_1941454,
+        mv:person_47070,
+        mv:person_79978 ;
+    mvo:hasDirector mv:person_92422 ;
+    mvo:hasGenre mv:Drama,
+        mv:TV_Movie ;
+    mvo:hasTitle "Hemmet"^^xsd:string ;
+    mvo:producedBy mv:company_2999 ;
+    mvo:releaseYear 1972 .
+
+mv:movie_11851 a mvo:Movie ;
+    mvo:hasActor mv:person_14103,
+        mv:person_19728,
+        mv:person_5251,
+        mv:person_5344,
+        mv:person_738 ;
+    mvo:hasDirector mv:person_37710 ;
+    mvo:hasGenre mv:Action,
+        mv:Crime,
+        mv:Mystery,
+        mv:Thriller ;
+    mvo:hasTitle "The Presidio"^^xsd:string ;
+    mvo:producedBy mv:company_4 ;
+    mvo:releaseYear 1988 .
+
+mv:movie_1191876 a mvo:Movie ;
+    mvo:hasActor mv:person_104686,
+        mv:person_2075067,
+        mv:person_230808,
+        mv:person_2434413,
+        mv:person_4322353 ;
+    mvo:hasDirector mv:person_2365816 ;
+    mvo:hasGenre mv:Drama ;
+    mvo:hasTitle "From the Ashes"^^xsd:string ;
+    mvo:producedBy mv:company_25811 ;
+    mvo:releaseYear 2027 .
+
+mv:movie_1193501 a mvo:Movie ;
+    mvo:hasActor mv:person_1008607,
+        mv:person_117995,
+        mv:person_1464650,
+        mv:person_1993743,
+        mv:person_2388828 ;
+    mvo:hasDirector mv:person_1401474 ;
+    mvo:hasGenre mv:Horror,
+        mv:Mystery ;
+    mvo:hasTitle "Whistle"^^xsd:string ;
+    mvo:producedBy mv:company_129815,
+        mv:company_35846 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1196067 a mvo:Movie ;
+    mvo:hasActor mv:person_114019,
+        mv:person_2667928,
+        mv:person_3214361,
+        mv:person_63,
+        mv:person_956385 ;
+    mvo:hasDirector mv:person_37948 ;
+    mvo:hasGenre mv:Action,
+        mv:Horror,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Worldbreaker"^^xsd:string ;
+    mvo:producedBy mv:company_104678,
+        mv:company_15465,
+        mv:company_168295,
+        mv:company_215935 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1198994 a mvo:Movie ;
+    mvo:hasActor mv:person_109438,
+        mv:person_352,
+        mv:person_4477127,
+        mv:person_527393,
+        mv:person_53714 ;
+    mvo:hasDirector mv:person_7623 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Horror,
+        mv:Thriller ;
+    mvo:hasTitle "Send Help"^^xsd:string ;
+    mvo:producedBy mv:company_122323,
+        mv:company_127928,
+        mv:company_22213 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1217584 a mvo:Movie ;
+    mvo:hasActor mv:person_10847,
+        mv:person_114461,
+        mv:person_23215,
+        mv:person_234644,
+        mv:person_99812 ;
+    mvo:hasDirector mv:person_10847 ;
+    mvo:hasGenre mv:Comedy ;
+    mvo:hasTitle "Torrente for President"^^xsd:string ;
+    mvo:producedBy mv:company_281730,
+        mv:company_7864,
+        mv:company_91991 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1218925 a mvo:Movie ;
+    mvo:hasActor mv:person_1296667,
+        mv:person_1452028,
+        mv:person_2004086,
+        mv:person_2812912,
+        mv:person_3651176 ;
+    mvo:hasDirector mv:person_1286723 ;
+    mvo:hasGenre mv:Action,
+        mv:Animation,
+        mv:Fantasy,
+        mv:Romance ;
+    mvo:hasTitle "Chainsaw Man - The Movie: Reze Arc"^^xsd:string ;
+    mvo:producedBy mv:company_21444 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_122 a mvo:Movie ;
+    mvo:hasActor mv:person_109,
+        mv:person_110,
+        mv:person_1327,
+        mv:person_1328,
+        mv:person_1333 ;
+    mvo:hasDirector mv:person_108 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Fantasy ;
+    mvo:hasTitle "The Lord of the Rings: The Return of the King"^^xsd:string ;
+    mvo:producedBy mv:company_11,
+        mv:company_12,
+        mv:company_5237 ;
+    mvo:releaseYear 2003 .
+
+mv:movie_1226863 a mvo:Movie ;
+    mvo:hasActor mv:person_1397778,
+        mv:person_298410,
+        mv:person_60073,
+        mv:person_73457,
+        mv:person_95101 ;
+    mvo:hasDirector mv:person_113901,
+        mv:person_1719706 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Animation,
+        mv:Comedy,
+        mv:Family,
+        mv:Fantasy ;
+    mvo:hasTitle "The Super Mario Galaxy Movie"^^xsd:string ;
+    mvo:producedBy mv:company_12288,
+        mv:company_33,
+        mv:company_6704 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1228246 a mvo:Movie ;
+    mvo:hasActor mv:person_1368507,
+        mv:person_1824301,
+        mv:person_2283930,
+        mv:person_26457,
+        mv:person_27972 ;
+    mvo:hasDirector mv:person_2103746 ;
+    mvo:hasGenre mv:Horror,
+        mv:Thriller ;
+    mvo:hasTitle "Five Nights at Freddy's 2"^^xsd:string ;
+    mvo:producedBy mv:company_116736,
+        mv:company_211144,
+        mv:company_3172 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1233413 a mvo:Movie ;
+    mvo:hasActor mv:person_130640,
+        mv:person_134774,
+        mv:person_135651,
+        mv:person_4688032,
+        mv:person_85065 ;
+    mvo:hasDirector mv:person_1056121 ;
+    mvo:hasGenre mv:Action,
+        mv:Horror,
+        mv:Thriller ;
+    mvo:hasTitle "Sinners"^^xsd:string ;
+    mvo:producedBy mv:company_148495,
+        mv:company_174,
+        mv:company_216687 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1234731 a mvo:Movie ;
+    mvo:hasActor mv:person_1784612,
+        mv:person_18324,
+        mv:person_22226,
+        mv:person_70851,
+        mv:person_9030 ;
+    mvo:hasDirector mv:person_1211000 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Comedy,
+        mv:Horror ;
+    mvo:hasTitle "Anaconda"^^xsd:string ;
+    mvo:producedBy mv:company_134756,
+        mv:company_22213,
+        mv:company_5 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1234821 a mvo:Movie ;
+    mvo:hasActor mv:person_1168097,
+        mv:person_1245,
+        mv:person_36669,
+        mv:person_80860,
+        mv:person_932967 ;
+    mvo:hasDirector mv:person_129894 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Jurassic World Rebirth"^^xsd:string ;
+    mvo:producedBy mv:company_33,
+        mv:company_56 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1236153 a mvo:Movie ;
+    mvo:hasActor mv:person_1164259,
+        mv:person_1293892,
+        mv:person_3119545,
+        mv:person_73457,
+        mv:person_933238 ;
+    mvo:hasDirector mv:person_23430 ;
+    mvo:hasGenre mv:Action,
+        mv:Science_Fiction,
+        mv:Thriller ;
+    mvo:hasTitle "Mercy"^^xsd:string ;
+    mvo:producedBy mv:company_109501,
+        mv:company_210099,
+        mv:company_507 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_12405 a mvo:Movie ;
+    mvo:hasActor mv:person_72118,
+        mv:person_76788,
+        mv:person_76792,
+        mv:person_85456,
+        mv:person_964549 ;
+    mvo:hasDirector mv:person_2034 ;
+    mvo:hasGenre mv:Drama,
+        mv:Romance ;
+    mvo:hasTitle "Slumdog Millionaire"^^xsd:string ;
+    mvo:producedBy mv:company_3573,
+        mv:company_6705 ;
+    mvo:releaseYear 2008 .
+
+mv:movie_1242898 a mvo:Movie ;
+    mvo:hasActor mv:person_1636658,
+        mv:person_18050,
+        mv:person_1891826,
+        mv:person_2253146,
+        mv:person_3223391 ;
+    mvo:hasDirector mv:person_568322 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Predator: Badlands"^^xsd:string ;
+    mvo:producedBy mv:company_127928,
+        mv:company_1302,
+        mv:company_185309,
+        mv:company_22213,
+        mv:company_840 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1248226 a mvo:Movie ;
+    mvo:hasActor mv:person_21088,
+        mv:person_32895,
+        mv:person_49001,
+        mv:person_52848,
+        mv:person_64295 ;
+    mvo:hasDirector mv:person_65734 ;
+    mvo:hasGenre mv:Action,
+        mv:Comedy,
+        mv:Family ;
+    mvo:hasTitle "Playdate"^^xsd:string ;
+    mvo:producedBy mv:company_110723,
+        mv:company_210099,
+        mv:company_221397,
+        mv:company_28787,
+        mv:company_55446 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1262 a mvo:Movie ;
+    mvo:hasActor mv:person_15758,
+        mv:person_1579,
+        mv:person_23659,
+        mv:person_4483,
+        mv:person_7056 ;
+    mvo:hasDirector mv:person_12995 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Drama,
+        mv:Fantasy,
+        mv:Romance ;
+    mvo:hasTitle "Stranger Than Fiction"^^xsd:string ;
+    mvo:producedBy mv:company_1973,
+        mv:company_5,
+        mv:company_771 ;
+    mvo:releaseYear 2006 .
+
+mv:movie_1265609 a mvo:Movie ;
+    mvo:hasActor mv:person_1388314,
+        mv:person_224181,
+        mv:person_6065,
+        mv:person_64295,
+        mv:person_65344 ;
+    mvo:hasDirector mv:person_143059 ;
+    mvo:hasGenre mv:Action,
+        mv:Science_Fiction,
+        mv:Thriller ;
+    mvo:hasTitle "War Machine"^^xsd:string ;
+    mvo:producedBy mv:company_1632,
+        mv:company_167684,
+        mv:company_198785,
+        mv:company_224643 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1266127 a mvo:Movie ;
+    mvo:hasActor mv:person_109,
+        mv:person_11863,
+        mv:person_1372369,
+        mv:person_221192,
+        mv:person_52647 ;
+    mvo:hasDirector mv:person_1039527,
+        mv:person_66681 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Horror ;
+    mvo:hasTitle "Ready or Not: Here I Come"^^xsd:string ;
+    mvo:producedBy mv:company_126588,
+        mv:company_127929,
+        mv:company_19367,
+        mv:company_22213,
+        mv:company_34982 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1272837 a mvo:Movie ;
+    mvo:hasActor mv:person_1344320,
+        mv:person_1672504,
+        mv:person_5107934,
+        mv:person_5469,
+        mv:person_85065 ;
+    mvo:hasDirector mv:person_1795072 ;
+    mvo:hasGenre mv:Horror,
+        mv:Science_Fiction,
+        mv:Thriller ;
+    mvo:hasTitle "28 Years Later: The Bone Temple"^^xsd:string ;
+    mvo:producedBy mv:company_22213,
+        mv:company_284,
+        mv:company_5 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1284460 a mvo:Movie ;
+    mvo:hasActor mv:person_2201315,
+        mv:person_229932,
+        mv:person_4606127,
+        mv:person_583853,
+        mv:person_81051 ;
+    mvo:hasDirector mv:person_1392433 ;
+    mvo:hasGenre mv:Drama,
+        mv:Horror,
+        mv:Science_Fiction,
+        mv:Thriller ;
+    mvo:hasTitle "Alpha"^^xsd:string ;
+    mvo:producedBy mv:company_121655,
+        mv:company_237221,
+        mv:company_24430,
+        mv:company_245340,
+        mv:company_49473,
+        mv:company_591,
+        mv:company_792,
+        mv:company_92187,
+        mv:company_95061 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_129 a mvo:Movie ;
+    mvo:hasActor mv:person_19587,
+        mv:person_19588,
+        mv:person_19589,
+        mv:person_19590,
+        mv:person_19591 ;
+    mvo:hasDirector mv:person_608 ;
+    mvo:hasGenre mv:Animation,
+        mv:Family,
+        mv:Fantasy ;
+    mvo:hasTitle "Spirited Away"^^xsd:string ;
+    mvo:producedBy mv:company_10342,
+        mv:company_11847,
+        mv:company_1778,
+        mv:company_1779,
+        mv:company_1780,
+        mv:company_6755 ;
+    mvo:releaseYear 2001 .
+
+mv:movie_1290821 a mvo:Movie ;
+    mvo:hasActor mv:person_1233545,
+        mv:person_1563431,
+        mv:person_2440,
+        mv:person_4088089,
+        mv:person_976 ;
+    mvo:hasDirector mv:person_76422 ;
+    mvo:hasGenre mv:Action,
+        mv:Crime,
+        mv:Thriller ;
+    mvo:hasTitle "Shelter"^^xsd:string ;
+    mvo:producedBy mv:company_118472,
+        mv:company_218150,
+        mv:company_22146,
+        mv:company_253186 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1291335 a mvo:Movie ;
+    mvo:hasActor mv:person_1495825,
+        mv:person_21595,
+        mv:person_32895,
+        mv:person_55256,
+        mv:person_8335 ;
+    mvo:hasDirector mv:person_231043,
+        mv:person_2822579 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Romance ;
+    mvo:hasTitle "Solo Mio"^^xsd:string ;
+    mvo:producedBy mv:company_110723,
+        mv:company_165435,
+        mv:company_221363,
+        mv:company_221397,
+        mv:company_96310 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1291608 a mvo:Movie ;
+    mvo:hasActor mv:person_224223,
+        mv:person_52263,
+        mv:person_85519,
+        mv:person_85881,
+        mv:person_87328 ;
+    mvo:hasDirector mv:person_2152816 ;
+    mvo:hasGenre mv:Action,
+        mv:Crime,
+        mv:Thriller ;
+    mvo:hasTitle "Dhurandhar"^^xsd:string ;
+    mvo:producedBy mv:company_115477,
+        mv:company_212774 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1297842 a mvo:Movie ;
+    mvo:hasActor mv:person_1267240,
+        mv:person_1474123,
+        mv:person_1718307,
+        mv:person_1763709,
+        mv:person_17773 ;
+    mvo:hasDirector mv:person_2122835 ;
+    mvo:hasGenre mv:Animation,
+        mv:Comedy,
+        mv:Family ;
+    mvo:hasTitle "GOAT"^^xsd:string ;
+    mvo:producedBy mv:company_120524,
+        mv:company_184287,
+        mv:company_22213,
+        mv:company_2251,
+        mv:company_5,
+        mv:company_79426 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1305781 a mvo:Movie ;
+    mvo:hasActor mv:person_1258617,
+        mv:person_3193743,
+        mv:person_4662225,
+        mv:person_70106,
+        mv:person_78871 ;
+    mvo:hasDirector mv:person_18899 ;
+    mvo:hasGenre mv:Action,
+        mv:Drama,
+        mv:History ;
+    mvo:hasTitle "Blades of the Guardians: Wind Rises in the Desert"^^xsd:string ;
+    mvo:producedBy mv:company_2270,
+        mv:company_25660,
+        mv:company_285214,
+        mv:company_31814,
+        mv:company_65442,
+        mv:company_69484 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1306368 a mvo:Movie ;
+    mvo:hasActor mv:person_1892,
+        mv:person_215055,
+        mv:person_5887,
+        mv:person_880,
+        mv:person_964679 ;
+    mvo:hasDirector mv:person_40223 ;
+    mvo:hasGenre mv:Action,
+        mv:Crime,
+        mv:Thriller ;
+    mvo:hasTitle "The Rip"^^xsd:string ;
+    mvo:producedBy mv:company_187968 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1311031 a mvo:Movie ;
+    mvo:hasActor mv:person_119145,
+        mv:person_1253008,
+        mv:person_1256603,
+        mv:person_81244,
+        mv:person_9705 ;
+    mvo:hasDirector mv:person_1283010 ;
+    mvo:hasGenre mv:Action,
+        mv:Animation,
+        mv:Fantasy ;
+    mvo:hasTitle "Demon Slayer: Kimetsu no Yaiba Infinity Castle"^^xsd:string ;
+    mvo:producedBy mv:company_2883,
+        mv:company_2918,
+        mv:company_5887 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1314786 a mvo:Movie ;
+    mvo:hasActor mv:person_1255923,
+        mv:person_1729881,
+        mv:person_226431,
+        mv:person_28511,
+        mv:person_82700 ;
+    mvo:hasDirector mv:person_1489750 ;
+    mvo:hasGenre mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "Agent Zeta"^^xsd:string ;
+    mvo:producedBy mv:company_210099,
+        mv:company_217473 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1316092 a mvo:Movie ;
+    mvo:hasActor mv:person_1360317,
+        mv:person_1370832,
+        mv:person_2034418,
+        mv:person_234352,
+        mv:person_2981449 ;
+    mvo:hasDirector mv:person_1252934 ;
+    mvo:hasGenre mv:Drama,
+        mv:Romance ;
+    mvo:hasTitle "\"Wuthering Heights\""^^xsd:string ;
+    mvo:producedBy mv:company_174,
+        mv:company_207685,
+        mv:company_216687,
+        mv:company_2531,
+        mv:company_82968 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1317288 a mvo:Movie ;
+    mvo:hasActor mv:person_1133834,
+        mv:person_1190668,
+        mv:person_12052,
+        mv:person_1240877,
+        mv:person_1972166 ;
+    mvo:hasDirector mv:person_129561 ;
+    mvo:hasGenre mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "Marty Supreme"^^xsd:string ;
+    mvo:producedBy mv:company_243162,
+        mv:company_41077 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1317672 a mvo:Movie ;
+    mvo:hasActor mv:person_1867690,
+        mv:person_3255503,
+        mv:person_3265701,
+        mv:person_3791174,
+        mv:person_4529552 ;
+    mvo:hasDirector mv:person_11873 ;
+    mvo:hasGenre mv:Drama,
+        mv:Romance ;
+    mvo:hasTitle "Love Me Love Me"^^xsd:string ;
+    mvo:producedBy mv:company_176106,
+        mv:company_19916,
+        mv:company_210099 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1327819 a mvo:Movie ;
+    mvo:hasActor mv:person_11074,
+        mv:person_1308818,
+        mv:person_452205,
+        mv:person_54697,
+        mv:person_65717 ;
+    mvo:hasDirector mv:person_1491592 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Animation,
+        mv:Comedy,
+        mv:Family,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Hoppers"^^xsd:string ;
+    mvo:producedBy mv:company_3 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_133200 a mvo:Movie ;
+    mvo:hasActor mv:person_1096793,
+        mv:person_115904,
+        mv:person_227638,
+        mv:person_240145,
+        mv:person_25002 ;
+    mvo:hasDirector mv:person_566365 ;
+    mvo:hasGenre mv:Drama,
+        mv:History ;
+    mvo:hasTitle "Masquerade"^^xsd:string ;
+    mvo:producedBy mv:company_3655,
+        mv:company_7036 ;
+    mvo:releaseYear 2012 .
+
+mv:movie_1362514 a mvo:Movie ;
+    mvo:hasActor mv:person_1160046,
+        mv:person_3638397,
+        mv:person_4465308,
+        mv:person_5466107,
+        mv:person_5466108 ;
+    mvo:hasDirector mv:person_3638397 ;
+    mvo:hasGenre mv:Horror ;
+    mvo:hasTitle "House on Eden"^^xsd:string ;
+    mvo:producedBy mv:company_263563 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1363123 a mvo:Movie ;
+    mvo:hasActor mv:person_11705,
+        mv:person_13240,
+        mv:person_1533987,
+        mv:person_1818455,
+        mv:person_239019 ;
+    mvo:hasDirector mv:person_144798 ;
+    mvo:hasGenre mv:Action,
+        mv:Comedy ;
+    mvo:hasTitle "The Family Plan 2"^^xsd:string ;
+    mvo:producedBy mv:company_169668,
+        mv:company_82819 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1367642 a mvo:Movie ;
+    mvo:hasActor mv:person_1094091,
+        mv:person_11367,
+        mv:person_16858,
+        mv:person_1974046,
+        mv:person_3052321 ;
+    mvo:hasDirector mv:person_1579059 ;
+    mvo:hasGenre mv:Drama,
+        mv:Romance ;
+    mvo:hasTitle "Reminders of Him"^^xsd:string ;
+    mvo:producedBy mv:company_235046,
+        mv:company_241073,
+        mv:company_33 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1367763 a mvo:Movie ;
+    mvo:hasActor mv:person_1012752,
+        mv:person_173850,
+        mv:person_1932132,
+        mv:person_27993,
+        mv:person_4030169 ;
+    mvo:hasDirector mv:person_2836102 ;
+    mvo:hasGenre mv:Horror,
+        mv:Thriller ;
+    mvo:hasTitle "Lilly Lives Alone"^^xsd:string ;
+    mvo:producedBy mv:company_241103 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1368166 a mvo:Movie ;
+    mvo:hasActor mv:person_115440,
+        mv:person_1855143,
+        mv:person_20,
+        mv:person_2349355,
+        mv:person_71070 ;
+    mvo:hasDirector mv:person_116805 ;
+    mvo:hasGenre mv:Mystery,
+        mv:Thriller ;
+    mvo:hasTitle "The Housemaid"^^xsd:string ;
+    mvo:producedBy mv:company_1632,
+        mv:company_198785,
+        mv:company_221429,
+        mv:company_284257 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1381027 a mvo:Movie ;
+    mvo:hasActor mv:person_1115,
+        mv:person_127558,
+        mv:person_2309371,
+        mv:person_2430575,
+        mv:person_3313929 ;
+    mvo:hasDirector mv:person_566109 ;
+    mvo:hasGenre mv:Drama,
+        mv:Mystery,
+        mv:Thriller ;
+    mvo:hasTitle "Good Boy"^^xsd:string ;
+    mvo:producedBy mv:company_11561,
+        mv:company_233704,
+        mv:company_2466,
+        mv:company_250,
+        mv:company_277343,
+        mv:company_6265 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1381216 a mvo:Movie ;
+    mvo:hasActor mv:person_1628383,
+        mv:person_2187456,
+        mv:person_2252730,
+        mv:person_3383606,
+        mv:person_3560347 ;
+    mvo:hasDirector mv:person_2252730 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Comedy,
+        mv:Horror ;
+    mvo:hasTitle "Lake Jesup: Bonecrusher's Revenge"^^xsd:string ;
+    mvo:producedBy mv:company_243556,
+        mv:company_40367 ;
+    mvo:releaseYear 2024 .
+
+mv:movie_1387382 a mvo:Movie ;
+    mvo:hasActor mv:person_1600083,
+        mv:person_2461,
+        mv:person_31384,
+        mv:person_444211,
+        mv:person_60460 ;
+    mvo:hasDirector mv:person_582827 ;
+    mvo:hasGenre mv:Action,
+        mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "Hunting Season"^^xsd:string ;
+    mvo:producedBy mv:company_121204,
+        mv:company_137373,
+        mv:company_198179,
+        mv:company_231139,
+        mv:company_237010,
+        mv:company_41735,
+        mv:company_63611 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1401778 a mvo:Movie ;
+    mvo:hasActor mv:person_18182,
+        mv:person_225692,
+        mv:person_4689008,
+        mv:person_586286,
+        mv:person_7090 ;
+    mvo:hasDirector mv:person_56533 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Drama,
+        mv:Fantasy,
+        mv:Thriller ;
+    mvo:hasTitle "Turbulence"^^xsd:string ;
+    mvo:producedBy mv:company_107513,
+        mv:company_19638,
+        mv:company_21608,
+        mv:company_25954,
+        mv:company_5056,
+        mv:company_85170 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1419406 a mvo:Movie ;
+    mvo:hasActor mv:person_1173805,
+        mv:person_1625880,
+        mv:person_18897,
+        mv:person_3167855,
+        mv:person_56861 ;
+    mvo:hasDirector mv:person_1452270 ;
+    mvo:hasGenre mv:Action,
+        mv:Crime,
+        mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "The Shadow's Edge"^^xsd:string ;
+    mvo:producedBy mv:company_122699,
+        mv:company_197030,
+        mv:company_250765,
+        mv:company_25657 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1424965 a mvo:Movie ;
+    mvo:hasActor mv:person_1384976,
+        mv:person_3688800,
+        mv:person_6028572,
+        mv:person_6028574 ;
+    mvo:hasDirector mv:person_1204333 ;
+    mvo:hasGenre mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "Ice Skater"^^xsd:string ;
+    mvo:producedBy mv:company_189220,
+        mv:company_251623,
+        mv:company_75419 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_14262 a mvo:Movie ;
+    mvo:hasActor mv:person_10373,
+        mv:person_76494,
+        mv:person_76495,
+        mv:person_76496,
+        mv:person_9292 ;
+    mvo:hasDirector mv:person_10367 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Crime ;
+    mvo:hasTitle "Desperate Living"^^xsd:string ;
+    mvo:producedBy mv:company_2880,
+        mv:company_38223 ;
+    mvo:releaseYear 1977 .
+
+mv:movie_1426297 a mvo:Movie ;
+    mvo:hasActor mv:person_3065840,
+        mv:person_3381701,
+        mv:person_4321298,
+        mv:person_5167953,
+        mv:person_567742 ;
+    mvo:hasDirector mv:person_1923093 ;
+    mvo:hasGenre mv:Horror ;
+    mvo:hasTitle "Play Dead"^^xsd:string ;
+    mvo:producedBy mv:company_130106,
+        mv:company_97315 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1426964 a mvo:Movie ;
+    mvo:hasActor mv:person_1272190,
+        mv:person_222991,
+        mv:person_3391695,
+        mv:person_4131582,
+        mv:person_5659 ;
+    mvo:hasDirector mv:person_1265055 ;
+    mvo:hasGenre mv:Action,
+        mv:Crime,
+        mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "State of Fear"^^xsd:string ;
+    mvo:producedBy mv:company_345 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1439112 a mvo:Movie ;
+    mvo:hasActor mv:person_1139816,
+        mv:person_1658759,
+        mv:person_209193,
+        mv:person_6383,
+        mv:person_85780 ;
+    mvo:hasDirector mv:person_98537 ;
+    mvo:hasGenre mv:Action,
+        mv:Mystery,
+        mv:Thriller ;
+    mvo:hasTitle "Muzzle: City of Wolves"^^xsd:string ;
+    mvo:producedBy mv:company_148930,
+        mv:company_174474,
+        mv:company_187281,
+        mv:company_19330,
+        mv:company_215935,
+        mv:company_233099,
+        mv:company_274685,
+        mv:company_76991 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_14671 a mvo:Movie ;
+    mvo:hasActor mv:person_1796,
+        mv:person_19728,
+        mv:person_3038,
+        mv:person_55277,
+        mv:person_64057 ;
+    mvo:hasDirector mv:person_1895 ;
+    mvo:hasGenre mv:Comedy ;
+    mvo:hasTitle "Summer School"^^xsd:string ;
+    mvo:producedBy mv:company_4 ;
+    mvo:releaseYear 1987 .
+
+mv:movie_14778 a mvo:Movie ;
+    mvo:hasActor mv:person_14011,
+        mv:person_15196,
+        mv:person_15735,
+        mv:person_382,
+        mv:person_3895 ;
+    mvo:hasDirector mv:person_64061 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Drama ;
+    mvo:hasTitle "Last Orders"^^xsd:string ;
+    mvo:producedBy mv:company_10791,
+        mv:company_10843,
+        mv:company_1261,
+        mv:company_33025 ;
+    mvo:releaseYear 2001 .
+
+mv:movie_1488684 a mvo:Movie ;
+    mvo:hasActor mv:person_1241041,
+        mv:person_1244125,
+        mv:person_151344,
+        mv:person_224878,
+        mv:person_42641 ;
+    mvo:hasDirector mv:person_122348,
+        mv:person_1232361 ;
+    mvo:hasGenre mv:Comedy ;
+    mvo:hasTitle "The Robbers"^^xsd:string ;
+    mvo:producedBy mv:company_3324 ;
+    mvo:releaseYear 2009 .
+
+mv:movie_1511417 a mvo:Movie ;
+    mvo:hasActor mv:person_141701,
+        mv:person_215910,
+        mv:person_237045,
+        mv:person_581895,
+        mv:person_88167 ;
+    mvo:hasDirector mv:person_147021 ;
+    mvo:hasGenre mv:Action,
+        mv:Drama ;
+    mvo:hasTitle "Bāhubali: The Epic"^^xsd:string ;
+    mvo:producedBy mv:company_57946 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1516744 a mvo:Movie ;
+    mvo:hasActor mv:person_1928411,
+        mv:person_2382973,
+        mv:person_2743080,
+        mv:person_2763799,
+        mv:person_3386244 ;
+    mvo:hasDirector mv:person_3398276 ;
+    mvo:hasTitle "Shall we Dance?"^^xsd:string ;
+    mvo:releaseYear 2014 .
+
+mv:movie_1523145 a mvo:Movie ;
+    mvo:hasActor mv:person_2007622,
+        mv:person_5037367,
+        mv:person_558048,
+        mv:person_5598110,
+        mv:person_5654199 ;
+    mvo:hasDirector mv:person_1547457 ;
+    mvo:hasGenre mv:Drama,
+        mv:Romance ;
+    mvo:hasTitle "Your Heart Will Be Broken"^^xsd:string ;
+    mvo:producedBy mv:company_114676,
+        mv:company_13850,
+        mv:company_71928,
+        mv:company_76049 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1539104 a mvo:Movie ;
+    mvo:hasActor mv:person_110665,
+        mv:person_1492992,
+        mv:person_1606164,
+        mv:person_555099,
+        mv:person_77927 ;
+    mvo:hasDirector mv:person_2784807 ;
+    mvo:hasGenre mv:Action,
+        mv:Animation,
+        mv:Fantasy ;
+    mvo:hasTitle "JUJUTSU KAISEN: Execution"^^xsd:string ;
+    mvo:producedBy mv:company_158200,
+        mv:company_21444,
+        mv:company_2918,
+        mv:company_3363,
+        mv:company_882 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_1572073 a mvo:Movie ;
+    mvo:hasActor mv:person_3806541,
+        mv:person_5786234,
+        mv:person_5786236,
+        mv:person_5786237,
+        mv:person_5816824 ;
+    mvo:hasDirector mv:person_4282811 ;
+    mvo:hasGenre mv:Horror ;
+    mvo:hasTitle "The Deadly Little Mermaid"^^xsd:string ;
+    mvo:producedBy mv:company_111974,
+        mv:company_69347 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1582770 a mvo:Movie ;
+    mvo:hasActor mv:person_224223,
+        mv:person_52263,
+        mv:person_579817,
+        mv:person_85519,
+        mv:person_85881 ;
+    mvo:hasDirector mv:person_2152816 ;
+    mvo:hasGenre mv:Action,
+        mv:Crime,
+        mv:Thriller ;
+    mvo:hasTitle "Dhurandhar: The Revenge"^^xsd:string ;
+    mvo:producedBy mv:company_115477,
+        mv:company_212774 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1611398 a mvo:Movie ;
+    mvo:hasActor mv:person_1149166,
+        mv:person_1310890,
+        mv:person_1317794,
+        mv:person_3091865,
+        mv:person_57409 ;
+    mvo:hasDirector mv:person_1277636,
+        mv:person_57409 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Drama,
+        mv:Romance ;
+    mvo:hasTitle "Un hombre por semana"^^xsd:string ;
+    mvo:producedBy mv:company_191621,
+        mv:company_210842,
+        mv:company_7570 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_1634301 a mvo:Movie ;
+    mvo:hasActor mv:person_1071558,
+        mv:person_1712424,
+        mv:person_2876455 ;
+    mvo:hasGenre mv:Action,
+        mv:Drama ;
+    mvo:hasTitle "Vanaveera"^^xsd:string ;
+    mvo:releaseYear 2026 .
+
+mv:movie_16415 a mvo:Movie ;
+    mvo:hasActor mv:person_120074,
+        mv:person_120083,
+        mv:person_80524,
+        mv:person_80527,
+        mv:person_80528 ;
+    mvo:hasDirector mv:person_80526 ;
+    mvo:hasGenre mv:Comedy ;
+    mvo:hasTitle "Sweet 'n Short"^^xsd:string ;
+    mvo:producedBy mv:company_38208,
+        mv:company_38209 ;
+    mvo:releaseYear 1991 .
+
+mv:movie_1646787 a mvo:Movie ;
+    mvo:hasActor mv:person_1401573,
+        mv:person_3600004,
+        mv:person_5932454,
+        mv:person_6051549,
+        mv:person_6051552 ;
+    mvo:hasDirector mv:person_4207773 ;
+    mvo:hasGenre mv:Drama ;
+    mvo:hasTitle "Sundutan"^^xsd:string ;
+    mvo:producedBy mv:company_149142 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_181808 a mvo:Movie ;
+    mvo:hasActor mv:person_1023139,
+        mv:person_1315036,
+        mv:person_2,
+        mv:person_236695,
+        mv:person_4 ;
+    mvo:hasDirector mv:person_67367 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Star Wars: The Last Jedi"^^xsd:string ;
+    mvo:producedBy mv:company_1 ;
+    mvo:releaseYear 2017 .
+
+mv:movie_185341 a mvo:Movie ;
+    mvo:hasActor mv:person_108909,
+        mv:person_1180136,
+        mv:person_1465849,
+        mv:person_34020,
+        mv:person_34793 ;
+    mvo:hasDirector mv:person_54525 ;
+    mvo:hasGenre mv:Horror,
+        mv:Thriller ;
+    mvo:hasTitle "[REC]⁴ Apocalypse"^^xsd:string ;
+    mvo:producedBy mv:company_185355,
+        mv:company_7956 ;
+    mvo:releaseYear 2014 .
+
+mv:movie_19995 a mvo:Movie ;
+    mvo:hasActor mv:person_10205,
+        mv:person_17647,
+        mv:person_32747,
+        mv:person_65731,
+        mv:person_8691 ;
+    mvo:hasDirector mv:person_2710 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Avatar"^^xsd:string ;
+    mvo:producedBy mv:company_133789,
+        mv:company_25,
+        mv:company_444,
+        mv:company_574 ;
+    mvo:releaseYear 2009 .
+
+mv:movie_203121 a mvo:Movie ;
+    mvo:hasActor mv:person_1197378,
+        mv:person_36730,
+        mv:person_3933,
+        mv:person_44651,
+        mv:person_8199 ;
+    mvo:hasDirector mv:person_1197381 ;
+    mvo:hasGenre mv:Action,
+        mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "Robin Hood"^^xsd:string ;
+    mvo:producedBy mv:company_1589,
+        mv:company_425 ;
+    mvo:releaseYear 2013 .
+
+mv:movie_206194 a mvo:Movie ;
+    mvo:hasActor mv:person_1224124,
+        mv:person_1555040,
+        mv:person_1616052,
+        mv:person_3551176,
+        mv:person_3551178 ;
+    mvo:hasDirector mv:person_1188556 ;
+    mvo:hasGenre mv:Documentary,
+        mv:History ;
+    mvo:hasTitle "Transistorized!"^^xsd:string ;
+    mvo:producedBy mv:company_175398,
+        mv:company_24982,
+        mv:company_76110 ;
+    mvo:releaseYear 1998 .
+
+mv:movie_225914 a mvo:Movie ;
+    mvo:hasActor mv:person_1213887,
+        mv:person_141694,
+        mv:person_15993,
+        mv:person_29095,
+        mv:person_779 ;
+    mvo:hasDirector mv:person_133115 ;
+    mvo:hasGenre mv:Action,
+        mv:Crime,
+        mv:Science_Fiction,
+        mv:TV_Movie ;
+    mvo:hasTitle "Spider-Man"^^xsd:string ;
+    mvo:producedBy mv:company_10367,
+        mv:company_19683,
+        mv:company_57020 ;
+    mvo:releaseYear 1977 .
+
+mv:movie_227156 a mvo:Movie ;
+    mvo:hasActor mv:person_1017347,
+        mv:person_1229,
+        mv:person_28846,
+        mv:person_3897,
+        mv:person_5064 ;
+    mvo:hasDirector mv:person_13015 ;
+    mvo:hasGenre mv:Drama,
+        mv:Science_Fiction ;
+    mvo:hasTitle "The Giver"^^xsd:string ;
+    mvo:producedBy mv:company_10221,
+        mv:company_12005,
+        mv:company_17145,
+        mv:company_308,
+        mv:company_53464 ;
+    mvo:releaseYear 2014 .
+
+mv:movie_237335 a mvo:Movie ;
+    mvo:hasActor mv:person_1238851,
+        mv:person_34279,
+        mv:person_785866 ;
+    mvo:hasDirector mv:person_558639 ;
+    mvo:hasGenre mv:Animation,
+        mv:Comedy ;
+    mvo:hasTitle "Grape Nutty"^^xsd:string ;
+    mvo:producedBy mv:company_5 ;
+    mvo:releaseYear 1949 .
+
+mv:movie_238 a mvo:Movie ;
+    mvo:hasActor mv:person_1158,
+        mv:person_3084,
+        mv:person_3085,
+        mv:person_3086,
+        mv:person_3087 ;
+    mvo:hasDirector mv:person_1776 ;
+    mvo:hasGenre mv:Crime,
+        mv:Drama ;
+    mvo:hasTitle "The Godfather"^^xsd:string ;
+    mvo:producedBy mv:company_10211,
+        mv:company_4 ;
+    mvo:releaseYear 1972 .
+
+mv:movie_24428 a mvo:Movie ;
+    mvo:hasActor mv:person_103,
+        mv:person_1245,
+        mv:person_16828,
+        mv:person_3223,
+        mv:person_74568 ;
+    mvo:hasDirector mv:person_12891 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "The Avengers"^^xsd:string ;
+    mvo:producedBy mv:company_420 ;
+    mvo:releaseYear 2012 .
+
+mv:movie_244458 a mvo:Movie ;
+    mvo:hasActor mv:person_10859,
+        mv:person_118036,
+        mv:person_59620,
+        mv:person_67837,
+        mv:person_84223 ;
+    mvo:hasDirector mv:person_20659 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Crime,
+        mv:Fantasy,
+        mv:Horror ;
+    mvo:hasTitle "The Voices"^^xsd:string ;
+    mvo:producedBy mv:company_264,
+        mv:company_6667,
+        mv:company_829,
+        mv:company_8532 ;
+    mvo:releaseYear 2014 .
+
+mv:movie_254023 a mvo:Movie ;
+    mvo:hasActor mv:person_1158,
+        mv:person_19152,
+        mv:person_28164,
+        mv:person_45400,
+        mv:person_971329 ;
+    mvo:hasDirector mv:person_8246 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Drama ;
+    mvo:hasTitle "The Humbling"^^xsd:string ;
+    mvo:producedBy mv:company_13270,
+        mv:company_42158,
+        mv:company_59593 ;
+    mvo:releaseYear 2014 .
+
+mv:movie_254472 a mvo:Movie ;
+    mvo:hasActor mv:person_116312,
+        mv:person_1382112,
+        mv:person_2714,
+        mv:person_5365,
+        mv:person_71467 ;
+    mvo:hasDirector mv:person_1290942 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Horror,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Stung"^^xsd:string ;
+    mvo:producedBy mv:company_12142,
+        mv:company_5754 ;
+    mvo:releaseYear 2015 .
+
+mv:movie_262267 a mvo:Movie ;
+    mvo:hasActor mv:person_1206297,
+        mv:person_1375534,
+        mv:person_1375535,
+        mv:person_1375536,
+        mv:person_57788 ;
+    mvo:hasDirector mv:person_1305948 ;
+    mvo:hasGenre mv:Drama,
+        mv:Horror ;
+    mvo:hasTitle "Darkest Night"^^xsd:string ;
+    mvo:producedBy mv:company_19250,
+        mv:company_19251 ;
+    mvo:releaseYear 2012 .
+
+mv:movie_269149 a mvo:Movie ;
+    mvo:hasActor mv:person_17605,
+        mv:person_213001,
+        mv:person_23532,
+        mv:person_41565,
+        mv:person_417 ;
+    mvo:hasDirector mv:person_165787,
+        mv:person_76595 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Animation,
+        mv:Comedy,
+        mv:Family ;
+    mvo:hasTitle "Zootopia"^^xsd:string ;
+    mvo:producedBy mv:company_6125 ;
+    mvo:releaseYear 2016 .
+
+mv:movie_27205 a mvo:Movie ;
+    mvo:hasActor mv:person_24045,
+        mv:person_2524,
+        mv:person_27578,
+        mv:person_3899,
+        mv:person_6193 ;
+    mvo:hasDirector mv:person_525 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Inception"^^xsd:string ;
+    mvo:producedBy mv:company_174,
+        mv:company_923,
+        mv:company_9996 ;
+    mvo:releaseYear 2010 .
+
+mv:movie_278154 a mvo:Movie ;
+    mvo:hasActor mv:person_15757,
+        mv:person_15758,
+        mv:person_5723,
+        mv:person_5724,
+        mv:person_57599 ;
+    mvo:hasDirector mv:person_229962 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Animation,
+        mv:Comedy,
+        mv:Family,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Ice Age: Collision Course"^^xsd:string ;
+    mvo:producedBy mv:company_11749,
+        mv:company_25,
+        mv:company_9383 ;
+    mvo:releaseYear 2016 .
+
+mv:movie_299534 a mvo:Movie ;
+    mvo:hasActor mv:person_103,
+        mv:person_1245,
+        mv:person_16828,
+        mv:person_3223,
+        mv:person_74568 ;
+    mvo:hasDirector mv:person_19271,
+        mv:person_19272 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Avengers: Endgame"^^xsd:string ;
+    mvo:producedBy mv:company_420 ;
+    mvo:releaseYear 2019 .
+
+mv:movie_299536 a mvo:Movie ;
+    mvo:hasActor mv:person_103,
+        mv:person_16828,
+        mv:person_16851,
+        mv:person_3223,
+        mv:person_74568 ;
+    mvo:hasDirector mv:person_19271,
+        mv:person_19272 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Avengers: Infinity War"^^xsd:string ;
+    mvo:producedBy mv:company_420 ;
+    mvo:releaseYear 2018 .
+
+mv:movie_31393 a mvo:Movie ;
+    mvo:hasActor mv:person_100796,
+        mv:person_103778,
+        mv:person_104412,
+        mv:person_116845,
+        mv:person_8516 ;
+    mvo:hasDirector mv:person_117615 ;
+    mvo:hasGenre mv:Horror,
+        mv:Science_Fiction ;
+    mvo:hasTitle "The Unearthly"^^xsd:string ;
+    mvo:producedBy mv:company_14046 ;
+    mvo:releaseYear 1957 .
+
+mv:movie_315635 a mvo:Movie ;
+    mvo:hasActor mv:person_1136406,
+        mv:person_15277,
+        mv:person_2232,
+        mv:person_3141,
+        mv:person_3223 ;
+    mvo:hasDirector mv:person_1293994 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Spider-Man: Homecoming"^^xsd:string ;
+    mvo:producedBy mv:company_34034,
+        mv:company_420,
+        mv:company_5,
+        mv:company_84041 ;
+    mvo:releaseYear 2017 .
+
+mv:movie_337170 a mvo:Movie ;
+    mvo:hasActor mv:person_131723,
+        mv:person_500,
+        mv:person_572541,
+        mv:person_88124,
+        mv:person_93210 ;
+    mvo:hasDirector mv:person_11694 ;
+    mvo:hasGenre mv:Action,
+        mv:Comedy,
+        mv:Crime,
+        mv:Drama ;
+    mvo:hasTitle "American Made"^^xsd:string ;
+    mvo:producedBy mv:company_10246,
+        mv:company_147591,
+        mv:company_23,
+        mv:company_33,
+        mv:company_50481,
+        mv:company_80680 ;
+    mvo:releaseYear 2017 .
+
+mv:movie_341553 a mvo:Movie ;
+    mvo:hasActor mv:person_1046833,
+        mv:person_1118,
+        mv:person_1313569,
+        mv:person_431792,
+        mv:person_560112 ;
+    mvo:hasDirector mv:person_1313091 ;
+    mvo:hasGenre mv:Drama ;
+    mvo:hasTitle "Countess Dora"^^xsd:string ;
+    mvo:producedBy mv:company_16785,
+        mv:company_20915 ;
+    mvo:releaseYear 1990 .
+
+mv:movie_360236 a mvo:Movie ;
+    mvo:hasDirector mv:person_81849 ;
+    mvo:hasGenre mv:Documentary ;
+    mvo:hasTitle "Bihotzez"^^xsd:string ;
+    mvo:releaseYear 1985 .
+
+mv:movie_378584 a mvo:Movie ;
+    mvo:hasActor mv:person_11027,
+        mv:person_16421,
+        mv:person_24937,
+        mv:person_5823,
+        mv:person_8631 ;
+    mvo:hasDirector mv:person_116641,
+        mv:person_13265 ;
+    mvo:hasGenre mv:Fantasy,
+        mv:Music ;
+    mvo:hasTitle "High Tor"^^xsd:string ;
+    mvo:producedBy mv:company_2161 ;
+    mvo:releaseYear 1956 .
+
+mv:movie_386948 a mvo:Movie ;
+    mvo:hasActor mv:person_1147057 ;
+    mvo:hasGenre mv:Documentary ;
+    mvo:hasTitle "Beautiful Brazil"^^xsd:string ;
+    mvo:producedBy mv:company_21 ;
+    mvo:releaseYear 1952 .
+
+mv:movie_397770 a mvo:Movie ;
+    mvo:hasActor mv:person_1621117,
+        mv:person_1621118,
+        mv:person_1621119,
+        mv:person_929387 ;
+    mvo:hasDirector mv:person_1621115 ;
+    mvo:hasGenre mv:Documentary ;
+    mvo:hasTitle "The Birth"^^xsd:string ;
+    mvo:producedBy mv:company_47951 ;
+    mvo:releaseYear 1981 .
+
+mv:movie_397805 a mvo:Movie ;
+    mvo:hasActor mv:person_1636241,
+        mv:person_1636242,
+        mv:person_2798548 ;
+    mvo:hasDirector mv:person_138781 ;
+    mvo:hasGenre mv:Drama ;
+    mvo:hasTitle "Brothers"^^xsd:string ;
+    mvo:producedBy mv:company_6531,
+        mv:company_79434 ;
+    mvo:releaseYear 2015 .
+
+mv:movie_425274 a mvo:Movie ;
+    mvo:hasActor mv:person_1029934,
+        mv:person_10882,
+        mv:person_1767250,
+        mv:person_3918497,
+        mv:person_44735 ;
+    mvo:hasDirector mv:person_91268 ;
+    mvo:hasGenre mv:Crime,
+        mv:Thriller ;
+    mvo:hasTitle "Now You See Me: Now You Don't"^^xsd:string ;
+    mvo:producedBy mv:company_1632,
+        mv:company_221429,
+        mv:company_281285,
+        mv:company_491 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_429617 a mvo:Movie ;
+    mvo:hasActor mv:person_1136406,
+        mv:person_131,
+        mv:person_15277,
+        mv:person_2231,
+        mv:person_3141 ;
+    mvo:hasDirector mv:person_1293994 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Spider-Man: Far From Home"^^xsd:string ;
+    mvo:producedBy mv:company_420,
+        mv:company_5,
+        mv:company_84041 ;
+    mvo:releaseYear 2019 .
+
+mv:movie_438631 a mvo:Movie ;
+    mvo:hasActor mv:person_117642,
+        mv:person_1190668,
+        mv:person_1640,
+        mv:person_25072,
+        mv:person_933238 ;
+    mvo:hasDirector mv:person_137427 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Dune"^^xsd:string ;
+    mvo:producedBy mv:company_923 ;
+    mvo:releaseYear 2021 .
+
+mv:movie_444796 a mvo:Movie ;
+    mvo:hasActor mv:person_1287039,
+        mv:person_228871,
+        mv:person_2795216,
+        mv:person_72838,
+        mv:person_92285 ;
+    mvo:hasDirector mv:person_1293127 ;
+    mvo:hasGenre mv:Action,
+        mv:Drama ;
+    mvo:hasTitle "Maximum Thrust"^^xsd:string ;
+    mvo:producedBy mv:company_6894 ;
+    mvo:releaseYear 2003 .
+
+mv:movie_458576 a mvo:Movie ;
+    mvo:hasActor mv:person_2372,
+        mv:person_57207,
+        mv:person_63,
+        mv:person_76126,
+        mv:person_935201 ;
+    mvo:hasDirector mv:person_4014 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Fantasy ;
+    mvo:hasTitle "Monster Hunter"^^xsd:string ;
+    mvo:producedBy mv:company_265714,
+        mv:company_47,
+        mv:company_7220,
+        mv:company_81620,
+        mv:company_882 ;
+    mvo:releaseYear 2020 .
+
+mv:movie_46283 a mvo:Movie ;
+    mvo:hasActor mv:person_21711,
+        mv:person_3417,
+        mv:person_49,
+        mv:person_63544,
+        mv:person_9281 ;
+    mvo:hasDirector mv:person_41222 ;
+    mvo:hasGenre mv:Drama ;
+    mvo:hasTitle "The Sisters"^^xsd:string ;
+    mvo:releaseYear 2005 .
+
+mv:movie_46563 a mvo:Movie ;
+    mvo:hasActor mv:person_119306,
+        mv:person_129676,
+        mv:person_30126,
+        mv:person_4068,
+        mv:person_4111 ;
+    mvo:hasDirector mv:person_10790 ;
+    mvo:hasGenre mv:Drama,
+        mv:Romance,
+        mv:Western ;
+    mvo:hasTitle "Saratoga Trunk"^^xsd:string ;
+    mvo:producedBy mv:company_174 ;
+    mvo:releaseYear 1945 .
+
+mv:movie_467905 a mvo:Movie ;
+    mvo:hasActor mv:person_1202689,
+        mv:person_121718,
+        mv:person_1392137,
+        mv:person_228,
+        mv:person_83271 ;
+    mvo:hasDirector mv:person_1099792 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Thriller ;
+    mvo:hasTitle "How to Make a Killing"^^xsd:string ;
+    mvo:producedBy mv:company_113521,
+        mv:company_2376,
+        mv:company_694 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_475557 a mvo:Movie ;
+    mvo:hasActor mv:person_1545693,
+        mv:person_16841,
+        mv:person_380,
+        mv:person_4432,
+        mv:person_73421 ;
+    mvo:hasDirector mv:person_57130 ;
+    mvo:hasGenre mv:Crime,
+        mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "Joker"^^xsd:string ;
+    mvo:producedBy mv:company_128064,
+        mv:company_13240,
+        mv:company_174,
+        mv:company_79,
+        mv:company_83036 ;
+    mvo:releaseYear 2019 .
+
+mv:movie_496243 a mvo:Movie ;
+    mvo:hasActor mv:person_115290,
+        mv:person_1255881,
+        mv:person_1442583,
+        mv:person_20738,
+        mv:person_556435 ;
+    mvo:hasDirector mv:person_21684 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "Parasite"^^xsd:string ;
+    mvo:producedBy mv:company_4399 ;
+    mvo:releaseYear 2019 .
+
+mv:movie_502356 a mvo:Movie ;
+    mvo:hasActor mv:person_1397778,
+        mv:person_298410,
+        mv:person_70851,
+        mv:person_73457,
+        mv:person_95101 ;
+    mvo:hasDirector mv:person_113901,
+        mv:person_1719706 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Animation,
+        mv:Comedy,
+        mv:Family,
+        mv:Fantasy ;
+    mvo:hasTitle "The Super Mario Bros. Movie"^^xsd:string ;
+    mvo:producedBy mv:company_12288,
+        mv:company_33,
+        mv:company_6704 ;
+    mvo:releaseYear 2023 .
+
+mv:movie_512850 a mvo:Movie ;
+    mvo:hasActor mv:person_125150,
+        mv:person_138192,
+        mv:person_150427,
+        mv:person_213453,
+        mv:person_544501 ;
+    mvo:hasDirector mv:person_1554853 ;
+    mvo:hasGenre mv:Family,
+        mv:Fantasy,
+        mv:TV_Movie ;
+    mvo:hasTitle "Ošklivá princezna"^^xsd:string ;
+    mvo:producedBy mv:company_487 ;
+    mvo:releaseYear 1999 .
+
+mv:movie_513592 a mvo:Movie ;
+    mvo:hasActor mv:person_107946,
+        mv:person_1133656,
+        mv:person_1297131,
+        mv:person_223667,
+        mv:person_566150 ;
+    mvo:hasDirector mv:person_1138584 ;
+    mvo:hasGenre mv:Family,
+        mv:Fantasy,
+        mv:TV_Movie ;
+    mvo:hasTitle "Vodnická čertovina"^^xsd:string ;
+    mvo:producedBy mv:company_487 ;
+    mvo:releaseYear 1996 .
+
+mv:movie_515771 a mvo:Movie ;
+    mvo:hasActor mv:person_11998,
+        mv:person_19327,
+        mv:person_2503,
+        mv:person_89673,
+        mv:person_96609 ;
+    mvo:hasDirector mv:person_89924 ;
+    mvo:hasGenre mv:Comedy ;
+    mvo:hasTitle "Lady Bodyguard"^^xsd:string ;
+    mvo:producedBy mv:company_4 ;
+    mvo:releaseYear 1943 .
+
+mv:movie_519182 a mvo:Movie ;
+    mvo:hasActor mv:person_17743,
+        mv:person_23659,
+        mv:person_41091,
+        mv:person_4495,
+        mv:person_63522 ;
+    mvo:hasDirector mv:person_124748 ;
+    mvo:hasGenre mv:Action,
+        mv:Animation,
+        mv:Comedy,
+        mv:Family,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Despicable Me 4"^^xsd:string ;
+    mvo:producedBy mv:company_33,
+        mv:company_6704 ;
+    mvo:releaseYear 2024 .
+
+mv:movie_533533 a mvo:Movie ;
+    mvo:hasActor mv:person_12214,
+        mv:person_1260481,
+        mv:person_1695989,
+        mv:person_55089,
+        mv:person_7499 ;
+    mvo:hasDirector mv:person_20307 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "TRON: Ares"^^xsd:string ;
+    mvo:producedBy mv:company_2,
+        mv:company_23791 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_533535 a mvo:Movie ;
+    mvo:hasActor mv:person_10859,
+        mv:person_1464650,
+        mv:person_15576,
+        mv:person_2324569,
+        mv:person_6968 ;
+    mvo:hasDirector mv:person_17825 ;
+    mvo:hasGenre mv:Action,
+        mv:Comedy,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Deadpool & Wolverine"^^xsd:string ;
+    mvo:producedBy mv:company_104228,
+        mv:company_127928,
+        mv:company_176762,
+        mv:company_22213,
+        mv:company_2575,
+        mv:company_420 ;
+    mvo:releaseYear 2024 .
+
+mv:movie_54979 a mvo:Movie ;
+    mvo:hasActor mv:person_103565,
+        mv:person_179477,
+        mv:person_179489,
+        mv:person_31887,
+        mv:person_6836 ;
+    mvo:hasDirector mv:person_793 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Drama ;
+    mvo:hasTitle "Robinson Crusoe"^^xsd:string ;
+    mvo:producedBy mv:company_41954,
+        mv:company_41955 ;
+    mvo:releaseYear 1954 .
+
+mv:movie_561362 a mvo:Movie ;
+    mvo:hasActor mv:person_1345419,
+        mv:person_150669,
+        mv:person_1695073,
+        mv:person_33836,
+        mv:person_88597 ;
+    mvo:hasDirector mv:person_1288727 ;
+    mvo:hasGenre mv:Action,
+        mv:Crime,
+        mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "Rust Creek"^^xsd:string ;
+    mvo:producedBy mv:company_110406 ;
+    mvo:releaseYear 2019 .
+
+mv:movie_57214 a mvo:Movie ;
+    mvo:hasActor mv:person_1142720,
+        mv:person_131771,
+        mv:person_225694,
+        mv:person_225695,
+        mv:person_996700 ;
+    mvo:hasDirector mv:person_1299380 ;
+    mvo:hasGenre mv:Comedy ;
+    mvo:hasTitle "Project X"^^xsd:string ;
+    mvo:producedBy mv:company_1885,
+        mv:company_3527 ;
+    mvo:releaseYear 2012 .
+
+mv:movie_582793 a mvo:Movie ;
+    mvo:hasActor mv:person_15298,
+        mv:person_1637049,
+        mv:person_1936164,
+        mv:person_2244399,
+        mv:person_67119 ;
+    mvo:hasDirector mv:person_2236410 ;
+    mvo:hasGenre mv:Science_Fiction ;
+    mvo:hasTitle "Cradle"^^xsd:string ;
+    mvo:producedBy mv:company_17761,
+        mv:company_97344 ;
+    mvo:releaseYear 2016 .
+
+mv:movie_590965 a mvo:Movie ;
+    mvo:hasActor mv:person_103771,
+        mv:person_148603,
+        mv:person_153427,
+        mv:person_32786,
+        mv:person_78690 ;
+    mvo:hasDirector mv:person_97966 ;
+    mvo:hasGenre mv:Action,
+        mv:Drama ;
+    mvo:hasTitle "Drag Racer"^^xsd:string ;
+    mvo:releaseYear 1972 .
+
+mv:movie_62029 a mvo:Movie ;
+    mvo:hasActor mv:person_10500,
+        mv:person_122022,
+        mv:person_1853096,
+        mv:person_67967,
+        mv:person_7544 ;
+    mvo:hasDirector mv:person_53657 ;
+    mvo:hasGenre mv:Comedy ;
+    mvo:hasTitle "Bingo Bongo"^^xsd:string ;
+    mvo:producedBy mv:company_4986 ;
+    mvo:releaseYear 1982 .
+
+mv:movie_634649 a mvo:Movie ;
+    mvo:hasActor mv:person_1136406,
+        mv:person_15277,
+        mv:person_1649152,
+        mv:person_505710,
+        mv:person_71580 ;
+    mvo:hasDirector mv:person_1293994 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Spider-Man: No Way Home"^^xsd:string ;
+    mvo:producedBy mv:company_420,
+        mv:company_5,
+        mv:company_84041 ;
+    mvo:releaseYear 2021 .
+
+mv:movie_646315 a mvo:Movie ;
+    mvo:hasActor mv:person_2452602,
+        mv:person_2452603,
+        mv:person_2452605,
+        mv:person_2452606 ;
+    mvo:hasDirector mv:person_2452607 ;
+    mvo:hasGenre mv:Action ;
+    mvo:hasTitle "The Legendary Lighter"^^xsd:string ;
+    mvo:producedBy mv:company_144667,
+        mv:company_144668,
+        mv:company_144669 ;
+    mvo:releaseYear 2019 .
+
+mv:movie_680493 a mvo:Movie ;
+    mvo:hasActor mv:person_1685904,
+        mv:person_225692,
+        mv:person_2438347,
+        mv:person_2486314,
+        mv:person_3131371 ;
+    mvo:hasDirector mv:person_8296 ;
+    mvo:hasGenre mv:Drama,
+        mv:Horror,
+        mv:Mystery ;
+    mvo:hasTitle "Return to Silent Hill"^^xsd:string ;
+    mvo:producedBy mv:company_178277,
+        mv:company_189103,
+        mv:company_215964,
+        mv:company_239077,
+        mv:company_342,
+        mv:company_55914,
+        mv:company_67260,
+        mv:company_9987 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_687163 a mvo:Movie ;
+    mvo:hasActor mv:person_1454946,
+        mv:person_2096164,
+        mv:person_2320708,
+        mv:person_30614,
+        mv:person_7152 ;
+    mvo:hasDirector mv:person_107446,
+        mv:person_155267 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Project Hail Mary"^^xsd:string ;
+    mvo:producedBy mv:company_210099,
+        mv:company_22842,
+        mv:company_232193,
+        mv:company_77973,
+        mv:company_84041 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_693134 a mvo:Movie ;
+    mvo:hasActor mv:person_1190668,
+        mv:person_16851,
+        mv:person_3810,
+        mv:person_505710,
+        mv:person_933238 ;
+    mvo:hasDirector mv:person_137427 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Dune: Part Two"^^xsd:string ;
+    mvo:producedBy mv:company_923 ;
+    mvo:releaseYear 2024 .
+
+mv:movie_7451 a mvo:Movie ;
+    mvo:hasActor mv:person_12835,
+        mv:person_18514,
+        mv:person_20982,
+        mv:person_2231,
+        mv:person_53347 ;
+    mvo:hasDirector mv:person_18878 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Crime,
+        mv:Drama,
+        mv:Thriller ;
+    mvo:hasTitle "xXx"^^xsd:string ;
+    mvo:producedBy mv:company_497 ;
+    mvo:releaseYear 2002 .
+
+mv:movie_746467 a mvo:Movie ;
+    mvo:hasActor mv:person_104646,
+        mv:person_1233560,
+        mv:person_1546775,
+        mv:person_210344,
+        mv:person_29934 ;
+    mvo:hasDirector mv:person_88039 ;
+    mvo:hasGenre mv:Mystery,
+        mv:TV_Movie ;
+    mvo:hasTitle "USS Christmas"^^xsd:string ;
+    mvo:producedBy mv:company_53015,
+        mv:company_7188 ;
+    mvo:releaseYear 2020 .
+
+mv:movie_749343 a mvo:Movie ;
+    mvo:hasActor mv:person_10606,
+        mv:person_106179,
+        mv:person_14782,
+        mv:person_14831,
+        mv:person_83037 ;
+    mvo:hasDirector mv:person_153323 ;
+    mvo:hasGenre mv:Crime,
+        mv:Drama,
+        mv:TV_Movie ;
+    mvo:hasTitle "The Catcher"^^xsd:string ;
+    mvo:producedBy mv:company_12551 ;
+    mvo:releaseYear 1972 .
+
+mv:movie_755898 a mvo:Movie ;
+    mvo:hasActor mv:person_1632530,
+        mv:person_52605,
+        mv:person_60482,
+        mv:person_9048,
+        mv:person_9778 ;
+    mvo:hasDirector mv:person_1634181 ;
+    mvo:hasGenre mv:Science_Fiction,
+        mv:Thriller ;
+    mvo:hasTitle "War of the Worlds"^^xsd:string ;
+    mvo:producedBy mv:company_109501,
+        mv:company_33,
+        mv:company_59827 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_76600 a mvo:Movie ;
+    mvo:hasActor mv:person_10205,
+        mv:person_204,
+        mv:person_32747,
+        mv:person_65731,
+        mv:person_8691 ;
+    mvo:hasDirector mv:person_2710 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Avatar: The Way of Water"^^xsd:string ;
+    mvo:producedBy mv:company_127928,
+        mv:company_22213,
+        mv:company_574 ;
+    mvo:releaseYear 2022 .
+
+mv:movie_798645 a mvo:Movie ;
+    mvo:hasActor mv:person_1331023,
+        mv:person_3905,
+        mv:person_39995,
+        mv:person_72095,
+        mv:person_83271 ;
+    mvo:hasDirector mv:person_11090 ;
+    mvo:hasGenre mv:Action,
+        mv:Science_Fiction,
+        mv:Thriller ;
+    mvo:hasTitle "The Running Man"^^xsd:string ;
+    mvo:producedBy mv:company_131464,
+        mv:company_216687,
+        mv:company_28788,
+        mv:company_4 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_83533 a mvo:Movie ;
+    mvo:hasActor mv:person_10205,
+        mv:person_32747,
+        mv:person_566331,
+        mv:person_65731,
+        mv:person_8691 ;
+    mvo:hasDirector mv:person_2710 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Fantasy,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Avatar: Fire and Ash"^^xsd:string ;
+    mvo:producedBy mv:company_127928,
+        mv:company_22213,
+        mv:company_574 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_840464 a mvo:Movie ;
+    mvo:hasActor mv:person_17276,
+        mv:person_1754784,
+        mv:person_2054851,
+        mv:person_54882,
+        mv:person_85151 ;
+    mvo:hasDirector mv:person_76422 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Science_Fiction,
+        mv:Thriller ;
+    mvo:hasTitle "Greenland 2: Migration"^^xsd:string ;
+    mvo:producedBy mv:company_103331,
+        mv:company_138743,
+        mv:company_1632,
+        mv:company_253186,
+        mv:company_3528,
+        mv:company_47729 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_858024 a mvo:Movie ;
+    mvo:hasActor mv:person_1496392,
+        mv:person_1498158,
+        mv:person_1639,
+        mv:person_2326151,
+        mv:person_3115247 ;
+    mvo:hasDirector mv:person_1395183 ;
+    mvo:hasGenre mv:Drama,
+        mv:History,
+        mv:Romance ;
+    mvo:hasTitle "Hamnet"^^xsd:string ;
+    mvo:producedBy mv:company_122908,
+        mv:company_1522,
+        mv:company_197107,
+        mv:company_56 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_872585 a mvo:Movie ;
+    mvo:hasActor mv:person_1373737,
+        mv:person_1892,
+        mv:person_2037,
+        mv:person_3223,
+        mv:person_5081 ;
+    mvo:hasDirector mv:person_525 ;
+    mvo:hasGenre mv:Drama,
+        mv:History ;
+    mvo:hasTitle "Oppenheimer"^^xsd:string ;
+    mvo:producedBy mv:company_15123,
+        mv:company_239215,
+        mv:company_33,
+        mv:company_507,
+        mv:company_9996 ;
+    mvo:releaseYear 2023 .
+
+mv:movie_875828 a mvo:Movie ;
+    mvo:hasActor mv:person_1115,
+        mv:person_1290466,
+        mv:person_2037,
+        mv:person_3129,
+        mv:person_933238 ;
+    mvo:hasDirector mv:person_212240 ;
+    mvo:hasGenre mv:Crime,
+        mv:Drama ;
+    mvo:hasTitle "Peaky Blinders: The Immortal Man"^^xsd:string ;
+    mvo:producedBy mv:company_125282,
+        mv:company_241143,
+        mv:company_288 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_879945 a mvo:Movie ;
+    mvo:hasActor mv:person_220295,
+        mv:person_2751270,
+        mv:person_3341030,
+        mv:person_4695483 ;
+    mvo:hasDirector mv:person_1274776 ;
+    mvo:hasGenre mv:Drama ;
+    mvo:hasTitle "The Unknown Man"^^xsd:string ;
+    mvo:producedBy mv:company_113598,
+        mv:company_228143 ;
+    mvo:releaseYear 2021 .
+
+mv:movie_911430 a mvo:Movie ;
+    mvo:hasActor mv:person_10920,
+        mv:person_1837297,
+        mv:person_287,
+        mv:person_3810,
+        mv:person_62105 ;
+    mvo:hasDirector mv:person_86270 ;
+    mvo:hasGenre mv:Action,
+        mv:Drama ;
+    mvo:hasTitle "F1"^^xsd:string ;
+    mvo:producedBy mv:company_130,
+        mv:company_194232,
+        mv:company_19647,
+        mv:company_199632,
+        mv:company_81 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_932852 a mvo:Movie ;
+    mvo:hasDirector mv:person_3405580,
+        mv:person_3405581,
+        mv:person_3405582,
+        mv:person_3405583,
+        mv:person_3405584,
+        mv:person_3405585 ;
+    mvo:hasGenre mv:Animation,
+        mv:Thriller ;
+    mvo:hasTitle "Six Coups"^^xsd:string ;
+    mvo:producedBy mv:company_45486 ;
+    mvo:releaseYear 2014 .
+
+mv:movie_96712 a mvo:Movie ;
+    mvo:hasActor mv:person_1010122,
+        mv:person_131290,
+        mv:person_136886,
+        mv:person_1609485,
+        mv:person_25472 ;
+    mvo:hasDirector mv:person_64992 ;
+    mvo:hasGenre mv:Drama,
+        mv:History,
+        mv:War ;
+    mvo:hasTitle "The Puppetmaster"^^xsd:string ;
+    mvo:producedBy mv:company_29871,
+        mv:company_9090,
+        mv:company_9091 ;
+    mvo:releaseYear 1993 .
+
+mv:movie_969681 a mvo:Movie ;
+    mvo:hasActor mv:person_1136406,
+        mv:person_1590797,
+        mv:person_1649152,
+        mv:person_19498,
+        mv:person_505710 ;
+    mvo:hasDirector mv:person_1144604 ;
+    mvo:hasGenre mv:Action,
+        mv:Adventure,
+        mv:Science_Fiction ;
+    mvo:hasTitle "Spider-Man: Brand New Day"^^xsd:string ;
+    mvo:producedBy mv:company_420,
+        mv:company_5,
+        mv:company_84041 ;
+    mvo:releaseYear 2026 .
+
+mv:movie_978053 a mvo:Movie ;
+    mvo:hasActor mv:person_1170328,
+        mv:person_1549456,
+        mv:person_1871029,
+        mv:person_3557464,
+        mv:person_98041 ;
+    mvo:hasDirector mv:person_1513675 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Drama ;
+    mvo:hasTitle "Pants"^^xsd:string ;
+    mvo:producedBy mv:company_5109 ;
+    mvo:releaseYear 1917 .
+
+mv:movie_98085 a mvo:Movie ;
+    mvo:hasActor mv:person_1056222,
+        mv:person_1074077,
+        mv:person_9874,
+        mv:person_9896,
+        mv:person_9920 ;
+    mvo:hasDirector mv:person_101108 ;
+    mvo:hasGenre mv:Action,
+        mv:Thriller ;
+    mvo:hasTitle "Operation Kid Brother"^^xsd:string ;
+    mvo:producedBy mv:company_10484 ;
+    mvo:releaseYear 1967 .
+
+mv:movie_991494 a mvo:Movie ;
+    mvo:hasActor mv:person_34398,
+        mv:person_6574,
+        mv:person_70615,
+        mv:person_78798,
+        mv:person_78799 ;
+    mvo:hasDirector mv:person_70652 ;
+    mvo:hasGenre mv:Adventure,
+        mv:Animation,
+        mv:Comedy,
+        mv:Family,
+        mv:Fantasy ;
+    mvo:hasTitle "The SpongeBob Movie: Search for SquarePants"^^xsd:string ;
+    mvo:producedBy mv:company_216687,
+        mv:company_2348,
+        mv:company_24955 ;
+    mvo:releaseYear 2025 .
+
+mv:movie_991708 a mvo:Movie ;
+    mvo:hasActor mv:person_127249,
+        mv:person_134699,
+        mv:person_2100550,
+        mv:person_225011,
+        mv:person_225013 ;
+    mvo:hasDirector mv:person_225009 ;
+    mvo:hasGenre mv:Comedy,
+        mv:Fantasy,
+        mv:Horror ;
+    mvo:hasTitle "El Conde"^^xsd:string ;
+    mvo:producedBy mv:company_21546 ;
+    mvo:releaseYear 2023 .
+
+mv:movie_999136 a mvo:Movie ;
+    mvo:hasActor mv:person_1300650,
+        mv:person_1504947,
+        mv:person_1684130,
+        mv:person_1688664,
+        mv:person_2168270 ;
+    mvo:hasDirector mv:person_45928 ;
+    mvo:hasGenre mv:Horror ;
+    mvo:hasTitle "Do Not Enter"^^xsd:string ;
+    mvo:producedBy mv:company_1632,
+        mv:company_22876 ;
+    mvo:releaseYear 2026 .
+
+mv:Music a mvo:Genre .
+
+mv:War a mvo:Genre .
+
+mv:Western a mvo:Genre .
+
+mv:company_1 a mvo:ProductionCompany ;
+    rdfs:label "Lucasfilm Ltd." .
+
+mv:company_101082 a mvo:ProductionCompany ;
+    rdfs:label "Double Dare You" .
+
+mv:company_101302 a mvo:ProductionCompany ;
+    rdfs:label "Endemol Shine Polska" .
+
+mv:company_10163 a mvo:ProductionCompany ;
+    rdfs:label "Working Title Films" .
+
+mv:company_10211 a mvo:ProductionCompany ;
+    rdfs:label "Alfran Productions" .
+
+mv:company_10221 a mvo:ProductionCompany ;
+    rdfs:label "Walden Media" .
+
+mv:company_10246 a mvo:ProductionCompany ;
+    rdfs:label "Cross Creek Pictures" .
+
+mv:company_10262 a mvo:ProductionCompany ;
+    rdfs:label "Blind Wink" .
+
+mv:company_103331 a mvo:ProductionCompany ;
+    rdfs:label "G-BASE" .
+
+mv:company_10342 a mvo:ProductionCompany ;
+    rdfs:label "Studio Ghibli" .
+
+mv:company_10367 a mvo:ProductionCompany ;
+    rdfs:label "Danchuk Productions" .
+
+mv:company_104228 a mvo:ProductionCompany ;
+    rdfs:label "Maximum Effort" .
+
+mv:company_104678 a mvo:ProductionCompany ;
+    rdfs:label "23ten" .
+
+mv:company_10484 a mvo:ProductionCompany ;
+    rdfs:label "Produzione D.S. (Dario Sabatello)" .
+
+mv:company_106544 a mvo:ProductionCompany ;
+    rdfs:label "AGBO" .
+
+mv:company_10678 a mvo:ProductionCompany ;
+    rdfs:label "Demilo Films" .
+
+mv:company_107513 a mvo:ProductionCompany ;
+    rdfs:label "Phiphen Pictures" .
+
+mv:company_10791 a mvo:ProductionCompany ;
+    rdfs:label "MBP" .
+
+mv:company_108394 a mvo:ProductionCompany ;
+    rdfs:label "Motion Blur" .
+
+mv:company_10843 a mvo:ProductionCompany ;
+    rdfs:label "Future Films" .
+
+mv:company_11 a mvo:ProductionCompany ;
+    rdfs:label "WingNut Films" .
+
+mv:company_110406 a mvo:ProductionCompany ;
+    rdfs:label "Lunacy Productions" .
+
+mv:company_111951 a mvo:ProductionCompany ;
+    rdfs:label "JARS Productions" .
+
+mv:company_111974 a mvo:ProductionCompany ;
+    rdfs:label "ChampDog Films" .
+
+mv:company_113521 a mvo:ProductionCompany ;
+    rdfs:label "StudioCanal UK" .
+
+mv:company_113598 a mvo:ProductionCompany ;
+    rdfs:label "Fonds Audiovisuel de Flandres (VAF)" .
+
+mv:company_114676 a mvo:ProductionCompany ;
+    rdfs:label "START Studio" .
+
+mv:company_114956 a mvo:ProductionCompany ;
+    rdfs:label "Pine Road Productions" .
+
+mv:company_11561 a mvo:ProductionCompany ;
+    rdfs:label "Recorded Picture Company" .
+
+mv:company_11565 a mvo:ProductionCompany ;
+    rdfs:label "The Safran Company" .
+
+mv:company_116736 a mvo:ProductionCompany ;
+    rdfs:label "Mind Hive Films" .
+
+mv:company_11749 a mvo:ProductionCompany ;
+    rdfs:label "20th Century Fox Animation" .
+
+mv:company_11847 a mvo:ProductionCompany ;
+    rdfs:label "Mitsubishi" .
+
+mv:company_118472 a mvo:ProductionCompany ;
+    rdfs:label "Stampede Ventures" .
+
+mv:company_12 a mvo:ProductionCompany ;
+    rdfs:label "New Line Cinema" .
+
+mv:company_12005 a mvo:ProductionCompany ;
+    rdfs:label "Yucaipa Films" .
+
+mv:company_12016 a mvo:ProductionCompany ;
+    rdfs:label "Celandine Films" .
+
+mv:company_120524 a mvo:ProductionCompany ;
+    rdfs:label "Unanimous Media" .
+
+mv:company_121204 a mvo:ProductionCompany ;
+    rdfs:label "BondIt Media Capital" .
+
+mv:company_12142 a mvo:ProductionCompany ;
+    rdfs:label "XYZ Films" .
+
+mv:company_121655 a mvo:ProductionCompany ;
+    rdfs:label "Kallouche Cinéma" .
+
+mv:company_122323 a mvo:ProductionCompany ;
+    rdfs:label "Raimi Productions" .
+
+mv:company_122699 a mvo:ProductionCompany ;
+    rdfs:label "iQIYI Pictures （重复 同 iQiyi Motion Pictures）" .
+
+mv:company_122772 a mvo:ProductionCompany ;
+    rdfs:label "The Story Factory" .
+
+mv:company_122908 a mvo:ProductionCompany ;
+    rdfs:label "Hera Pictures" .
+
+mv:company_125282 a mvo:ProductionCompany ;
+    rdfs:label "Nebulastar" .
+
+mv:company_12551 a mvo:ProductionCompany ;
+    rdfs:label "Screen Gems Television" .
+
+mv:company_1261 a mvo:ProductionCompany ;
+    rdfs:label "Scala Productions" .
+
+mv:company_126588 a mvo:ProductionCompany ;
+    rdfs:label "Radio Silence" .
+
+mv:company_127929 a mvo:ProductionCompany ;
+    rdfs:label "Searchlight Pictures" .
+
+mv:company_128064 a mvo:ProductionCompany ;
+    rdfs:label "DC Films" .
+
+mv:company_129815 a mvo:ProductionCompany ;
+    rdfs:label "Wild Atlantic Pictures" .
+
+mv:company_130 a mvo:ProductionCompany ;
+    rdfs:label "Jerry Bruckheimer Films" .
+
+mv:company_130106 a mvo:ProductionCompany ;
+    rdfs:label "Dystopia Films" .
+
+mv:company_1302 a mvo:ProductionCompany ;
+    rdfs:label "Davis Entertainment" .
+
+mv:company_130448 a mvo:ProductionCompany ;
+    rdfs:label "Project X Entertainment" .
+
+mv:company_131464 a mvo:ProductionCompany ;
+    rdfs:label "Complete Fiction" .
+
+mv:company_13240 a mvo:ProductionCompany ;
+    rdfs:label "Bron Studios" .
+
+mv:company_13270 a mvo:ProductionCompany ;
+    rdfs:label "Iervolino Entertainment" .
+
+mv:company_133789 a mvo:ProductionCompany ;
+    rdfs:label "Ingenious Film Partners" .
+
+mv:company_134756 a mvo:ProductionCompany ;
+    rdfs:label "Fully Formed Entertainment" .
+
+mv:company_137373 a mvo:ProductionCompany ;
+    rdfs:label "CaliWood Pictures" .
+
+mv:company_13850 a mvo:ProductionCompany ;
+    rdfs:label "Sverdlovsk Film Studio" .
+
+mv:company_138743 a mvo:ProductionCompany ;
+    rdfs:label "Anton" .
+
+mv:company_14046 a mvo:ProductionCompany ;
+    rdfs:label "AB-PT Pictures Corp." .
+
+mv:company_143302 a mvo:ProductionCompany ;
+    rdfs:label "Novakovic Bros" .
+
+mv:company_143790 a mvo:ProductionCompany ;
+    rdfs:label "Spyglass Media Group" .
+
+mv:company_144667 a mvo:ProductionCompany ;
+    rdfs:label "Gnos" .
+
+mv:company_144668 a mvo:ProductionCompany ;
+    rdfs:label "Kkuljam Company" .
+
+mv:company_144669 a mvo:ProductionCompany ;
+    rdfs:label "Fiveday" .
+
+mv:company_147591 a mvo:ProductionCompany ;
+    rdfs:label "Hercules Film Fund" .
+
+mv:company_148495 a mvo:ProductionCompany ;
+    rdfs:label "Proximity Media" .
+
+mv:company_148930 a mvo:ProductionCompany ;
+    rdfs:label "Bonfire Legend" .
+
+mv:company_149142 a mvo:ProductionCompany ;
+    rdfs:label "Vivamax" .
+
+mv:company_1508 a mvo:ProductionCompany ;
+    rdfs:label "Wildgaze Films" .
+
+mv:company_15123 a mvo:ProductionCompany ;
+    rdfs:label "Breakheart Films" .
+
+mv:company_1522 a mvo:ProductionCompany ;
+    rdfs:label "Neal Street Productions" .
+
+mv:company_15465 a mvo:ProductionCompany ;
+    rdfs:label "Amasia Entertainment" .
+
+mv:company_158200 a mvo:ProductionCompany ;
+    rdfs:label "Sumzap" .
+
+mv:company_158526 a mvo:ProductionCompany ;
+    rdfs:label "Walt Disney Animation Studios" .
+
+mv:company_1589 a mvo:ProductionCompany ;
+    rdfs:label "Pro7" .
+
+mv:company_167684 a mvo:ProductionCompany ;
+    rdfs:label "Range Media Partners" .
+
+mv:company_16785 a mvo:ProductionCompany ;
+    rdfs:label "Croatia Film" .
+
+mv:company_168295 a mvo:ProductionCompany ;
+    rdfs:label "Studio507" .
+
+mv:company_169668 a mvo:ProductionCompany ;
+    rdfs:label "Municipal Pictures" .
+
+mv:company_17145 a mvo:ProductionCompany ;
+    rdfs:label "Tonik Productions" .
+
+mv:company_174474 a mvo:ProductionCompany ;
+    rdfs:label "Broken Open Pictures" .
+
+mv:company_175398 a mvo:ProductionCompany ;
+    rdfs:label "ScienCentral" .
+
+mv:company_176106 a mvo:ProductionCompany ;
+    rdfs:label "Leone Film Group" .
+
+mv:company_17761 a mvo:ProductionCompany ;
+    rdfs:label "Four Knights Film" .
+
+mv:company_1778 a mvo:ProductionCompany ;
+    rdfs:label "dentsu" .
+
+mv:company_1779 a mvo:ProductionCompany ;
+    rdfs:label "Tokuma Shoten" .
+
+mv:company_178 a mvo:ProductionCompany ;
+    rdfs:label "Ghoulardi Film Company" .
+
+mv:company_1780 a mvo:ProductionCompany ;
+    rdfs:label "TFC" .
+
+mv:company_178277 a mvo:ProductionCompany ;
+    rdfs:label "WIP" .
+
+mv:company_183787 a mvo:ProductionCompany ;
+    rdfs:label "Wild State" .
+
+mv:company_184287 a mvo:ProductionCompany ;
+    rdfs:label "Modern Magic" .
+
+mv:company_184898 a mvo:ProductionCompany ;
+    rdfs:label "DC Studios" .
+
+mv:company_185309 a mvo:ProductionCompany ;
+    rdfs:label "Toberoff Productions" .
+
+mv:company_185355 a mvo:ProductionCompany ;
+    rdfs:label "Rec Apocalypse AIE" .
+
+mv:company_187281 a mvo:ProductionCompany ;
+    rdfs:label "Slow Burn" .
+
+mv:company_187968 a mvo:ProductionCompany ;
+    rdfs:label "Artists Equity" .
+
+mv:company_189103 a mvo:ProductionCompany ;
+    rdfs:label "Ashland Hill Media Finance" .
+
+mv:company_189220 a mvo:ProductionCompany ;
+    rdfs:label "Whatevergroup" .
+
+mv:company_191621 a mvo:ProductionCompany ;
+    rdfs:label "Filmadora" .
+
+mv:company_19250 a mvo:ProductionCompany ;
+    rdfs:label "Gothic Pictures International" .
+
+mv:company_19251 a mvo:ProductionCompany ;
+    rdfs:label "Collective Development" .
+
+mv:company_19330 a mvo:ProductionCompany ;
+    rdfs:label "Mannequin Films" .
+
+mv:company_19367 a mvo:ProductionCompany ;
+    rdfs:label "Vinson Films" .
+
+mv:company_194232 a mvo:ProductionCompany ;
+    rdfs:label "Apple Studios" .
+
+mv:company_19638 a mvo:ProductionCompany ;
+    rdfs:label "Altitude Film Entertainment" .
+
+mv:company_19647 a mvo:ProductionCompany ;
+    rdfs:label "Monolith Pictures" .
+
+mv:company_19683 a mvo:ProductionCompany ;
+    rdfs:label "Charles Fries Productions" .
+
+mv:company_197030 a mvo:ProductionCompany ;
+    rdfs:label "Tao Piao Piao 淘票票" .
+
+mv:company_197107 a mvo:ProductionCompany ;
+    rdfs:label "Book of Shadows" .
+
+mv:company_1973 a mvo:ProductionCompany ;
+    rdfs:label "Three Strange Angels" .
+
+mv:company_19813 a mvo:ProductionCompany ;
+    rdfs:label "Flower Films" .
+
+mv:company_198179 a mvo:ProductionCompany ;
+    rdfs:label "Filmopoly" .
+
+mv:company_19916 a mvo:ProductionCompany ;
+    rdfs:label "Lotus Production" .
+
+mv:company_199632 a mvo:ProductionCompany ;
+    rdfs:label "Dawn Apollo Films" .
+
+mv:company_206626 a mvo:ProductionCompany ;
+    rdfs:label "Slingshot USA" .
+
+mv:company_207685 a mvo:ProductionCompany ;
+    rdfs:label "Lie Still" .
+
+mv:company_208240 a mvo:ProductionCompany ;
+    rdfs:label "Amazon Studios" .
+
+mv:company_20915 a mvo:ProductionCompany ;
+    rdfs:label "Hrvatska Radiotelevizija" .
+
+mv:company_209620 a mvo:ProductionCompany ;
+    rdfs:label "MS Productions Magdalena Szwedkowicz" .
+
+mv:company_21 a mvo:ProductionCompany ;
+    rdfs:label "Metro-Goldwyn-Mayer" .
+
+mv:company_210842 a mvo:ProductionCompany ;
+    rdfs:label "ViX" .
+
+mv:company_211144 a mvo:ProductionCompany ;
+    rdfs:label "Scott Cawthon Productions" .
+
+mv:company_212925 a mvo:ProductionCompany ;
+    rdfs:label "Twelve 83 entertainment" .
+
+mv:company_214700 a mvo:ProductionCompany ;
+    rdfs:label "Robert Kulzer Productions" .
+
+mv:company_21546 a mvo:ProductionCompany ;
+    rdfs:label "Fabula" .
+
+mv:company_215964 a mvo:ProductionCompany ;
+    rdfs:label "Richmond Pictures" .
+
+mv:company_21608 a mvo:ProductionCompany ;
+    rdfs:label "Enderby Entertainment" .
+
+mv:company_2161 a mvo:ProductionCompany ;
+    rdfs:label "CBS Productions" .
+
+mv:company_217473 a mvo:ProductionCompany ;
+    rdfs:label "Fonte Films" .
+
+mv:company_218150 a mvo:ProductionCompany ;
+    rdfs:label "Punch Palace Productions" .
+
+mv:company_221363 a mvo:ProductionCompany ;
+    rdfs:label "Kinnane Brothers" .
+
+mv:company_22146 a mvo:ProductionCompany ;
+    rdfs:label "Black Bear Pictures" .
+
+mv:company_223271 a mvo:ProductionCompany ;
+    rdfs:label "2521 Entertainment" .
+
+mv:company_224643 a mvo:ProductionCompany ;
+    rdfs:label "Huge Film" .
+
+mv:company_2251 a mvo:ProductionCompany ;
+    rdfs:label "Sony Pictures Animation" .
+
+mv:company_2270 a mvo:ProductionCompany ;
+    rdfs:label "China Film Group Corporation" .
+
+mv:company_228143 a mvo:ProductionCompany ;
+    rdfs:label "Wenneker" .
+
+mv:company_228157 a mvo:ProductionCompany ;
+    rdfs:label "Gaudioso Twins Films" .
+
+mv:company_22842 a mvo:ProductionCompany ;
+    rdfs:label "Waypoint Entertainment" .
+
+mv:company_22876 a mvo:ProductionCompany ;
+    rdfs:label "Suretone Pictures" .
+
+mv:company_23 a mvo:ProductionCompany ;
+    rdfs:label "Imagine Entertainment" .
+
+mv:company_231139 a mvo:ProductionCompany ;
+    rdfs:label "Beno Films (US)" .
+
+mv:company_23202 a mvo:ProductionCompany ;
+    rdfs:label "Wigram Productions" .
+
+mv:company_232193 a mvo:ProductionCompany ;
+    rdfs:label "Open Invite Entertainment" .
+
+mv:company_233099 a mvo:ProductionCompany ;
+    rdfs:label "Peachtree Media Partners" .
+
+mv:company_233704 a mvo:ProductionCompany ;
+    rdfs:label "TVN Warner Bros. Discovery" .
+
+mv:company_2348 a mvo:ProductionCompany ;
+    rdfs:label "Nickelodeon Movies" .
+
+mv:company_235046 a mvo:ProductionCompany ;
+    rdfs:label "Little Engine Productions" .
+
+mv:company_237010 a mvo:ProductionCompany ;
+    rdfs:label "FluffyBear Media" .
+
+mv:company_237221 a mvo:ProductionCompany ;
+    rdfs:label "Mandarin & Compagnie" .
+
+mv:company_2376 a mvo:ProductionCompany ;
+    rdfs:label "Blueprint Pictures" .
+
+mv:company_23791 a mvo:ProductionCompany ;
+    rdfs:label "Sean Bailey Productions" .
+
+mv:company_239077 a mvo:ProductionCompany ;
+    rdfs:label "Supernix" .
+
+mv:company_239215 a mvo:ProductionCompany ;
+    rdfs:label "Peters Creek Entertainment" .
+
+mv:company_23949 a mvo:ProductionCompany ;
+    rdfs:label "RAW" .
+
+mv:company_241073 a mvo:ProductionCompany ;
+    rdfs:label "Heartbones Entertainment" .
+
+mv:company_241103 a mvo:ProductionCompany ;
+    rdfs:label "Lilly Film" .
+
+mv:company_241143 a mvo:ProductionCompany ;
+    rdfs:label "Garrison Drama" .
+
+mv:company_243162 a mvo:ProductionCompany ;
+    rdfs:label "Central Pictures" .
+
+mv:company_243556 a mvo:ProductionCompany ;
+    rdfs:label "Crown Creative Content" .
+
+mv:company_24430 a mvo:ProductionCompany ;
+    rdfs:label "BeTV" .
+
+mv:company_245340 a mvo:ProductionCompany ;
+    rdfs:label "Orange" .
+
+mv:company_2466 a mvo:ProductionCompany ;
+    rdfs:label "Wytwórnia Filmów Dokumentalnych i Fabularnych" .
+
+mv:company_24955 a mvo:ProductionCompany ;
+    rdfs:label "Paramount Animation" .
+
+mv:company_24982 a mvo:ProductionCompany ;
+    rdfs:label "Twin Cities Public Television" .
+
+mv:company_250 a mvo:ProductionCompany ;
+    rdfs:label "CANAL+ Polska" .
+
+mv:company_250765 a mvo:ProductionCompany ;
+    rdfs:label "Dong Fang Chen Xiang" .
+
+mv:company_251623 a mvo:ProductionCompany ;
+    rdfs:label "A Xanaheim Original" .
+
+mv:company_2531 a mvo:ProductionCompany ;
+    rdfs:label "MRC" .
+
+mv:company_25657 a mvo:ProductionCompany ;
+    rdfs:label "Hairun Pictures Company" .
+
+mv:company_25660 a mvo:ProductionCompany ;
+    rdfs:label "Huaxia Film Distribution" .
+
+mv:company_2575 a mvo:ProductionCompany ;
+    rdfs:label "21 Laps Entertainment" .
+
+mv:company_25811 a mvo:ProductionCompany ;
+    rdfs:label "KingdomWorks" .
+
+mv:company_25954 a mvo:ProductionCompany ;
+    rdfs:label "Metrol Technology" .
+
+mv:company_26160 a mvo:ProductionCompany ;
+    rdfs:label "Passion Movie Makers" .
+
+mv:company_263563 a mvo:ProductionCompany ;
+    rdfs:label "Spooky AF Productions" .
+
+mv:company_264 a mvo:ProductionCompany ;
+    rdfs:label "Studio Babelsberg" .
+
+mv:company_265714 a mvo:ProductionCompany ;
+    rdfs:label "AB² Digital Pictures" .
+
+mv:company_274685 a mvo:ProductionCompany ;
+    rdfs:label "Vacancy Films" .
+
+mv:company_277343 a mvo:ProductionCompany ;
+    rdfs:label "Venatu Capital" .
+
+mv:company_279898 a mvo:ProductionCompany ;
+    rdfs:label "Bluegrass 7" .
+
+mv:company_281285 a mvo:ProductionCompany ;
+    rdfs:label "Cohen Pictures" .
+
+mv:company_281730 a mvo:ProductionCompany ;
+    rdfs:label "Atresmedia Cine" .
+
+mv:company_284 a mvo:ProductionCompany ;
+    rdfs:label "DNA Films" .
+
+mv:company_284257 a mvo:ProductionCompany ;
+    rdfs:label "Pretty Dangerous Pictures" .
+
+mv:company_285214 a mvo:ProductionCompany ;
+    rdfs:label "大麦娱乐" .
+
+mv:company_28787 a mvo:ProductionCompany ;
+    rdfs:label "Wide Awake Pictures" .
+
+mv:company_28788 a mvo:ProductionCompany ;
+    rdfs:label "Genre Films" .
+
+mv:company_288 a mvo:ProductionCompany ;
+    rdfs:label "BBC Film" .
+
+mv:company_2880 a mvo:ProductionCompany ;
+    rdfs:label "Charm City Productions" .
+
+mv:company_2883 a mvo:ProductionCompany ;
+    rdfs:label "Aniplex" .
+
+mv:company_29871 a mvo:ProductionCompany ;
+    rdfs:label "Qiu Fusheng" .
+
+mv:company_2999 a mvo:ProductionCompany ;
+    rdfs:label "SVT" .
+
+mv:company_3 a mvo:ProductionCompany ;
+    rdfs:label "Pixar" .
+
+mv:company_30216 a mvo:ProductionCompany ;
+    rdfs:label "Sunrise Productions" .
+
+mv:company_308 a mvo:ProductionCompany ;
+    rdfs:label "The Weinstein Company" .
+
+mv:company_3172 a mvo:ProductionCompany ;
+    rdfs:label "Blumhouse Productions" .
+
+mv:company_31814 a mvo:ProductionCompany ;
+    rdfs:label "Peace Film Production Co." .
+
+mv:company_32485 a mvo:ProductionCompany ;
+    rdfs:label "Pokeepsie Films" .
+
+mv:company_33025 a mvo:ProductionCompany ;
+    rdfs:label "winchester films" .
+
+mv:company_3324 a mvo:ProductionCompany ;
+    rdfs:label "BBC" .
+
+mv:company_3363 a mvo:ProductionCompany ;
+    rdfs:label "MBS" .
+
+mv:company_34034 a mvo:ProductionCompany ;
+    rdfs:label "LStar Capital" .
+
+mv:company_34081 a mvo:ProductionCompany ;
+    rdfs:label "Flynn Picture Company" .
+
+mv:company_342 a mvo:ProductionCompany ;
+    rdfs:label "Davis Films" .
+
+mv:company_345 a mvo:ProductionCompany ;
+    rdfs:label "O2 Filmes" .
+
+mv:company_34982 a mvo:ProductionCompany ;
+    rdfs:label "Mythology Entertainment" .
+
+mv:company_3527 a mvo:ProductionCompany ;
+    rdfs:label "Green Hat Films" .
+
+mv:company_3528 a mvo:ProductionCompany ;
+    rdfs:label "Thunder Road" .
+
+mv:company_3573 a mvo:ProductionCompany ;
+    rdfs:label "Celador Films" .
+
+mv:company_35846 a mvo:ProductionCompany ;
+    rdfs:label "No Trace Camping" .
+
+mv:company_3655 a mvo:ProductionCompany ;
+    rdfs:label "Realies Pictures" .
+
+mv:company_38208 a mvo:ProductionCompany ;
+    rdfs:label "Koukus Troika" .
+
+mv:company_38209 a mvo:ProductionCompany ;
+    rdfs:label "Toron Screen Corporation" .
+
+mv:company_38223 a mvo:ProductionCompany ;
+    rdfs:label "Dreamland" .
+
+mv:company_3958 a mvo:ProductionCompany ;
+    rdfs:label "Front Street Pictures" .
+
+mv:company_40367 a mvo:ProductionCompany ;
+    rdfs:label "Valencia Motion Pictures" .
+
+mv:company_41077 a mvo:ProductionCompany ;
+    rdfs:label "A24" .
+
+mv:company_41735 a mvo:ProductionCompany ;
+    rdfs:label "Buffalo 8" .
+
+mv:company_41954 a mvo:ProductionCompany ;
+    rdfs:label "Producciones Tepeyac" .
+
+mv:company_41955 a mvo:ProductionCompany ;
+    rdfs:label "Oscar Dancigers Production" .
+
+mv:company_42158 a mvo:ProductionCompany ;
+    rdfs:label "Hammerton Productions" .
+
+mv:company_425 a mvo:ProductionCompany ;
+    rdfs:label "teamWorx" .
+
+mv:company_4399 a mvo:ProductionCompany ;
+    rdfs:label "Barunson E&A" .
+
+mv:company_444 a mvo:ProductionCompany ;
+    rdfs:label "Dune Entertainment" .
+
+mv:company_45486 a mvo:ProductionCompany ;
+    rdfs:label "ESMA" .
+
+mv:company_47729 a mvo:ProductionCompany ;
+    rdfs:label "STXfilms" .
+
+mv:company_47951 a mvo:ProductionCompany ;
+    rdfs:label "A Production" .
+
+mv:company_491 a mvo:ProductionCompany ;
+    rdfs:label "Summit Entertainment" .
+
+mv:company_49473 a mvo:ProductionCompany ;
+    rdfs:label "Frakas Productions" .
+
+mv:company_497 a mvo:ProductionCompany ;
+    rdfs:label "Revolution Studios" .
+
+mv:company_4986 a mvo:ProductionCompany ;
+    rdfs:label "Intercapital" .
+
+mv:company_500 a mvo:ProductionCompany ;
+    rdfs:label "Goldcrest" .
+
+mv:company_50076 a mvo:ProductionCompany ;
+    rdfs:label "Side Street Post" .
+
+mv:company_50481 a mvo:ProductionCompany ;
+    rdfs:label "Vendian Entertainment" .
+
+mv:company_5056 a mvo:ProductionCompany ;
+    rdfs:label "Head Gear Films" .
+
+mv:company_5109 a mvo:ProductionCompany ;
+    rdfs:label "The Essanay Film Manufacturing Company" .
+
+mv:company_5237 a mvo:ProductionCompany ;
+    rdfs:label "The Saul Zaentz Company" .
+
+mv:company_53464 a mvo:ProductionCompany ;
+    rdfs:label "Asis Productions" .
+
+mv:company_55446 a mvo:ProductionCompany ;
+    rdfs:label "Arcana Studio" .
+
+mv:company_55914 a mvo:ProductionCompany ;
+    rdfs:label "Konami" .
+
+mv:company_57020 a mvo:ProductionCompany ;
+    rdfs:label "Dan Goodman Productions" .
+
+mv:company_5754 a mvo:ProductionCompany ;
+    rdfs:label "Rat Pack Filmproduktion" .
+
+mv:company_57946 a mvo:ProductionCompany ;
+    rdfs:label "Arka Media Works" .
+
+mv:company_5887 a mvo:ProductionCompany ;
+    rdfs:label "ufotable" .
+
+mv:company_591 a mvo:ProductionCompany ;
+    rdfs:label "France 3 Cinéma" .
+
+mv:company_59593 a mvo:ProductionCompany ;
+    rdfs:label "AMBI Group" .
+
+mv:company_59827 a mvo:ProductionCompany ;
+    rdfs:label "Patrick Aiello Productions" .
+
+mv:company_6265 a mvo:ProductionCompany ;
+    rdfs:label "Skopia Film" .
+
+mv:company_63611 a mvo:ProductionCompany ;
+    rdfs:label "ETA films" .
+
+mv:company_6401 a mvo:ProductionCompany ;
+    rdfs:label "Alan Greenspan Productions" .
+
+mv:company_6402 a mvo:ProductionCompany ;
+    rdfs:label "Mars Media Beteiligungs" .
+
+mv:company_64580 a mvo:ProductionCompany ;
+    rdfs:label "Future Proof Films" .
+
+mv:company_6531 a mvo:ProductionCompany ;
+    rdfs:label "Parts & Labor" .
+
+mv:company_65442 a mvo:ProductionCompany ;
+    rdfs:label "DF Pictures" .
+
+mv:company_6667 a mvo:ProductionCompany ;
+    rdfs:label "Mandalay Vision" .
+
+mv:company_6705 a mvo:ProductionCompany ;
+    rdfs:label "Film4 Productions" .
+
+mv:company_67260 a mvo:ProductionCompany ;
+    rdfs:label "Electric Shadow Company" .
+
+mv:company_6755 a mvo:ProductionCompany ;
+    rdfs:label "Nippon Television Network Corporation" .
+
+mv:company_6894 a mvo:ProductionCompany ;
+    rdfs:label "Indigo Entertainment" .
+
+mv:company_69347 a mvo:ProductionCompany ;
+    rdfs:label "ITN Distribution" .
+
+mv:company_694 a mvo:ProductionCompany ;
+    rdfs:label "StudioCanal" .
+
+mv:company_69484 a mvo:ProductionCompany ;
+    rdfs:label "Alibaba Pictures Group" .
+
+mv:company_7036 a mvo:ProductionCompany ;
+    rdfs:label "CJ Entertainment" .
+
+mv:company_7049 a mvo:ProductionCompany ;
+    rdfs:label "Enigma Productions" .
+
+mv:company_711 a mvo:ProductionCompany ;
+    rdfs:label "Fox 2000 Pictures" .
+
+mv:company_7188 a mvo:ProductionCompany ;
+    rdfs:label "UFO International Productions" .
+
+mv:company_71928 a mvo:ProductionCompany ;
+    rdfs:label "All Media A Start Company" .
+
+mv:company_7220 a mvo:ProductionCompany ;
+    rdfs:label "Capcom" .
+
+mv:company_73669 a mvo:ProductionCompany ;
+    rdfs:label "Seven Bucks Productions" .
+
+mv:company_73953 a mvo:ProductionCompany ;
+    rdfs:label "ELC Productions" .
+
+mv:company_75419 a mvo:ProductionCompany ;
+    rdfs:label "Inkas Film & T.V. Productions" .
+
+mv:company_7570 a mvo:ProductionCompany ;
+    rdfs:label "Videocine" .
+
+mv:company_76049 a mvo:ProductionCompany ;
+    rdfs:label "Cinema Foundation of Russia" .
+
+mv:company_76110 a mvo:ProductionCompany ;
+    rdfs:label "KTCA" .
+
+mv:company_76991 a mvo:ProductionCompany ;
+    rdfs:label "Highland Film Group" .
+
+mv:company_771 a mvo:ProductionCompany ;
+    rdfs:label "Mandate Pictures" .
+
+mv:company_77973 a mvo:ProductionCompany ;
+    rdfs:label "Lord Miller" .
+
+mv:company_7864 a mvo:ProductionCompany ;
+    rdfs:label "Amiguetes Entertainment" .
+
+mv:company_787 a mvo:ProductionCompany ;
+    rdfs:label "3 Arts Entertainment" .
+
+mv:company_792 a mvo:ProductionCompany ;
+    rdfs:label "RTBF" .
+
+mv:company_79426 a mvo:ProductionCompany ;
+    rdfs:label "MACRO" .
+
+mv:company_79434 a mvo:ProductionCompany ;
+    rdfs:label "Code Red Productions" .
+
+mv:company_7956 a mvo:ProductionCompany ;
+    rdfs:label "Castelao Productions" .
+
+mv:company_80680 a mvo:ProductionCompany ;
+    rdfs:label "Quadrant Pictures" .
+
+mv:company_81 a mvo:ProductionCompany ;
+    rdfs:label "Plan B Entertainment" .
+
+mv:company_81620 a mvo:ProductionCompany ;
+    rdfs:label "Tencent Pictures" .
+
+mv:company_82819 a mvo:ProductionCompany ;
+    rdfs:label "Skydance Media" .
+
+mv:company_829 a mvo:ProductionCompany ;
+    rdfs:label "Vertigo Entertainment" .
+
+mv:company_82968 a mvo:ProductionCompany ;
+    rdfs:label "LuckyChap Entertainment" .
+
+mv:company_83036 a mvo:ProductionCompany ;
+    rdfs:label "Joint Effort" .
+
+mv:company_840 a mvo:ProductionCompany ;
+    rdfs:label "Lawrence Gordon Productions" .
+
+mv:company_85170 a mvo:ProductionCompany ;
+    rdfs:label "Altitude Film Sales" .
+
+mv:company_8532 a mvo:ProductionCompany ;
+    rdfs:label "1984 Private Defense Contractors" .
+
+mv:company_9090 a mvo:ProductionCompany ;
+    rdfs:label "ERA" .
+
+mv:company_9091 a mvo:ProductionCompany ;
+    rdfs:label "Nian Dai International" .
+
+mv:company_91991 a mvo:ProductionCompany ;
+    rdfs:label "Bowfinger" .
+
+mv:company_92187 a mvo:ProductionCompany ;
+    rdfs:label "Proximus" .
+
+mv:company_9383 a mvo:ProductionCompany ;
+    rdfs:label "Blue Sky Studios" .
+
+mv:company_94218 a mvo:ProductionCompany ;
+    rdfs:label "Troll Court Entertainment" .
+
+mv:company_95061 a mvo:ProductionCompany ;
+    rdfs:label "Shelter Prod" .
+
+mv:company_96310 a mvo:ProductionCompany ;
+    rdfs:label "LB Entertainment" .
+
+mv:company_97315 a mvo:ProductionCompany ;
+    rdfs:label "Black Mandala" .
+
+mv:company_97344 a mvo:ProductionCompany ;
+    rdfs:label "Assembly" .
+
+mv:company_9987 a mvo:ProductionCompany ;
+    rdfs:label "Lipsync Productions" .
+
+mv:person_100796 a mvo:Person ;
+    rdfs:label "Tor Johnson" .
+
+mv:person_1008607 a mvo:Person ;
+    rdfs:label "Sophie Nélisse" .
+
+mv:person_1010122 a mvo:Person ;
+    rdfs:label "Cheng Kuei-Chung" .
+
+mv:person_101108 a mvo:Person ;
+    rdfs:label "Alberto De Martino" .
+
+mv:person_1012752 a mvo:Person ;
+    rdfs:label "Erin Way" .
+
+mv:person_1017347 a mvo:Person ;
+    rdfs:label "Brenton Thwaites" .
+
+mv:person_1023139 a mvo:Person ;
+    rdfs:label "Adam Driver" .
+
+mv:person_1029934 a mvo:Person ;
+    rdfs:label "Justice Smith" .
+
+mv:person_103565 a mvo:Person ;
+    rdfs:label "José Chávez" .
+
+mv:person_10367 a mvo:Person ;
+    rdfs:label "John Waters" .
+
+mv:person_10373 a mvo:Person ;
+    rdfs:label "Edith Massey" .
+
+mv:person_103771 a mvo:Person ;
+    rdfs:label "Preston Pierce" .
+
+mv:person_103778 a mvo:Person ;
+    rdfs:label "Marilyn Buferd" .
+
+mv:person_1039527 a mvo:Person ;
+    rdfs:label "Tyler Gillett" .
+
+mv:person_104412 a mvo:Person ;
+    rdfs:label "Allison Hayes" .
+
+mv:person_104646 a mvo:Person ;
+    rdfs:label "Barbara Niven" .
+
+mv:person_1046833 a mvo:Person ;
+    rdfs:label "Relja Bašić" .
+
+mv:person_104686 a mvo:Person ;
+    rdfs:label "Jeanne Neilson" .
+
+mv:person_10500 a mvo:Person ;
+    rdfs:label "Carole Bouquet" .
+
+mv:person_105563 a mvo:Person ;
+    rdfs:label "Mads Sjøgård Pettersen" .
+
+mv:person_1056121 a mvo:Person ;
+    rdfs:label "Ryan Coogler" .
+
+mv:person_1056222 a mvo:Person ;
+    rdfs:label "Neil Connery" .
+
+mv:person_10606 a mvo:Person ;
+    rdfs:label "Anne Baxter" .
+
+mv:person_106179 a mvo:Person ;
+    rdfs:label "Anthony Franciosa" .
+
+mv:person_1066283 a mvo:Person ;
+    rdfs:label "Victoria Bidewell" .
+
+mv:person_1066284 a mvo:Person ;
+    rdfs:label "Sarah Desjardins" .
+
+mv:person_1071558 a mvo:Person ;
+    rdfs:label "Nandu Vijay Krishna" .
+
+mv:person_1074077 a mvo:Person ;
+    rdfs:label "Agata Flori" .
+
+mv:person_107446 a mvo:Person ;
+    rdfs:label "Phil Lord" .
+
+mv:person_10790 a mvo:Person ;
+    rdfs:label "Sam Wood" .
+
+mv:person_107946 a mvo:Person ;
+    rdfs:label "Ladislav Mrkvička" .
+
+mv:person_108 a mvo:Person ;
+    rdfs:label "Peter Jackson" .
+
+mv:person_10814 a mvo:Person ;
+    rdfs:label "Wesley Snipes" .
+
+mv:person_10828 a mvo:Person ;
+    rdfs:label "Guillermo del Toro" .
+
+mv:person_1083010 a mvo:Person ;
+    rdfs:label "Letitia Wright" .
+
+mv:person_10882 a mvo:Person ;
+    rdfs:label "Rosamund Pike" .
+
+mv:person_108909 a mvo:Person ;
+    rdfs:label "Críspulo Cabezas" .
+
+mv:person_1090686 a mvo:Person ;
+    rdfs:label "Drew Moerlein" .
+
+mv:person_10920 a mvo:Person ;
+    rdfs:label "Tobias Menzies" .
+
+mv:person_1094091 a mvo:Person ;
+    rdfs:label "Maika Monroe" .
+
+mv:person_109438 a mvo:Person ;
+    rdfs:label "Xavier Samuel" .
+
+mv:person_1096793 a mvo:Person ;
+    rdfs:label "Jang Kwang" .
+
+mv:person_1099792 a mvo:Person ;
+    rdfs:label "John Patton Ford" .
+
+mv:person_110 a mvo:Person ;
+    rdfs:label "Viggo Mortensen" .
+
+mv:person_11027 a mvo:Person ;
+    rdfs:label "Everett Sloane" .
+
+mv:person_110665 a mvo:Person ;
+    rdfs:label "Daisuke Namikawa" .
+
+mv:person_11074 a mvo:Person ;
+    rdfs:label "Kathy Najimy" .
+
+mv:person_11090 a mvo:Person ;
+    rdfs:label "Edgar Wright" .
+
+mv:person_1118 a mvo:Person ;
+    rdfs:label "Rade Šerbedžija" .
+
+mv:person_1121 a mvo:Person ;
+    rdfs:label "Benicio del Toro" .
+
+mv:person_1133656 a mvo:Person ;
+    rdfs:label "Václav Vydra" .
+
+mv:person_1133834 a mvo:Person ;
+    rdfs:label "Tyler, The Creator" .
+
+mv:person_11367 a mvo:Person ;
+    rdfs:label "Bradley Whitford" .
+
+mv:person_1137824 a mvo:Person ;
+    rdfs:label "Mia Goth" .
+
+mv:person_1138584 a mvo:Person ;
+    rdfs:label "Vlasta Janečková" .
+
+mv:person_1139816 a mvo:Person ;
+    rdfs:label "Tanya van Graan" .
+
+mv:person_114019 a mvo:Person ;
+    rdfs:label "Luke Evans" .
+
+mv:person_1142720 a mvo:Person ;
+    rdfs:label "Thomas Mann" .
+
+mv:person_1144604 a mvo:Person ;
+    rdfs:label "Destin Daniel Cretton" .
+
+mv:person_114461 a mvo:Person ;
+    rdfs:label "Carlos Areces" .
+
+mv:person_1147057 a mvo:Person ;
+    rdfs:label "James A. FitzPatrick" .
+
+mv:person_1149166 a mvo:Person ;
+    rdfs:label "Fernando Álvarez Rebeil" .
+
+mv:person_115290 a mvo:Person ;
+    rdfs:label "Lee Sun-kyun" .
+
+mv:person_115440 a mvo:Person ;
+    rdfs:label "Sydney Sweeney" .
+
+mv:person_115904 a mvo:Person ;
+    rdfs:label "Kim In-kwon" .
+
+mv:person_1160046 a mvo:Person ;
+    rdfs:label "Jason-Christopher Mayer" .
+
+mv:person_116312 a mvo:Person ;
+    rdfs:label "David Masterson" .
+
+mv:person_1164259 a mvo:Person ;
+    rdfs:label "Kylie Rogers" .
+
+mv:person_116641 a mvo:Person ;
+    rdfs:label "James Neilson" .
+
+mv:person_11669 a mvo:Person ;
+    rdfs:label "Jimmy Fallon" .
+
+mv:person_116805 a mvo:Person ;
+    rdfs:label "Paul Feig" .
+
+mv:person_1168097 a mvo:Person ;
+    rdfs:label "Manuel Garcia-Rulfo" .
+
+mv:person_116845 a mvo:Person ;
+    rdfs:label "Myron Healey" .
+
+mv:person_11694 a mvo:Person ;
+    rdfs:label "Doug Liman" .
+
+mv:person_1170328 a mvo:Person ;
+    rdfs:label "Mary McAllister" .
+
+mv:person_11705 a mvo:Person ;
+    rdfs:label "Michelle Monaghan" .
+
+mv:person_1173805 a mvo:Person ;
+    rdfs:label "Zhang Zifeng" .
+
+mv:person_117615 a mvo:Person ;
+    rdfs:label "Boris Petroff" .
+
+mv:person_117642 a mvo:Person ;
+    rdfs:label "Jason Momoa" .
+
+mv:person_117995 a mvo:Person ;
+    rdfs:label "Alissa Skovbye" .
+
+mv:person_1180136 a mvo:Person ;
+    rdfs:label "Paco Manzanedo" .
+
+mv:person_118036 a mvo:Person ;
+    rdfs:label "Ella Smith" .
+
+mv:person_1183672 a mvo:Person ;
+    rdfs:label "Fortune Feimster" .
+
+mv:person_11863 a mvo:Person ;
+    rdfs:label "Sarah Michelle Gellar" .
+
+mv:person_11873 a mvo:Person ;
+    rdfs:label "Roger Kumble" .
+
+mv:person_1188556 a mvo:Person ;
+    rdfs:label "Gary Glassman" .
+
+mv:person_119145 a mvo:Person ;
+    rdfs:label "Hiro Shimono" .
+
+mv:person_119306 a mvo:Person ;
+    rdfs:label "Jerry Austin" .
+
+mv:person_1197378 a mvo:Person ;
+    rdfs:label "Dagny Dewath" .
+
+mv:person_1197381 a mvo:Person ;
+    rdfs:label "Martin Schreier" .
+
+mv:person_11998 a mvo:Person ;
+    rdfs:label "Eddie Albert" .
+
+mv:person_120074 a mvo:Person ;
+    rdfs:label "Gerrit Schoonhoven" .
+
+mv:person_120083 a mvo:Person ;
+    rdfs:label "Joanna Weinberg" .
+
+mv:person_1202689 a mvo:Person ;
+    rdfs:label "Jessica Henwick" .
+
+mv:person_1204333 a mvo:Person ;
+    rdfs:label "Taavi Vartia" .
+
+mv:person_12052 a mvo:Person ;
+    rdfs:label "Gwyneth Paltrow" .
+
+mv:person_1206297 a mvo:Person ;
+    rdfs:label "Jill Palencia" .
+
+mv:person_1211000 a mvo:Person ;
+    rdfs:label "Tom Gormican" .
+
+mv:person_1213887 a mvo:Person ;
+    rdfs:label "Hilly Hicks" .
+
+mv:person_121718 a mvo:Person ;
+    rdfs:label "Bill Camp" .
+
+mv:person_122022 a mvo:Person ;
+    rdfs:label "Enzo Robutti" .
+
+mv:person_12214 a mvo:Person ;
+    rdfs:label "Gillian Anderson" .
+
+mv:person_122348 a mvo:Person ;
+    rdfs:label "Guy Jenkin" .
+
+mv:person_1224124 a mvo:Person ;
+    rdfs:label "Ira Flatow" .
+
+mv:person_1229 a mvo:Person ;
+    rdfs:label "Jeff Bridges" .
+
+mv:person_1232361 a mvo:Person ;
+    rdfs:label "Andy Hamilton" .
+
+mv:person_1233545 a mvo:Person ;
+    rdfs:label "Anna Crilly" .
+
+mv:person_1233560 a mvo:Person ;
+    rdfs:label "Trevor Donovan" .
+
+mv:person_1238851 a mvo:Person ;
+    rdfs:label "Dave Barry" .
+
+mv:person_1240 a mvo:Person ;
+    rdfs:label "Jack Kehler" .
+
+mv:person_1240877 a mvo:Person ;
+    rdfs:label "Kevin O'Leary" .
+
+mv:person_1241041 a mvo:Person ;
+    rdfs:label "Daniel Roche" .
+
+mv:person_1244125 a mvo:Person ;
+    rdfs:label "Tyger Drew-Honey" .
+
+mv:person_124748 a mvo:Person ;
+    rdfs:label "Chris Renaud" .
+
+mv:person_1251336 a mvo:Person ;
+    rdfs:label "Iván Sánchez" .
+
+mv:person_125150 a mvo:Person ;
+    rdfs:label "Michal Dlouhý" .
+
+mv:person_1252934 a mvo:Person ;
+    rdfs:label "Emerald Fennell" .
+
+mv:person_1253008 a mvo:Person ;
+    rdfs:label "Yoshimasa Hosoya" .
+
+mv:person_1255881 a mvo:Person ;
+    rdfs:label "Choi Woo-shik" .
+
+mv:person_1255923 a mvo:Person ;
+    rdfs:label "Christian Tappán" .
+
+mv:person_1256603 a mvo:Person ;
+    rdfs:label "Natsuki Hanae" .
+
+mv:person_1258617 a mvo:Person ;
+    rdfs:label "Sun Yizhou" .
+
+mv:person_1260481 a mvo:Person ;
+    rdfs:label "Greta Lee" .
+
+mv:person_1265055 a mvo:Person ;
+    rdfs:label "Pedro Morelli" .
+
+mv:person_1267240 a mvo:Person ;
+    rdfs:label "Nicola Coughlan" .
+
+mv:person_1272190 a mvo:Person ;
+    rdfs:label "Naruna Costa" .
+
+mv:person_127249 a mvo:Person ;
+    rdfs:label "Gloria Münchmeyer" .
+
+mv:person_1272981 a mvo:Person ;
+    rdfs:label "Ante Novakovic" .
+
+mv:person_1274776 a mvo:Person ;
+    rdfs:label "Anthony Schatteman" .
+
+mv:person_127558 a mvo:Person ;
+    rdfs:label "Andrea Riseborough" .
+
+mv:person_1277636 a mvo:Person ;
+    rdfs:label "Marco Polo Constandse" .
+
+mv:person_1283010 a mvo:Person ;
+    rdfs:label "Haruo Sotozaki" .
+
+mv:person_12835 a mvo:Person ;
+    rdfs:label "Vin Diesel" .
+
+mv:person_1286328 a mvo:Person ;
+    rdfs:label "Haley Lu Richardson" .
+
+mv:person_1286723 a mvo:Person ;
+    rdfs:label "Tatsuya Yoshihara" .
+
+mv:person_1287039 a mvo:Person ;
+    rdfs:label "Nicole Oring" .
+
+mv:person_1288727 a mvo:Person ;
+    rdfs:label "Jen McGowan" .
+
+mv:person_12891 a mvo:Person ;
+    rdfs:label "Joss Whedon" .
+
+mv:person_1290942 a mvo:Person ;
+    rdfs:label "Benni Diez" .
+
+mv:person_1293127 a mvo:Person ;
+    rdfs:label "Paul Miller" .
+
+mv:person_1293892 a mvo:Person ;
+    rdfs:label "Chris Sullivan" .
+
+mv:person_129561 a mvo:Person ;
+    rdfs:label "Josh Safdie" .
+
+mv:person_1296667 a mvo:Person ;
+    rdfs:label "Maaya Uchida" .
+
+mv:person_129676 a mvo:Person ;
+    rdfs:label "John Warburton" .
+
+mv:person_1297131 a mvo:Person ;
+    rdfs:label "Dagmar Havlová Veškrnová" .
+
+mv:person_12982 a mvo:Person ;
+    rdfs:label "Peter Capaldi" .
+
+mv:person_129894 a mvo:Person ;
+    rdfs:label "Gareth Edwards" .
+
+mv:person_1299380 a mvo:Person ;
+    rdfs:label "Nima Nourizadeh" .
+
+mv:person_12995 a mvo:Person ;
+    rdfs:label "Marc Forster" .
+
+mv:person_1300650 a mvo:Person ;
+    rdfs:label "Jake Manley" .
+
+mv:person_13015 a mvo:Person ;
+    rdfs:label "Phillip Noyce" .
+
+mv:person_1305948 a mvo:Person ;
+    rdfs:label "Noel Tan" .
+
+mv:person_130640 a mvo:Person ;
+    rdfs:label "Hailee Steinfeld" .
+
+mv:person_1308818 a mvo:Person ;
+    rdfs:label "Piper Curda" .
+
+mv:person_131 a mvo:Person ;
+    rdfs:label "Jake Gyllenhaal" .
+
+mv:person_1310890 a mvo:Person ;
+    rdfs:label "Patricia Garza" .
+
+mv:person_131290 a mvo:Person ;
+    rdfs:label "Tsai Chen-Nan" .
+
+mv:person_1313091 a mvo:Person ;
+    rdfs:label "Zvonimir Berković" .
+
+mv:person_1313569 a mvo:Person ;
+    rdfs:label "Božidar Boban" .
+
+mv:person_1315036 a mvo:Person ;
+    rdfs:label "Daisy Ridley" .
+
+mv:person_131723 a mvo:Person ;
+    rdfs:label "Sarah Wright" .
+
+mv:person_131771 a mvo:Person ;
+    rdfs:label "Kirby Bliss Blanton" .
+
+mv:person_1317794 a mvo:Person ;
+    rdfs:label "Roberto Quijano" .
+
+mv:person_1318201 a mvo:Person ;
+    rdfs:label "Jared Bush" .
+
+mv:person_13240 a mvo:Person ;
+    rdfs:label "Mark Wahlberg" .
+
+mv:person_13265 a mvo:Person ;
+    rdfs:label "Franklin J. Schaffner" .
+
+mv:person_1327 a mvo:Person ;
+    rdfs:label "Ian McKellen" .
+
+mv:person_1328 a mvo:Person ;
+    rdfs:label "Sean Astin" .
+
+mv:person_1330581 a mvo:Person ;
+    rdfs:label "Abhishek Shankar" .
+
+mv:person_1331023 a mvo:Person ;
+    rdfs:label "Emilia Jones" .
+
+mv:person_133115 a mvo:Person ;
+    rdfs:label "E.W. Swackhamer" .
+
+mv:person_1331936 a mvo:Person ;
+    rdfs:label "Pandi" .
+
+mv:person_1333 a mvo:Person ;
+    rdfs:label "Andy Serkis" .
+
+mv:person_1339498 a mvo:Person ;
+    rdfs:label "Darbuka Siva" .
+
+mv:person_1344320 a mvo:Person ;
+    rdfs:label "Chi Lewis-Parry" .
+
+mv:person_1345419 a mvo:Person ;
+    rdfs:label "Hermione Corfield" .
+
+mv:person_134699 a mvo:Person ;
+    rdfs:label "Stella Gonet" .
+
+mv:person_134774 a mvo:Person ;
+    rdfs:label "Wunmi Mosaku" .
+
+mv:person_135651 a mvo:Person ;
+    rdfs:label "Michael B. Jordan" .
+
+mv:person_1360317 a mvo:Person ;
+    rdfs:label "Hong Chau" .
+
+mv:person_1368507 a mvo:Person ;
+    rdfs:label "Elizabeth Lail" .
+
+mv:person_136886 a mvo:Person ;
+    rdfs:label "Li Tian-Lu" .
+
+mv:person_1370832 a mvo:Person ;
+    rdfs:label "Shazad Latif" .
+
+mv:person_1372369 a mvo:Person ;
+    rdfs:label "Samara Weaving" .
+
+mv:person_1373737 a mvo:Person ;
+    rdfs:label "Florence Pugh" .
+
+mv:person_1375534 a mvo:Person ;
+    rdfs:label "Anne Gauthier" .
+
+mv:person_1375535 a mvo:Person ;
+    rdfs:label "Issa Litton" .
+
+mv:person_1375536 a mvo:Person ;
+    rdfs:label "Nic Campos" .
+
+mv:person_13784 a mvo:Person ;
+    rdfs:label "Burt Lancaster" .
+
+mv:person_138192 a mvo:Person ;
+    rdfs:label "Lenka Vlasáková" .
+
+mv:person_1382112 a mvo:Person ;
+    rdfs:label "Jessica Cook" .
+
+mv:person_1382678 a mvo:Person ;
+    rdfs:label "Leszek Lichota" .
+
+mv:person_1384976 a mvo:Person ;
+    rdfs:label "Thea Sofie Loch Næss" .
+
+mv:person_138781 a mvo:Person ;
+    rdfs:label "Robert Eggers" .
+
+mv:person_1388314 a mvo:Person ;
+    rdfs:label "Stephan James" .
+
+mv:person_1392137 a mvo:Person ;
+    rdfs:label "Margaret Qualley" .
+
+mv:person_1392433 a mvo:Person ;
+    rdfs:label "Julia Ducournau" .
+
+mv:person_1394758 a mvo:Person ;
+    rdfs:label "Ine Marie Wilmann" .
+
+mv:person_1395183 a mvo:Person ;
+    rdfs:label "Chloé Zhao" .
+
+mv:person_14011 a mvo:Person ;
+    rdfs:label "Tom Courtenay" .
+
+mv:person_1401474 a mvo:Person ;
+    rdfs:label "Corin Hardy" .
+
+mv:person_1401573 a mvo:Person ;
+    rdfs:label "Mark Dionisio" .
+
+mv:person_140651 a mvo:Person ;
+    rdfs:label "Izabela Kuna" .
+
+mv:person_14103 a mvo:Person ;
+    rdfs:label "Mark Blum" .
+
+mv:person_141694 a mvo:Person ;
+    rdfs:label "David White" .
+
+mv:person_141701 a mvo:Person ;
+    rdfs:label "Ramya Krishnan" .
+
+mv:person_143059 a mvo:Person ;
+    rdfs:label "Patrick Hughes" .
+
+mv:person_14405 a mvo:Person ;
+    rdfs:label "Courteney Cox" .
+
+mv:person_1442583 a mvo:Person ;
+    rdfs:label "Park So-dam" .
+
+mv:person_144798 a mvo:Person ;
+    rdfs:label "Simon Cellan Jones" .
+
+mv:person_1452028 a mvo:Person ;
+    rdfs:label "Reina Ueda" .
+
+mv:person_1452270 a mvo:Person ;
+    rdfs:label "Larry Yang" .
+
+mv:person_1454946 a mvo:Person ;
+    rdfs:label "Milana Vayntrub" .
+
+mv:person_1465849 a mvo:Person ;
+    rdfs:label "Ismael Fritschi" .
+
+mv:person_147021 a mvo:Person ;
+    rdfs:label "S. S. Rajamouli" .
+
+mv:person_1474123 a mvo:Person ;
+    rdfs:label "Caleb McLaughlin" .
+
+mv:person_14782 a mvo:Person ;
+    rdfs:label "Andrew Robinson" .
+
+mv:person_1480267 a mvo:Person ;
+    rdfs:label "Marian Gräns" .
+
+mv:person_14831 a mvo:Person ;
+    rdfs:label "David Wayne" .
+
+mv:person_1485823 a mvo:Person ;
+    rdfs:label "Thomas Kail" .
+
+mv:person_148603 a mvo:Person ;
+    rdfs:label "Deborah Walley" .
+
+mv:person_1489750 a mvo:Person ;
+    rdfs:label "Dani de la Torre" .
+
+mv:person_1491592 a mvo:Person ;
+    rdfs:label "Daniel Chong" .
+
+mv:person_1492992 a mvo:Person ;
+    rdfs:label "Yuma Uchida" .
+
+mv:person_1494240 a mvo:Person ;
+    rdfs:label "Maria Hörnelius" .
+
+mv:person_1495825 a mvo:Person ;
+    rdfs:label "Jonathan Roumie" .
+
+mv:person_1496392 a mvo:Person ;
+    rdfs:label "Joe Alwyn" .
+
+mv:person_1498158 a mvo:Person ;
+    rdfs:label "Jessie Buckley" .
+
+mv:person_150427 a mvo:Person ;
+    rdfs:label "Viktor Preiss" .
+
+mv:person_1504947 a mvo:Person ;
+    rdfs:label "Nicholas Hamilton" .
+
+mv:person_150669 a mvo:Person ;
+    rdfs:label "Micah A. Hauptman" .
+
+mv:person_1508653 a mvo:Person ;
+    rdfs:label "Jasmin Savoy Brown" .
+
+mv:person_151344 a mvo:Person ;
+    rdfs:label "Hugh Dennis" .
+
+mv:person_1513675 a mvo:Person ;
+    rdfs:label "Arthur Berthelet" .
+
+mv:person_15196 a mvo:Person ;
+    rdfs:label "David Hemmings" .
+
+mv:person_15218 a mvo:Person ;
+    rdfs:label "James Gunn" .
+
+mv:person_1525043 a mvo:Person ;
+    rdfs:label "Monica Barbaro" .
+
+mv:person_15298 a mvo:Person ;
+    rdfs:label "Rachel House" .
+
+mv:person_153323 a mvo:Person ;
+    rdfs:label "Allen H. Miner" .
+
+mv:person_1533987 a mvo:Person ;
+    rdfs:label "Zoe Colletti" .
+
+mv:person_153427 a mvo:Person ;
+    rdfs:label "Mark Slade" .
+
+mv:person_1546775 a mvo:Person ;
+    rdfs:label "Stefanie Butler" .
+
+mv:person_1547457 a mvo:Person ;
+    rdfs:label "Mikhail Vaynberg" .
+
+mv:person_1549456 a mvo:Person ;
+    rdfs:label "Marian Skinner" .
+
+mv:person_155267 a mvo:Person ;
+    rdfs:label "Christopher Miller" .
+
+mv:person_1554853 a mvo:Person ;
+    rdfs:label "Miroslav Sobota" .
+
+mv:person_1555040 a mvo:Person ;
+    rdfs:label "Gary Henoch" .
+
+mv:person_15576 a mvo:Person ;
+    rdfs:label "Matthew Macfadyen" .
+
+mv:person_1563431 a mvo:Person ;
+    rdfs:label "Michael Shaeffer" .
+
+mv:person_15735 a mvo:Person ;
+    rdfs:label "Helen Mirren" .
+
+mv:person_15757 a mvo:Person ;
+    rdfs:label "Ray Romano" .
+
+mv:person_1579 a mvo:Person ;
+    rdfs:label "Maggie Gyllenhaal" .
+
+mv:person_1579059 a mvo:Person ;
+    rdfs:label "Vanessa Caswill" .
+
+mv:person_1590797 a mvo:Person ;
+    rdfs:label "Sadie Sink" .
+
+mv:person_15993 a mvo:Person ;
+    rdfs:label "Michael Pataki" .
+
+mv:person_1600083 a mvo:Person ;
+    rdfs:label "Sofia Hublitz" .
+
+mv:person_1606164 a mvo:Person ;
+    rdfs:label "Junya Enoki" .
+
+mv:person_1609485 a mvo:Person ;
+    rdfs:label "Pai Ming-Hua" .
+
+mv:person_1616052 a mvo:Person ;
+    rdfs:label "Richard O'Rourke" .
+
+mv:person_1621115 a mvo:Person ;
+    rdfs:label "Marcer Andersen" .
+
+mv:person_1621117 a mvo:Person ;
+    rdfs:label "Jannie Nielsen" .
+
+mv:person_1621118 a mvo:Person ;
+    rdfs:label "Lise Kirk" .
+
+mv:person_1621119 a mvo:Person ;
+    rdfs:label "Lars Lindberg Christensen" .
+
+mv:person_1625880 a mvo:Person ;
+    rdfs:label "Jun" .
+
+mv:person_1628383 a mvo:Person ;
+    rdfs:label "Derek Russo" .
+
+mv:person_1632530 a mvo:Person ;
+    rdfs:label "Iman Benson" .
+
+mv:person_1634181 a mvo:Person ;
+    rdfs:label "Rich Lee" .
+
+mv:person_1636241 a mvo:Person ;
+    rdfs:label "Ethan Sailor" .
+
+mv:person_1636242 a mvo:Person ;
+    rdfs:label "Griffin Fox Smith" .
+
+mv:person_1636658 a mvo:Person ;
+    rdfs:label "Stefan Grube" .
+
+mv:person_1637049 a mvo:Person ;
+    rdfs:label "J.J. Fong" .
+
+mv:person_1639 a mvo:Person ;
+    rdfs:label "Emily Watson" .
+
+mv:person_1640 a mvo:Person ;
+    rdfs:label "Stellan Skarsgård" .
+
+mv:person_16421 a mvo:Person ;
+    rdfs:label "Hans Conried" .
+
+mv:person_165787 a mvo:Person ;
+    rdfs:label "Rich Moore" .
+
+mv:person_1658759 a mvo:Person ;
+    rdfs:label "Nicole Fortuin" .
+
+mv:person_1665 a mvo:Person ;
+    rdfs:label "Eddie Marsan" .
+
+mv:person_1672504 a mvo:Person ;
+    rdfs:label "Erin Kellyman" .
+
+mv:person_1677363 a mvo:Person ;
+    rdfs:label "Aaron Tavaler" .
+
+mv:person_16841 a mvo:Person ;
+    rdfs:label "Brett Cullen" .
+
+mv:person_1684130 a mvo:Person ;
+    rdfs:label "Shane Paul McGhie" .
+
+mv:person_16858 a mvo:Person ;
+    rdfs:label "Lauren Graham" .
+
+mv:person_1685904 a mvo:Person ;
+    rdfs:label "Hannah Emily Anderson" .
+
+mv:person_1688664 a mvo:Person ;
+    rdfs:label "Francesca Reale" .
+
+mv:person_1695073 a mvo:Person ;
+    rdfs:label "Daniel R. Hill" .
+
+mv:person_1695989 a mvo:Person ;
+    rdfs:label "Jodie Turner-Smith" .
+
+mv:person_1704 a mvo:Person ;
+    rdfs:label "Gore Verbinski" .
+
+mv:person_1712424 a mvo:Person ;
+    rdfs:label "Chammak Chandra" .
+
+mv:person_1718307 a mvo:Person ;
+    rdfs:label "Stephen Curry" .
+
+mv:person_17276 a mvo:Person ;
+    rdfs:label "Gerard Butler" .
+
+mv:person_1729881 a mvo:Person ;
+    rdfs:label "Mariela Garriga" .
+
+mv:person_173850 a mvo:Person ;
+    rdfs:label "John Henry Whitaker" .
+
+mv:person_1739102 a mvo:Person ;
+    rdfs:label "Domingo González" .
+
+mv:person_1753341 a mvo:Person ;
+    rdfs:label "Frankie Adams" .
+
+mv:person_1754784 a mvo:Person ;
+    rdfs:label "Tommie Earl Jenkins" .
+
+mv:person_17605 a mvo:Person ;
+    rdfs:label "Idris Elba" .
+
+mv:person_1763709 a mvo:Person ;
+    rdfs:label "Aaron Pierre" .
+
+mv:person_17647 a mvo:Person ;
+    rdfs:label "Michelle Rodriguez" .
+
+mv:person_1767250 a mvo:Person ;
+    rdfs:label "Ariana Greenblatt" .
+
+mv:person_17743 a mvo:Person ;
+    rdfs:label "Miranda Cosgrove" .
+
+mv:person_1776 a mvo:Person ;
+    rdfs:label "Francis Ford Coppola" .
+
+mv:person_17773 a mvo:Person ;
+    rdfs:label "Gabrielle Union" .
+
+mv:person_17825 a mvo:Person ;
+    rdfs:label "Shawn Levy" .
+
+mv:person_1784612 a mvo:Person ;
+    rdfs:label "Daniela Melchior" .
+
+mv:person_1785590 a mvo:Person ;
+    rdfs:label "David Corenswet" .
+
+mv:person_1786499 a mvo:Person ;
+    rdfs:label "Michał Gazda" .
+
+mv:person_179477 a mvo:Person ;
+    rdfs:label "Felipe de Alba" .
+
+mv:person_179489 a mvo:Person ;
+    rdfs:label "Chel López" .
+
+mv:person_1795072 a mvo:Person ;
+    rdfs:label "Nia DaCosta" .
+
+mv:person_1796 a mvo:Person ;
+    rdfs:label "Kirstie Alley" .
+
+mv:person_18050 a mvo:Person ;
+    rdfs:label "Elle Fanning" .
+
+mv:person_18182 a mvo:Person ;
+    rdfs:label "Olga Kurylenko" .
+
+mv:person_1818455 a mvo:Person ;
+    rdfs:label "Van Crosby" .
+
+mv:person_1822256 a mvo:Person ;
+    rdfs:label "Brian Stivale" .
+
+mv:person_1824301 a mvo:Person ;
+    rdfs:label "Freddy Carter" .
+
+mv:person_18324 a mvo:Person ;
+    rdfs:label "Steve Zahn" .
+
+mv:person_1837297 a mvo:Person ;
+    rdfs:label "Damson Idris" .
+
+mv:person_18514 a mvo:Person ;
+    rdfs:label "Asia Argento" .
+
+mv:person_1853096 a mvo:Person ;
+    rdfs:label "Walter D'Amore" .
+
+mv:person_1855143 a mvo:Person ;
+    rdfs:label "Brandon Sklenar" .
+
+mv:person_18658 a mvo:Person ;
+    rdfs:label "Mia Kirshner" .
+
+mv:person_1867690 a mvo:Person ;
+    rdfs:label "Mia Jenkins" .
+
+mv:person_1871029 a mvo:Person ;
+    rdfs:label "Russell McDermott" .
+
+mv:person_18878 a mvo:Person ;
+    rdfs:label "Rob Cohen" .
+
+mv:person_18897 a mvo:Person ;
+    rdfs:label "Jackie Chan" .
+
+mv:person_18899 a mvo:Person ;
+    rdfs:label "Yuen Woo-Ping" .
+
+mv:person_18918 a mvo:Person ;
+    rdfs:label "Dwayne Johnson" .
+
+mv:person_1891826 a mvo:Person ;
+    rdfs:label "Ravi Narayan" .
+
+mv:person_1895 a mvo:Person ;
+    rdfs:label "Carl Reiner" .
+
+mv:person_1904884 a mvo:Person ;
+    rdfs:label "Sara Khorami" .
+
+mv:person_19152 a mvo:Person ;
+    rdfs:label "Dylan Baker" .
+
+mv:person_1923093 a mvo:Person ;
+    rdfs:label "Carlos Goitia" .
+
+mv:person_1928411 a mvo:Person ;
+    rdfs:label "Seina Sagiri" .
+
+mv:person_1932132 a mvo:Person ;
+    rdfs:label "Shannon Beeby" .
+
+mv:person_19327 a mvo:Person ;
+    rdfs:label "Anne Shirley" .
+
+mv:person_1936164 a mvo:Person ;
+    rdfs:label "Jacqueline Joe" .
+
+mv:person_1941454 a mvo:Person ;
+    rdfs:label "Margita Ahlin" .
+
+mv:person_19498 a mvo:Person ;
+    rdfs:label "Jon Bernthal" .
+
+mv:person_19587 a mvo:Person ;
+    rdfs:label "Rumi Hiiragi" .
+
+mv:person_19588 a mvo:Person ;
+    rdfs:label "Miyu Irino" .
+
+mv:person_19589 a mvo:Person ;
+    rdfs:label "Mari Natsuki" .
+
+mv:person_19590 a mvo:Person ;
+    rdfs:label "Takashi Naito" .
+
+mv:person_19591 a mvo:Person ;
+    rdfs:label "Yasuko Sawaguchi" .
+
+mv:person_1972166 a mvo:Person ;
+    rdfs:label "Odessa A'zion" .
+
+mv:person_1972974 a mvo:Person ;
+    rdfs:label "Isabel May" .
+
+mv:person_1974046 a mvo:Person ;
+    rdfs:label "Rudy Pankow" .
+
+mv:person_1993743 a mvo:Person ;
+    rdfs:label "Jhaleil Swaby" .
+
+mv:person_2 a mvo:Person ;
+    rdfs:label "Mark Hamill" .
+
+mv:person_20 a mvo:Person ;
+    rdfs:label "Elizabeth Perkins" .
+
+mv:person_2004086 a mvo:Person ;
+    rdfs:label "Tomori Kusunoki" .
+
+mv:person_2007622 a mvo:Person ;
+    rdfs:label "Maksim Saprykin" .
+
+mv:person_20307 a mvo:Person ;
+    rdfs:label "Joachim Rønning" .
+
+mv:person_2034 a mvo:Person ;
+    rdfs:label "Danny Boyle" .
+
+mv:person_204 a mvo:Person ;
+    rdfs:label "Kate Winslet" .
+
+mv:person_205406 a mvo:Person ;
+    rdfs:label "John Tui" .
+
+mv:person_2054851 a mvo:Person ;
+    rdfs:label "Roman Griffin Davis" .
+
+mv:person_20659 a mvo:Person ;
+    rdfs:label "Marjane Satrapi" .
+
+mv:person_20738 a mvo:Person ;
+    rdfs:label "Song Kang-ho" .
+
+mv:person_2075067 a mvo:Person ;
+    rdfs:label "Jeremy John Wells" .
+
+mv:person_20899 a mvo:Person ;
+    rdfs:label "Peter Riegert" .
+
+mv:person_209193 a mvo:Person ;
+    rdfs:label "Karl Thaning" .
+
+mv:person_2096164 a mvo:Person ;
+    rdfs:label "James Ortiz" .
+
+mv:person_20982 a mvo:Person ;
+    rdfs:label "Marton Csokas" .
+
+mv:person_2100550 a mvo:Person ;
+    rdfs:label "Paula Luchsinger" .
+
+mv:person_210344 a mvo:Person ;
+    rdfs:label "Jen Lilley" .
+
+mv:person_2103746 a mvo:Person ;
+    rdfs:label "Emma Tammi" .
+
+mv:person_21088 a mvo:Person ;
+    rdfs:label "Alan Tudyk" .
+
+mv:person_21089 a mvo:Person ;
+    rdfs:label "Bruce Greenwood" .
+
+mv:person_2115056 a mvo:Person ;
+    rdfs:label "Martín Solá" .
+
+mv:person_2120976 a mvo:Person ;
+    rdfs:label "Maria Kowalska" .
+
+mv:person_212240 a mvo:Person ;
+    rdfs:label "Tom Harper" .
+
+mv:person_2122835 a mvo:Person ;
+    rdfs:label "Tyree Dillihay" .
+
+mv:person_213001 a mvo:Person ;
+    rdfs:label "Jenny Slate" .
+
+mv:person_213453 a mvo:Person ;
+    rdfs:label "Alois Švehlík" .
+
+mv:person_2138 a mvo:Person ;
+    rdfs:label "Shawnee Smith" .
+
+mv:person_215055 a mvo:Person ;
+    rdfs:label "Steven Yeun" .
+
+mv:person_215910 a mvo:Person ;
+    rdfs:label "Rana Daggubati" .
+
+mv:person_21595 a mvo:Person ;
+    rdfs:label "Alyson Hannigan" .
+
+mv:person_2168270 a mvo:Person ;
+    rdfs:label "Adeline Rudolph" .
+
+mv:person_21684 a mvo:Person ;
+    rdfs:label "Bong Joon Ho" .
+
+mv:person_21711 a mvo:Person ;
+    rdfs:label "Erika Christensen" .
+
+mv:person_2174509 a mvo:Person ;
+    rdfs:label "Mason Gooding" .
+
+mv:person_2187456 a mvo:Person ;
+    rdfs:label "Essex O'Brien" .
+
+mv:person_2201315 a mvo:Person ;
+    rdfs:label "Emma Mackey" .
+
+mv:person_220295 a mvo:Person ;
+    rdfs:label "Geert Van Rampelberg" .
+
+mv:person_221192 a mvo:Person ;
+    rdfs:label "Kathryn Newton" .
+
+mv:person_22226 a mvo:Person ;
+    rdfs:label "Paul Rudd" .
+
+mv:person_2228 a mvo:Person ;
+    rdfs:label "Sean Penn" .
+
+mv:person_222991 a mvo:Person ;
+    rdfs:label "Marcélia Cartaxo" .
+
+mv:person_2232 a mvo:Person ;
+    rdfs:label "Michael Keaton" .
+
+mv:person_2236410 a mvo:Person ;
+    rdfs:label "Damon Duncan" .
+
+mv:person_223667 a mvo:Person ;
+    rdfs:label "Miroslav Vladyka" .
+
+mv:person_224181 a mvo:Person ;
+    rdfs:label "Jai Courtney" .
+
+mv:person_2244399 a mvo:Person ;
+    rdfs:label "Sonya Wilson" .
+
+mv:person_224878 a mvo:Person ;
+    rdfs:label "Ramona Marquez" .
+
+mv:person_225009 a mvo:Person ;
+    rdfs:label "Pablo Larraín" .
+
+mv:person_225011 a mvo:Person ;
+    rdfs:label "Alfredo Castro" .
+
+mv:person_225013 a mvo:Person ;
+    rdfs:label "Jaime Vadell" .
+
+mv:person_2253146 a mvo:Person ;
+    rdfs:label "Michael Homick" .
+
+mv:person_225586 a mvo:Person ;
+    rdfs:label "Michael M. Scott" .
+
+mv:person_225694 a mvo:Person ;
+    rdfs:label "Oliver Cooper" .
+
+mv:person_225695 a mvo:Person ;
+    rdfs:label "Jonathan Daniel Brown" .
+
+mv:person_225810 a mvo:Person ;
+    rdfs:label "Kim S. Falck-Jørgensen" .
+
+mv:person_226431 a mvo:Person ;
+    rdfs:label "Nora Navas" .
+
+mv:person_227638 a mvo:Person ;
+    rdfs:label "Ryu Seung-ryong" .
+
+mv:person_228 a mvo:Person ;
+    rdfs:label "Ed Harris" .
+
+mv:person_2283930 a mvo:Person ;
+    rdfs:label "Piper Rubio" .
+
+mv:person_228871 a mvo:Person ;
+    rdfs:label "Akira Lane" .
+
+mv:person_229932 a mvo:Person ;
+    rdfs:label "Golshifteh Farahani" .
+
+mv:person_229962 a mvo:Person ;
+    rdfs:label "Mike Thurmeier" .
+
+mv:person_230808 a mvo:Person ;
+    rdfs:label "Paul du Toit" .
+
+mv:person_2309286 a mvo:Person ;
+    rdfs:label "Anna Szymańczyk" .
+
+mv:person_2309371 a mvo:Person ;
+    rdfs:label "Monika Frajczyk" .
+
+mv:person_231043 a mvo:Person ;
+    rdfs:label "Charles Kinnane" .
+
+mv:person_2320708 a mvo:Person ;
+    rdfs:label "Lionel Boyce" .
+
+mv:person_23215 a mvo:Person ;
+    rdfs:label "Gabino Diego" .
+
+mv:person_2324569 a mvo:Person ;
+    rdfs:label "Emma Corrin" .
+
+mv:person_2326151 a mvo:Person ;
+    rdfs:label "Paul Mescal" .
+
+mv:person_23430 a mvo:Person ;
+    rdfs:label "Timur Bekmambetov" .
+
+mv:person_234352 a mvo:Person ;
+    rdfs:label "Margot Robbie" .
+
+mv:person_234644 a mvo:Person ;
+    rdfs:label "Josele Román" .
+
+mv:person_2349355 a mvo:Person ;
+    rdfs:label "Michele Morrone" .
+
+mv:person_2365816 a mvo:Person ;
+    rdfs:label "Jeremy Wiles" .
+
+mv:person_236695 a mvo:Person ;
+    rdfs:label "John Boyega" .
+
+mv:person_237045 a mvo:Person ;
+    rdfs:label "Prabhas" .
+
+mv:person_2372 a mvo:Person ;
+    rdfs:label "Ron Perlman" .
+
+mv:person_2382973 a mvo:Person ;
+    rdfs:label "So Kazuho" .
+
+mv:person_2388828 a mvo:Person ;
+    rdfs:label "Sky Yang" .
+
+mv:person_239019 a mvo:Person ;
+    rdfs:label "Kit Harington" .
+
+mv:person_240145 a mvo:Person ;
+    rdfs:label "Han Hyo-joo" .
+
+mv:person_24045 a mvo:Person ;
+    rdfs:label "Joseph Gordon-Levitt" .
+
+mv:person_2430575 a mvo:Person ;
+    rdfs:label "Anson Boon" .
+
+mv:person_2434413 a mvo:Person ;
+    rdfs:label "Lucy Capri" .
+
+mv:person_2438347 a mvo:Person ;
+    rdfs:label "Pearse Egan" .
+
+mv:person_2440 a mvo:Person ;
+    rdfs:label "Bill Nighy" .
+
+mv:person_2452602 a mvo:Person ;
+    rdfs:label "Kim Hae-joon" .
+
+mv:person_2452603 a mvo:Person ;
+    rdfs:label "Park Sharon" .
+
+mv:person_2452605 a mvo:Person ;
+    rdfs:label "Lee Dong-ju" .
+
+mv:person_2452606 a mvo:Person ;
+    rdfs:label "Hong Dal-pyo" .
+
+mv:person_2452607 a mvo:Person ;
+    rdfs:label "Chae Ki-jun" .
+
+mv:person_2461 a mvo:Person ;
+    rdfs:label "Mel Gibson" .
+
+mv:person_2486314 a mvo:Person ;
+    rdfs:label "Nicola Alexis" .
+
+mv:person_24937 a mvo:Person ;
+    rdfs:label "Bing Crosby" .
+
+mv:person_25002 a mvo:Person ;
+    rdfs:label "Lee Byung-hun" .
+
+mv:person_2503 a mvo:Person ;
+    rdfs:label "Maude Eburne" .
+
+mv:person_2507851 a mvo:Person ;
+    rdfs:label "Brandon Engman" .
+
+mv:person_2508883 a mvo:Person ;
+    rdfs:label "Brent Dawes" .
+
+mv:person_2524 a mvo:Person ;
+    rdfs:label "Tom Hardy" .
+
+mv:person_2527414 a mvo:Person ;
+    rdfs:label "Nicole Wallace" .
+
+mv:person_25472 a mvo:Person ;
+    rdfs:label "Lim Giong" .
+
+mv:person_26457 a mvo:Person ;
+    rdfs:label "Matthew Lillard" .
+
+mv:person_26458 a mvo:Person ;
+    rdfs:label "Kevin Williamson" .
+
+mv:person_2667928 a mvo:Person ;
+    rdfs:label "Billie Boullet" .
+
+mv:person_2714 a mvo:Person ;
+    rdfs:label "Lance Henriksen" .
+
+mv:person_27319 a mvo:Person ;
+    rdfs:label "Christoph Waltz" .
+
+mv:person_27422 a mvo:Person ;
+    rdfs:label "Bruce Payne" .
+
+mv:person_2743080 a mvo:Person ;
+    rdfs:label "Ayu Manaka" .
+
+mv:person_2751270 a mvo:Person ;
+    rdfs:label "Cathy Ruiz" .
+
+mv:person_275257 a mvo:Person ;
+    rdfs:label "Shiva" .
+
+mv:person_27578 a mvo:Person ;
+    rdfs:label "Elliot Page" .
+
+mv:person_2763799 a mvo:Person ;
+    rdfs:label "Masumi Rika" .
+
+mv:person_2784807 a mvo:Person ;
+    rdfs:label "Shota Goshozono" .
+
+mv:person_2786960 a mvo:Person ;
+    rdfs:label "Gabriel Guevara" .
+
+mv:person_2795216 a mvo:Person ;
+    rdfs:label "Robyn Hyden" .
+
+mv:person_27972 a mvo:Person ;
+    rdfs:label "Josh Hutcherson" .
+
+mv:person_2798548 a mvo:Person ;
+    rdfs:label "Beth Brown" .
+
+mv:person_27993 a mvo:Person ;
+    rdfs:label "Jeffrey Combs" .
+
+mv:person_2805492 a mvo:Person ;
+    rdfs:label "Shahar Taboch" .
+
+mv:person_2812912 a mvo:Person ;
+    rdfs:label "Shogo Sakata" .
+
+mv:person_28164 a mvo:Person ;
+    rdfs:label "Charles Grodin" .
+
+mv:person_2822579 a mvo:Person ;
+    rdfs:label "Daniel Kinnane" .
+
+mv:person_2836102 a mvo:Person ;
+    rdfs:label "Martin Melnick" .
+
+mv:person_2838796 a mvo:Person ;
+    rdfs:label "Phil Cunningham" .
+
+mv:person_28511 a mvo:Person ;
+    rdfs:label "Luis Zahera" .
+
+mv:person_287 a mvo:Person ;
+    rdfs:label "Brad Pitt" .
+
+mv:person_2876455 a mvo:Person ;
+    rdfs:label "Simran Choudhary" .
+
+mv:person_28846 a mvo:Person ;
+    rdfs:label "Alexander Skarsgård" .
+
+mv:person_29095 a mvo:Person ;
+    rdfs:label "Nicholas Hammond" .
+
+mv:person_2932520 a mvo:Person ;
+    rdfs:label "Ignacy Liss" .
+
+mv:person_2981449 a mvo:Person ;
+    rdfs:label "Alison Oliver" .
+
+mv:person_2983 a mvo:Person ;
+    rdfs:label "Mark Strong" .
+
+mv:person_29934 a mvo:Person ;
+    rdfs:label "Brett Rice" .
+
+mv:person_30126 a mvo:Person ;
+    rdfs:label "Flora Robson" .
+
+mv:person_3038 a mvo:Person ;
+    rdfs:label "Gary Riley" .
+
+mv:person_3052321 a mvo:Person ;
+    rdfs:label "Tyriq Withers" .
+
+mv:person_30614 a mvo:Person ;
+    rdfs:label "Ryan Gosling" .
+
+mv:person_3065840 a mvo:Person ;
+    rdfs:label "Damián Del Castillo" .
+
+mv:person_3084 a mvo:Person ;
+    rdfs:label "Marlon Brando" .
+
+mv:person_3085 a mvo:Person ;
+    rdfs:label "James Caan" .
+
+mv:person_3086 a mvo:Person ;
+    rdfs:label "Richard S. Castellano" .
+
+mv:person_3087 a mvo:Person ;
+    rdfs:label "Robert Duvall" .
+
+mv:person_3091865 a mvo:Person ;
+    rdfs:label "Carlos 'Capi' Pérez" .
+
+mv:person_3115247 a mvo:Person ;
+    rdfs:label "Jacobi Jupe" .
+
+mv:person_3119545 a mvo:Person ;
+    rdfs:label "Kali Reis" .
+
+mv:person_3129 a mvo:Person ;
+    rdfs:label "Tim Roth" .
+
+mv:person_3131371 a mvo:Person ;
+    rdfs:label "Evie Templeton" .
+
+mv:person_31384 a mvo:Person ;
+    rdfs:label "Jordi Mollà" .
+
+mv:person_3167855 a mvo:Person ;
+    rdfs:label "Ci Sha" .
+
+mv:person_31887 a mvo:Person ;
+    rdfs:label "Jaime Fernández" .
+
+mv:person_3193743 a mvo:Person ;
+    rdfs:label "Yu Shi" .
+
+mv:person_3197 a mvo:Person ;
+    rdfs:label "Tom Sizemore" .
+
+mv:person_3214361 a mvo:Person ;
+    rdfs:label "Mila Harris" .
+
+mv:person_3223391 a mvo:Person ;
+    rdfs:label "Dimitrius Schuster-Koloamatangi" .
+
+mv:person_3255503 a mvo:Person ;
+    rdfs:label "Michelangelo Vizzini" .
+
+mv:person_3265701 a mvo:Person ;
+    rdfs:label "Andrea Guo" .
+
+mv:person_32786 a mvo:Person ;
+    rdfs:label "John Davis Chandler" .
+
+mv:person_3292 a mvo:Person ;
+    rdfs:label "Nicholas Hoult" .
+
+mv:person_3313929 a mvo:Person ;
+    rdfs:label "Kit Rakusen" .
+
+mv:person_3341030 a mvo:Person ;
+    rdfs:label "Samuel Suchod" .
+
+mv:person_3381701 a mvo:Person ;
+    rdfs:label "Catalina Motto" .
+
+mv:person_33836 a mvo:Person ;
+    rdfs:label "Sean O'Bryan" .
+
+mv:person_3383606 a mvo:Person ;
+    rdfs:label "Sarah Voigt" .
+
+mv:person_3386244 a mvo:Person ;
+    rdfs:label "Ayanagi Shou" .
+
+mv:person_3391695 a mvo:Person ;
+    rdfs:label "Camilla Damião" .
+
+mv:person_3398276 a mvo:Person ;
+    rdfs:label "Koyanagi Naoko" .
+
+mv:person_34020 a mvo:Person ;
+    rdfs:label "Héctor Colomé" .
+
+mv:person_3405580 a mvo:Person ;
+    rdfs:label "Myriam Aguiriano" .
+
+mv:person_3405581 a mvo:Person ;
+    rdfs:label "Matthieu Castex" .
+
+mv:person_3405582 a mvo:Person ;
+    rdfs:label "Tomas Gallardo" .
+
+mv:person_3405583 a mvo:Person ;
+    rdfs:label "Aymeric Mezaute" .
+
+mv:person_3405584 a mvo:Person ;
+    rdfs:label "Christophe Rigotti" .
+
+mv:person_3405585 a mvo:Person ;
+    rdfs:label "Damien Samper" .
+
+mv:person_3417 a mvo:Person ;
+    rdfs:label "Tony Goldwyn" .
+
+mv:person_34279 a mvo:Person ;
+    rdfs:label "Will Wright" .
+
+mv:person_343 a mvo:Person ;
+    rdfs:label "Taryn Manning" .
+
+mv:person_34398 a mvo:Person ;
+    rdfs:label "Bill Fagerbakke" .
+
+mv:person_34793 a mvo:Person ;
+    rdfs:label "Manuela Velasco" .
+
+mv:person_352 a mvo:Person ;
+    rdfs:label "Dennis Haysbert" .
+
+mv:person_3551176 a mvo:Person ;
+    rdfs:label "David G. Bouvier" .
+
+mv:person_3551178 a mvo:Person ;
+    rdfs:label "Elliot Cohan" .
+
+mv:person_3557464 a mvo:Person ;
+    rdfs:label "Charles Koeppe" .
+
+mv:person_3560347 a mvo:Person ;
+    rdfs:label "Jeff Benninghofen" .
+
+mv:person_35705 a mvo:Person ;
+    rdfs:label "Regina Hall" .
+
+mv:person_3600004 a mvo:Person ;
+    rdfs:label "Zia Zamora" .
+
+mv:person_3631223 a mvo:Person ;
+    rdfs:label "Felix Kammerer" .
+
+mv:person_3651176 a mvo:Person ;
+    rdfs:label "Kikunosuke Toya" .
+
+mv:person_36594 a mvo:Person ;
+    rdfs:label "Juno Temple" .
+
+mv:person_36669 a mvo:Person ;
+    rdfs:label "Rupert Friend" .
+
+mv:person_36730 a mvo:Person ;
+    rdfs:label "Matthias Koeberlin" .
+
+mv:person_3688800 a mvo:Person ;
+    rdfs:label "Nikos Koukas" .
+
+mv:person_37710 a mvo:Person ;
+    rdfs:label "Peter Hyams" .
+
+mv:person_3783386 a mvo:Person ;
+    rdfs:label "Karoline Viktoria Sletteng Garvang" .
+
+mv:person_3791174 a mvo:Person ;
+    rdfs:label "Pepe Barroso" .
+
+mv:person_37948 a mvo:Person ;
+    rdfs:label "Brad Anderson" .
+
+mv:person_380 a mvo:Person ;
+    rdfs:label "Robert De Niro" .
+
+mv:person_3806541 a mvo:Person ;
+    rdfs:label "Elliott Eason" .
+
+mv:person_382 a mvo:Person ;
+    rdfs:label "Bob Hoskins" .
+
+mv:person_3895 a mvo:Person ;
+    rdfs:label "Michael Caine" .
+
+mv:person_3897 a mvo:Person ;
+    rdfs:label "Katie Holmes" .
+
+mv:person_3899 a mvo:Person ;
+    rdfs:label "Ken Watanabe" .
+
+mv:person_3905 a mvo:Person ;
+    rdfs:label "William H. Macy" .
+
+mv:person_3914706 a mvo:Person ;
+    rdfs:label "Chase Infiniti" .
+
+mv:person_3918497 a mvo:Person ;
+    rdfs:label "Dominic Sessa" .
+
+mv:person_3933 a mvo:Person ;
+    rdfs:label "Stipe Erceg" .
+
+mv:person_39391 a mvo:Person ;
+    rdfs:label "Edi Gathegi" .
+
+mv:person_39995 a mvo:Person ;
+    rdfs:label "Michael Cera" .
+
+mv:person_4 a mvo:Person ;
+    rdfs:label "Carrie Fisher" .
+
+mv:person_4014 a mvo:Person ;
+    rdfs:label "Paul W. S. Anderson" .
+
+mv:person_40223 a mvo:Person ;
+    rdfs:label "Joe Carnahan" .
+
+mv:person_40230 a mvo:Person ;
+    rdfs:label "Kevin Hooks" .
+
+mv:person_4030169 a mvo:Person ;
+    rdfs:label "Eddie Lee Wollrabe" .
+
+mv:person_4068 a mvo:Person ;
+    rdfs:label "Gary Cooper" .
+
+mv:person_4088089 a mvo:Person ;
+    rdfs:label "Bodhi Rae Breathnach" .
+
+mv:person_4105602 a mvo:Person ;
+    rdfs:label "Eva Ruiz" .
+
+mv:person_41091 a mvo:Person ;
+    rdfs:label "Kristen Wiig" .
+
+mv:person_4111 a mvo:Person ;
+    rdfs:label "Ingrid Bergman" .
+
+mv:person_41222 a mvo:Person ;
+    rdfs:label "Arthur Allan Seidelman" .
+
+mv:person_4131582 a mvo:Person ;
+    rdfs:label "David Santos" .
+
+mv:person_41565 a mvo:Person ;
+    rdfs:label "Nate Torrence" .
+
+mv:person_4207773 a mvo:Person ;
+    rdfs:label "Rodante Pajemna Jr." .
+
+mv:person_4247263 a mvo:Person ;
+    rdfs:label "Catherine Laga‘aia" .
+
+mv:person_42641 a mvo:Person ;
+    rdfs:label "Claire Skinner" .
+
+mv:person_4282811 a mvo:Person ;
+    rdfs:label "Cameron Uzoka" .
+
+mv:person_431792 a mvo:Person ;
+    rdfs:label "Alma Prica" .
+
+mv:person_4321298 a mvo:Person ;
+    rdfs:label "Marta Quarleri" .
+
+mv:person_4322353 a mvo:Person ;
+    rdfs:label "Syreeta Banks" .
+
+mv:person_4432 a mvo:Person ;
+    rdfs:label "Frances Conroy" .
+
+mv:person_444211 a mvo:Person ;
+    rdfs:label "Shelley Hennig" .
+
+mv:person_44651 a mvo:Person ;
+    rdfs:label "Ken Duken" .
+
+mv:person_4465308 a mvo:Person ;
+    rdfs:label "Celina Myers" .
+
+mv:person_44735 a mvo:Person ;
+    rdfs:label "Jesse Eisenberg" .
+
+mv:person_4477127 a mvo:Person ;
+    rdfs:label "Edyll Ismail" .
+
+mv:person_4483 a mvo:Person ;
+    rdfs:label "Dustin Hoffman" .
+
+mv:person_4495 a mvo:Person ;
+    rdfs:label "Steve Carell" .
+
+mv:person_452205 a mvo:Person ;
+    rdfs:label "Bobby Moynihan" .
+
+mv:person_4529552 a mvo:Person ;
+    rdfs:label "Luca Melucci" .
+
+mv:person_454 a mvo:Person ;
+    rdfs:label "Michael Peña" .
+
+mv:person_45400 a mvo:Person ;
+    rdfs:label "Greta Gerwig" .
+
+mv:person_4587 a mvo:Person ;
+    rdfs:label "Halle Berry" .
+
+mv:person_45928 a mvo:Person ;
+    rdfs:label "Marc Klasfeld" .
+
+mv:person_4606127 a mvo:Person ;
+    rdfs:label "Mélissa Boros" .
+
+mv:person_4662225 a mvo:Person ;
+    rdfs:label "Chen Lijun" .
+
+mv:person_4688032 a mvo:Person ;
+    rdfs:label "Miles Caton" .
+
+mv:person_4689008 a mvo:Person ;
+    rdfs:label "Lionel Robert Blanc" .
+
+mv:person_46924 a mvo:Person ;
+    rdfs:label "Alex Datcher" .
+
+mv:person_4695483 a mvo:Person ;
+    rdfs:label "Anna Sacuto" .
+
+mv:person_47070 a mvo:Person ;
+    rdfs:label "Ingvar Hirdwall" .
+
+mv:person_47368 a mvo:Person ;
+    rdfs:label "Barry Watson" .
+
+mv:person_4762 a mvo:Person ;
+    rdfs:label "Paul Thomas Anderson" .
+
+mv:person_47698 a mvo:Person ;
+    rdfs:label "Denis Lawson" .
+
+mv:person_49 a mvo:Person ;
+    rdfs:label "Maria Bello" .
+
+mv:person_49001 a mvo:Person ;
+    rdfs:label "Sarah Chalke" .
+
+mv:person_500 a mvo:Person ;
+    rdfs:label "Tom Cruise" .
+
+mv:person_5037367 a mvo:Person ;
+    rdfs:label "Veronika Zhuravleva" .
+
+mv:person_5064 a mvo:Person ;
+    rdfs:label "Meryl Streep" .
+
+mv:person_5081 a mvo:Person ;
+    rdfs:label "Emily Blunt" .
+
+mv:person_5107934 a mvo:Person ;
+    rdfs:label "Alfie Williams" .
+
+mv:person_5167953 a mvo:Person ;
+    rdfs:label "Milagros Ribet" .
+
+mv:person_51797 a mvo:Person ;
+    rdfs:label "Nathan Fillion" .
+
+mv:person_5251 a mvo:Person ;
+    rdfs:label "Jack Warden" .
+
+mv:person_52605 a mvo:Person ;
+    rdfs:label "Eva Longoria" .
+
+mv:person_52647 a mvo:Person ;
+    rdfs:label "Shawn Hatosy" .
+
+mv:person_527393 a mvo:Person ;
+    rdfs:label "Dylan O'Brien" .
+
+mv:person_52848 a mvo:Person ;
+    rdfs:label "Isla Fisher" .
+
+mv:person_53347 a mvo:Person ;
+    rdfs:label "Michael Roof" .
+
+mv:person_5344 a mvo:Person ;
+    rdfs:label "Meg Ryan" .
+
+mv:person_5365 a mvo:Person ;
+    rdfs:label "Clifton Collins Jr." .
+
+mv:person_53650 a mvo:Person ;
+    rdfs:label "Anthony Mackie" .
+
+mv:person_53657 a mvo:Person ;
+    rdfs:label "Pasquale Festa Campanile" .
+
+mv:person_544501 a mvo:Person ;
+    rdfs:label "Sabina Laurinová" .
+
+mv:person_54525 a mvo:Person ;
+    rdfs:label "Jaume Balagueró" .
+
+mv:person_5466107 a mvo:Person ;
+    rdfs:label "Barb Thomas" .
+
+mv:person_5466108 a mvo:Person ;
+    rdfs:label "Carrie Kidd" .
+
+mv:person_5469 a mvo:Person ;
+    rdfs:label "Ralph Fiennes" .
+
+mv:person_54697 a mvo:Person ;
+    rdfs:label "Dave Franco" .
+
+mv:person_54882 a mvo:Person ;
+    rdfs:label "Morena Baccarin" .
+
+mv:person_55089 a mvo:Person ;
+    rdfs:label "Evan Peters" .
+
+mv:person_55256 a mvo:Person ;
+    rdfs:label "Julie Ann Emery" .
+
+mv:person_55277 a mvo:Person ;
+    rdfs:label "Courtney Thorne-Smith" .
+
+mv:person_555099 a mvo:Person ;
+    rdfs:label "Koji Yusa" .
+
+mv:person_556356 a mvo:Person ;
+    rdfs:label "Vanessa Kirby" .
+
+mv:person_556435 a mvo:Person ;
+    rdfs:label "Cho Yeo-jeong" .
+
+mv:person_558048 a mvo:Person ;
+    rdfs:label "Evgeniya Loza" .
+
+mv:person_558639 a mvo:Person ;
+    rdfs:label "Alex Lovy" .
+
+mv:person_5598110 a mvo:Person ;
+    rdfs:label "Daniel Vegas" .
+
+mv:person_560025 a mvo:Person ;
+    rdfs:label "Madhu Shalini" .
+
+mv:person_560112 a mvo:Person ;
+    rdfs:label "Irina Alfyorova" .
+
+mv:person_56533 a mvo:Person ;
+    rdfs:label "Claudio Fäh" .
+
+mv:person_5654199 a mvo:Person ;
+    rdfs:label "Alya Mayer" .
+
+mv:person_5659 a mvo:Person ;
+    rdfs:label "Seu Jorge" .
+
+mv:person_566109 a mvo:Person ;
+    rdfs:label "Jan Komasa" .
+
+mv:person_566150 a mvo:Person ;
+    rdfs:label "Taťjana Medvecká" .
+
+mv:person_566331 a mvo:Person ;
+    rdfs:label "Oona Chaplin" .
+
+mv:person_566365 a mvo:Person ;
+    rdfs:label "Choo Chang-min" .
+
+mv:person_567742 a mvo:Person ;
+    rdfs:label "Paula Brasca" .
+
+mv:person_568322 a mvo:Person ;
+    rdfs:label "Dan Trachtenberg" .
+
+mv:person_56861 a mvo:Person ;
+    rdfs:label "Tony Leung Ka-fai" .
+
+mv:person_57130 a mvo:Person ;
+    rdfs:label "Todd Phillips" .
+
+mv:person_57207 a mvo:Person ;
+    rdfs:label "Tony Jaa" .
+
+mv:person_5723 a mvo:Person ;
+    rdfs:label "John Leguizamo" .
+
+mv:person_5724 a mvo:Person ;
+    rdfs:label "Denis Leary" .
+
+mv:person_572541 a mvo:Person ;
+    rdfs:label "Caleb Landry Jones" .
+
+mv:person_57599 a mvo:Person ;
+    rdfs:label "Seann William Scott" .
+
+mv:person_57788 a mvo:Person ;
+    rdfs:label "DJ Perry" .
+
+mv:person_5786234 a mvo:Person ;
+    rdfs:label "Maddy Baskerville" .
+
+mv:person_5786236 a mvo:Person ;
+    rdfs:label "Sophia Carroll" .
+
+mv:person_5786237 a mvo:Person ;
+    rdfs:label "Eleanor Mackenzie" .
+
+mv:person_579817 a mvo:Person ;
+    rdfs:label "Sara Arjun" .
+
+mv:person_5816824 a mvo:Person ;
+    rdfs:label "Anastasia Nikolaeva" .
+
+mv:person_581895 a mvo:Person ;
+    rdfs:label "Sathyaraj" .
+
+mv:person_5823 a mvo:Person ;
+    rdfs:label "Julie Andrews" .
+
+mv:person_582827 a mvo:Person ;
+    rdfs:label "Raja Collins" .
+
+mv:person_583051 a mvo:Person ;
+    rdfs:label "Diana Bang" .
+
+mv:person_583853 a mvo:Person ;
+    rdfs:label "Finnegan Oldfield" .
+
+mv:person_585435 a mvo:Person ;
+    rdfs:label "Saba Kailash" .
+
+mv:person_586286 a mvo:Person ;
+    rdfs:label "Hera Hilmar" .
+
+mv:person_5887 a mvo:Person ;
+    rdfs:label "Catalina Sandino Moreno" .
+
+mv:person_5932454 a mvo:Person ;
+    rdfs:label "Allison Ross" .
+
+mv:person_59620 a mvo:Person ;
+    rdfs:label "Gemma Arterton" .
+
+mv:person_5981973 a mvo:Person ;
+    rdfs:label "Hector" .
+
+mv:person_60073 a mvo:Person ;
+    rdfs:label "Brie Larson" .
+
+mv:person_6028572 a mvo:Person ;
+    rdfs:label "Mimi Roivainen" .
+
+mv:person_6028574 a mvo:Person ;
+    rdfs:label "Jasmin Simonen" .
+
+mv:person_60460 a mvo:Person ;
+    rdfs:label "A.J. Buckley" .
+
+mv:person_60482 a mvo:Person ;
+    rdfs:label "Henry Hunter Hall" .
+
+mv:person_6051549 a mvo:Person ;
+    rdfs:label "Jade Esguerra" .
+
+mv:person_6051552 a mvo:Person ;
+    rdfs:label "Primo Angeles" .
+
+mv:person_6065 a mvo:Person ;
+    rdfs:label "Dennis Quaid" .
+
+mv:person_608 a mvo:Person ;
+    rdfs:label "Hayao Miyazaki" .
+
+mv:person_60898 a mvo:Person ;
+    rdfs:label "Sebastian Stan" .
+
+mv:person_62105 a mvo:Person ;
+    rdfs:label "Kerry Condon" .
+
+mv:person_62861 a mvo:Person ;
+    rdfs:label "Andy Samberg" .
+
+mv:person_63522 a mvo:Person ;
+    rdfs:label "Sofía Vergara" .
+
+mv:person_63544 a mvo:Person ;
+    rdfs:label "Steven Culp" .
+
+mv:person_6383 a mvo:Person ;
+    rdfs:label "Aaron Eckhart" .
+
+mv:person_64057 a mvo:Person ;
+    rdfs:label "Dean Cameron" .
+
+mv:person_64061 a mvo:Person ;
+    rdfs:label "Fred Schepisi" .
+
+mv:person_64992 a mvo:Person ;
+    rdfs:label "Hou Hsiao-hsien" .
+
+mv:person_65344 a mvo:Person ;
+    rdfs:label "Esai Morales" .
+
+mv:person_65717 a mvo:Person ;
+    rdfs:label "Jon Hamm" .
+
+mv:person_65734 a mvo:Person ;
+    rdfs:label "Luke Greenfield" .
+
+mv:person_6574 a mvo:Person ;
+    rdfs:label "Clancy Brown" .
+
+mv:person_66681 a mvo:Person ;
+    rdfs:label "Matt Bettinelli-Olpin" .
+
+mv:person_67119 a mvo:Person ;
+    rdfs:label "Matthew Sunderland" .
+
+mv:person_67367 a mvo:Person ;
+    rdfs:label "Rian Johnson" .
+
+mv:person_67837 a mvo:Person ;
+    rdfs:label "Jacki Weaver" .
+
+mv:person_67967 a mvo:Person ;
+    rdfs:label "Adriano Celentano" .
+
+mv:person_6807 a mvo:Person ;
+    rdfs:label "Sam Rockwell" .
+
+mv:person_6836 a mvo:Person ;
+    rdfs:label "Dan O'Herlihy" .
+
+mv:person_68686 a mvo:Person ;
+    rdfs:label "Fulton Mackay" .
+
+mv:person_68687 a mvo:Person ;
+    rdfs:label "Bill Forsyth" .
+
+mv:person_690 a mvo:Person ;
+    rdfs:label "Ke Huy Quan" .
+
+mv:person_6905 a mvo:Person ;
+    rdfs:label "Bruce Dern" .
+
+mv:person_69423 a mvo:Person ;
+    rdfs:label "Maureen Keiller" .
+
+mv:person_69597 a mvo:Person ;
+    rdfs:label "Drew Barrymore" .
+
+mv:person_6968 a mvo:Person ;
+    rdfs:label "Hugh Jackman" .
+
+mv:person_70106 a mvo:Person ;
+    rdfs:label "Nicholas Tse Ting-Fung" .
+
+mv:person_7056 a mvo:Person ;
+    rdfs:label "Emma Thompson" .
+
+mv:person_70615 a mvo:Person ;
+    rdfs:label "Rodger Bumpass" .
+
+mv:person_70652 a mvo:Person ;
+    rdfs:label "Derek Drymon" .
+
+mv:person_7090 a mvo:Person ;
+    rdfs:label "Kelsey Grammer" .
+
+mv:person_71070 a mvo:Person ;
+    rdfs:label "Amanda Seyfried" .
+
+mv:person_71467 a mvo:Person ;
+    rdfs:label "Matt O'Leary" .
+
+mv:person_7152 a mvo:Person ;
+    rdfs:label "Sandra Hüller" .
+
+mv:person_71580 a mvo:Person ;
+    rdfs:label "Benedict Cumberbatch" .
+
+mv:person_72095 a mvo:Person ;
+    rdfs:label "Lee Pace" .
+
+mv:person_72118 a mvo:Person ;
+    rdfs:label "Anil Kapoor" .
+
+mv:person_7241 a mvo:Person ;
+    rdfs:label "Rena Owen" .
+
+mv:person_72838 a mvo:Person ;
+    rdfs:label "Beverly Lynne" .
+
+mv:person_73421 a mvo:Person ;
+    rdfs:label "Joaquin Phoenix" .
+
+mv:person_738 a mvo:Person ;
+    rdfs:label "Sean Connery" .
+
+mv:person_7395 a mvo:Person ;
+    rdfs:label "Bobby Farrelly" .
+
+mv:person_7396 a mvo:Person ;
+    rdfs:label "Peter Farrelly" .
+
+mv:person_74151 a mvo:Person ;
+    rdfs:label "Jason Spevack" .
+
+mv:person_7499 a mvo:Person ;
+    rdfs:label "Jared Leto" .
+
+mv:person_7544 a mvo:Person ;
+    rdfs:label "Felice Andreasi" .
+
+mv:person_76126 a mvo:Person ;
+    rdfs:label "T.I." .
+
+mv:person_7623 a mvo:Person ;
+    rdfs:label "Sam Raimi" .
+
+mv:person_76494 a mvo:Person ;
+    rdfs:label "Liz Renay" .
+
+mv:person_76495 a mvo:Person ;
+    rdfs:label "Susan Lowe" .
+
+mv:person_76496 a mvo:Person ;
+    rdfs:label "Jean Hill" .
+
+mv:person_76788 a mvo:Person ;
+    rdfs:label "Dev Patel" .
+
+mv:person_76792 a mvo:Person ;
+    rdfs:label "Freida Pinto" .
+
+mv:person_779 a mvo:Person ;
+    rdfs:label "Lisa Eilbacher" .
+
+mv:person_77927 a mvo:Person ;
+    rdfs:label "Megumi Ogata" .
+
+mv:person_785866 a mvo:Person ;
+    rdfs:label "Cal Howard" .
+
+mv:person_78690 a mvo:Person ;
+    rdfs:label "Jeremy Slate" .
+
+mv:person_78798 a mvo:Person ;
+    rdfs:label "Tom Kenny" .
+
+mv:person_78799 a mvo:Person ;
+    rdfs:label "Carolyn Lawrence" .
+
+mv:person_78871 a mvo:Person ;
+    rdfs:label "Wu Jing" .
+
+mv:person_793 a mvo:Person ;
+    rdfs:label "Luis Buñuel" .
+
+mv:person_79978 a mvo:Person ;
+    rdfs:label "Kent Andersson" .
+
+mv:person_80524 a mvo:Person ;
+    rdfs:label "Leon Schuster" .
+
+mv:person_80526 a mvo:Person ;
+    rdfs:label "Gray Hofmeyr" .
+
+mv:person_80527 a mvo:Person ;
+    rdfs:label "Alfred Ntombela" .
+
+mv:person_80528 a mvo:Person ;
+    rdfs:label "Casper De Vries" .
+
+mv:person_80860 a mvo:Person ;
+    rdfs:label "Jonathan Bailey" .
+
+mv:person_81051 a mvo:Person ;
+    rdfs:label "Tahar Rahim" .
+
+mv:person_81244 a mvo:Person ;
+    rdfs:label "Akira Ishida" .
+
+mv:person_8169 a mvo:Person ;
+    rdfs:label "Tyrese Gibson" .
+
+mv:person_81849 a mvo:Person ;
+    rdfs:label "Pedro Olea" .
+
+mv:person_8199 a mvo:Person ;
+    rdfs:label "Thomas Thieme" .
+
+mv:person_8246 a mvo:Person ;
+    rdfs:label "Barry Levinson" .
+
+mv:person_82700 a mvo:Person ;
+    rdfs:label "Mario Casas" .
+
+mv:person_8296 a mvo:Person ;
+    rdfs:label "Christophe Gans" .
+
+mv:person_83037 a mvo:Person ;
+    rdfs:label "Jan-Michael Vincent" .
+
+mv:person_8335 a mvo:Person ;
+    rdfs:label "Kim Coates" .
+
+mv:person_84223 a mvo:Person ;
+    rdfs:label "Anna Kendrick" .
+
+mv:person_85151 a mvo:Person ;
+    rdfs:label "Trond Fausa Aurvåg" .
+
+mv:person_8516 a mvo:Person ;
+    rdfs:label "John Carradine" .
+
+mv:person_85456 a mvo:Person ;
+    rdfs:label "Mahesh Manjrekar" .
+
+mv:person_85780 a mvo:Person ;
+    rdfs:label "Adrian Collins" .
+
+mv:person_859754 a mvo:Person ;
+    rdfs:label "Bart Layton" .
+
+mv:person_86270 a mvo:Person ;
+    rdfs:label "Joseph Kosinski" .
+
+mv:person_8631 a mvo:Person ;
+    rdfs:label "Nancy Olson" .
+
+mv:person_87328 a mvo:Person ;
+    rdfs:label "Akshaye Khanna" .
+
+mv:person_87877 a mvo:Person ;
+    rdfs:label "Roar Uthaug" .
+
+mv:person_880 a mvo:Person ;
+    rdfs:label "Ben Affleck" .
+
+mv:person_88039 a mvo:Person ;
+    rdfs:label "Steven R. Monroe" .
+
+mv:person_88124 a mvo:Person ;
+    rdfs:label "Jesse Plemons" .
+
+mv:person_88167 a mvo:Person ;
+    rdfs:label "Anushka Shetty" .
+
+mv:person_88597 a mvo:Person ;
+    rdfs:label "Jay Paulson" .
+
+mv:person_89673 a mvo:Person ;
+    rdfs:label "Raymond Walburn" .
+
+mv:person_89924 a mvo:Person ;
+    rdfs:label "William Clemens" .
+
+mv:person_9030 a mvo:Person ;
+    rdfs:label "Thandiwe Newton" .
+
+mv:person_9048 a mvo:Person ;
+    rdfs:label "Clark Gregg" .
+
+mv:person_91268 a mvo:Person ;
+    rdfs:label "Ruben Fleischer" .
+
+mv:person_9206 a mvo:Person ;
+    rdfs:label "Neve Campbell" .
+
+mv:person_92285 a mvo:Person ;
+    rdfs:label "Aaron Brumfield" .
+
+mv:person_92422 a mvo:Person ;
+    rdfs:label "Lennart Hjulström" .
+
+mv:person_9281 a mvo:Person ;
+    rdfs:label "Elizabeth Banks" .
+
+mv:person_9292 a mvo:Person ;
+    rdfs:label "Mink Stole" .
+
+mv:person_929387 a mvo:Person ;
+    rdfs:label "Dörte Franke" .
+
+mv:person_93210 a mvo:Person ;
+    rdfs:label "Domhnall Gleeson" .
+
+mv:person_932967 a mvo:Person ;
+    rdfs:label "Mahershala Ali" .
+
+mv:person_935201 a mvo:Person ;
+    rdfs:label "Diego Boneta" .
+
+mv:person_956 a mvo:Person ;
+    rdfs:label "Guy Ritchie" .
+
+mv:person_956385 a mvo:Person ;
+    rdfs:label "Meadow Williams" .
+
+mv:person_9642 a mvo:Person ;
+    rdfs:label "Jude Law" .
+
+mv:person_964549 a mvo:Person ;
+    rdfs:label "Madhur Mittal" .
+
+mv:person_964679 a mvo:Person ;
+    rdfs:label "Teyana Taylor" .
+
+mv:person_96609 a mvo:Person ;
+    rdfs:label "Roger Pryor" .
+
+mv:person_970027 a mvo:Person ;
+    rdfs:label "Marta Hazas" .
+
+mv:person_9705 a mvo:Person ;
+    rdfs:label "Takahiro Sakurai" .
+
+mv:person_971329 a mvo:Person ;
+    rdfs:label "Nina Arianda" .
+
+mv:person_976 a mvo:Person ;
+    rdfs:label "Jason Statham" .
+
+mv:person_9778 a mvo:Person ;
+    rdfs:label "Ice Cube" .
+
+mv:person_97966 a mvo:Person ;
+    rdfs:label "John \"Bud\" Cardos" .
+
+mv:person_98041 a mvo:Person ;
+    rdfs:label "John Cossar" .
+
+mv:person_98537 a mvo:Person ;
+    rdfs:label "John Stalberg Jr." .
+
+mv:person_9874 a mvo:Person ;
+    rdfs:label "Bernard Lee" .
+
+mv:person_9896 a mvo:Person ;
+    rdfs:label "Daniela Bianchi" .
+
+mv:person_9920 a mvo:Person ;
+    rdfs:label "Adolfo Celi" .
+
+mv:person_993774 a mvo:Person ;
+    rdfs:label "Rachel Brosnahan" .
+
+mv:person_996700 a mvo:Person ;
+    rdfs:label "Dax Flame" .
+
+mv:person_99812 a mvo:Person ;
+    rdfs:label "Fernando Esteso" .
+
+mv:company_109501 a mvo:ProductionCompany ;
+    rdfs:label "Bazelevs" .
+
+mv:company_110723 a mvo:ProductionCompany ;
+    rdfs:label "Nickel City Pictures" .
+
+mv:company_115477 a mvo:ProductionCompany ;
+    rdfs:label "Jio Studios" .
+
+mv:company_12288 a mvo:ProductionCompany ;
+    rdfs:label "Nintendo" .
+
+mv:company_165435 a mvo:ProductionCompany ;
+    rdfs:label "Angel Studios" .
+
+mv:company_176762 a mvo:ProductionCompany ;
+    rdfs:label "Kevin Feige Productions" .
+
+mv:company_1885 a mvo:ProductionCompany ;
+    rdfs:label "Silver Pictures" .
+
+mv:company_198785 a mvo:ProductionCompany ;
+    rdfs:label "Hidden Pictures" .
+
+mv:company_2 a mvo:ProductionCompany ;
+    rdfs:label "Walt Disney Pictures" .
+
+mv:company_212774 a mvo:ProductionCompany ;
+    rdfs:label "B62 Studios" .
+
+mv:company_21444 a mvo:ProductionCompany ;
+    rdfs:label "MAPPA" .
+
+mv:company_215935 a mvo:ProductionCompany ;
+    rdfs:label "Gramercy Park Media" .
+
+mv:company_221397 a mvo:ProductionCompany ;
+    rdfs:label "A Higher Standard" .
+
+mv:company_221429 a mvo:ProductionCompany ;
+    rdfs:label "Media Capital Technologies" .
+
+mv:company_25 a mvo:ProductionCompany ;
+    rdfs:label "20th Century Fox" .
+
+mv:company_253186 a mvo:ProductionCompany ;
+    rdfs:label "CineMachine" .
+
+mv:company_2918 a mvo:ProductionCompany ;
+    rdfs:label "Shueisha" .
+
+mv:company_47 a mvo:ProductionCompany ;
+    rdfs:label "Constantin Film" .
+
+mv:company_487 a mvo:ProductionCompany ;
+    rdfs:label "Česká televize" .
+
+mv:company_507 a mvo:ProductionCompany ;
+    rdfs:label "Atlas Entertainment" .
+
+mv:company_53015 a mvo:ProductionCompany ;
+    rdfs:label "Hallmark Media" .
+
+mv:company_56 a mvo:ProductionCompany ;
+    rdfs:label "Amblin Entertainment" .
+
+mv:company_6125 a mvo:ProductionCompany ;
+    rdfs:label "Walt Disney Animation Studios" .
+
+mv:company_79 a mvo:ProductionCompany ;
+    rdfs:label "Village Roadshow Pictures" .
+
+mv:company_882 a mvo:ProductionCompany ;
+    rdfs:label "TOHO" .
+
+mv:company_9996 a mvo:ProductionCompany ;
+    rdfs:label "Syncopy" .
+
+mv:person_10847 a mvo:Person ;
+    rdfs:label "Santiago Segura" .
+
+mv:person_10859 a mvo:Person ;
+    rdfs:label "Ryan Reynolds" .
+
+mv:person_109 a mvo:Person ;
+    rdfs:label "Elijah Wood" .
+
+mv:person_1115 a mvo:Person ;
+    rdfs:label "Stephen Graham" .
+
+mv:person_113901 a mvo:Person ;
+    rdfs:label "Michael Jelenic" .
+
+mv:person_1158 a mvo:Person ;
+    rdfs:label "Al Pacino" .
+
+mv:person_1290466 a mvo:Person ;
+    rdfs:label "Barry Keoghan" .
+
+mv:person_137427 a mvo:Person ;
+    rdfs:label "Denis Villeneuve" .
+
+mv:person_1397778 a mvo:Person ;
+    rdfs:label "Anya Taylor-Joy" .
+
+mv:person_1464650 a mvo:Person ;
+    rdfs:label "Dafne Keen" .
+
+mv:person_1545693 a mvo:Person ;
+    rdfs:label "Zazie Beetz" .
+
+mv:person_15758 a mvo:Person ;
+    rdfs:label "Queen Latifah" .
+
+mv:person_1649152 a mvo:Person ;
+    rdfs:label "Jacob Batalon" .
+
+mv:person_16851 a mvo:Person ;
+    rdfs:label "Josh Brolin" .
+
+mv:person_1719706 a mvo:Person ;
+    rdfs:label "Aaron Horvath" .
+
+mv:person_1892 a mvo:Person ;
+    rdfs:label "Matt Damon" .
+
+mv:person_19728 a mvo:Person ;
+    rdfs:label "Mark Harmon" .
+
+mv:person_2034418 a mvo:Person ;
+    rdfs:label "Jacob Elordi" .
+
+mv:person_2037 a mvo:Person ;
+    rdfs:label "Cillian Murphy" .
+
+mv:person_2152816 a mvo:Person ;
+    rdfs:label "Aditya Dhar" .
+
+mv:person_2231 a mvo:Person ;
+    rdfs:label "Samuel L. Jackson" .
+
+mv:person_224223 a mvo:Person ;
+    rdfs:label "Ranveer Singh" .
+
+mv:person_2252730 a mvo:Person ;
+    rdfs:label "Michael Houston King" .
+
+mv:person_225692 a mvo:Person ;
+    rdfs:label "Jeremy Irvine" .
+
+mv:person_23532 a mvo:Person ;
+    rdfs:label "Jason Bateman" .
+
+mv:person_23659 a mvo:Person ;
+    rdfs:label "Will Ferrell" .
+
+mv:person_25072 a mvo:Person ;
+    rdfs:label "Oscar Isaac" .
+
+mv:person_298410 a mvo:Person ;
+    rdfs:label "Keegan-Michael Key" .
+
+mv:person_3141 a mvo:Person ;
+    rdfs:label "Marisa Tomei" .
+
+mv:person_32895 a mvo:Person ;
+    rdfs:label "Kevin James" .
+
+mv:person_3638397 a mvo:Person ;
+    rdfs:label "Kris Collins" .
+
+mv:person_3810 a mvo:Person ;
+    rdfs:label "Javier Bardem" .
+
+mv:person_417 a mvo:Person ;
+    rdfs:label "Ginnifer Goodwin" .
+
+mv:person_52263 a mvo:Person ;
+    rdfs:label "Arjun Rampal" .
+
+mv:person_525 a mvo:Person ;
+    rdfs:label "Christopher Nolan" .
+
+mv:person_53714 a mvo:Person ;
+    rdfs:label "Rachel McAdams" .
+
+mv:person_57409 a mvo:Person ;
+    rdfs:label "Ana de la Reguera" .
+
+mv:person_6193 a mvo:Person ;
+    rdfs:label "Leonardo DiCaprio" .
+
+mv:person_63 a mvo:Person ;
+    rdfs:label "Milla Jovovich" .
+
+mv:person_64295 a mvo:Person ;
+    rdfs:label "Alan Ritchson" .
+
+mv:person_70851 a mvo:Person ;
+    rdfs:label "Jack Black" .
+
+mv:person_76422 a mvo:Person ;
+    rdfs:label "Ric Roman Waugh" .
+
+mv:person_76595 a mvo:Person ;
+    rdfs:label "Byron Howard" .
+
+mv:person_83271 a mvo:Person ;
+    rdfs:label "Glen Powell" .
+
+mv:person_85065 a mvo:Person ;
+    rdfs:label "Jack O'Connell" .
+
+mv:person_85519 a mvo:Person ;
+    rdfs:label "R. Madhavan" .
+
+mv:person_85881 a mvo:Person ;
+    rdfs:label "Sanjay Dutt" .
+
+mv:person_95101 a mvo:Person ;
+    rdfs:label "Charlie Day" .
+
+mv:company_574 a mvo:ProductionCompany ;
+    rdfs:label "Lightstorm Entertainment" .
+
+mv:company_6704 a mvo:ProductionCompany ;
+    rdfs:label "Illumination" .
+
+mv:company_923 a mvo:ProductionCompany ;
+    rdfs:label "Legendary Pictures" .
+
+mv:person_10205 a mvo:Person ;
+    rdfs:label "Sigourney Weaver" .
+
+mv:person_1190668 a mvo:Person ;
+    rdfs:label "Timothée Chalamet" .
+
+mv:person_1245 a mvo:Person ;
+    rdfs:label "Scarlett Johansson" .
+
+mv:person_1293994 a mvo:Person ;
+    rdfs:label "Jon Watts" .
+
+mv:person_15277 a mvo:Person ;
+    rdfs:label "Jon Favreau" .
+
+mv:person_16828 a mvo:Person ;
+    rdfs:label "Chris Evans" .
+
+mv:person_19271 a mvo:Person ;
+    rdfs:label "Anthony Russo" .
+
+mv:person_19272 a mvo:Person ;
+    rdfs:label "Joe Russo" .
+
+mv:person_2710 a mvo:Person ;
+    rdfs:label "James Cameron" .
+
+mv:person_32747 a mvo:Person ;
+    rdfs:label "Stephen Lang" .
+
+mv:person_505710 a mvo:Person ;
+    rdfs:label "Zendaya" .
+
+mv:person_65731 a mvo:Person ;
+    rdfs:label "Sam Worthington" .
+
+mv:person_73457 a mvo:Person ;
+    rdfs:label "Chris Pratt" .
+
+mv:person_8691 a mvo:Person ;
+    rdfs:label "Zoe Saldaña" .
+
+mv:Documentary a mvo:Genre .
+
+mv:person_103 a mvo:Person ;
+    rdfs:label "Mark Ruffalo" .
+
+mv:person_1136406 a mvo:Person ;
+    rdfs:label "Tom Holland" .
+
+mv:person_933238 a mvo:Person ;
+    rdfs:label "Rebecca Ferguson" .
+
+mv:company_127928 a mvo:ProductionCompany ;
+    rdfs:label "20th Century Studios" .
+
+mv:company_1632 a mvo:ProductionCompany ;
+    rdfs:label "Lionsgate" .
+
+mv:company_84041 a mvo:ProductionCompany ;
+    rdfs:label "Pascal Pictures" .
+
+mv:person_74568 a mvo:Person ;
+    rdfs:label "Chris Hemsworth" .
+
+mv:History a mvo:Genre .
+
+mv:company_210099 a mvo:ProductionCompany ;
+    rdfs:label "Amazon MGM Studios" .
+
+mv:company_216687 a mvo:ProductionCompany ;
+    rdfs:label "Domain Entertainment" .
+
+mv:company_4 a mvo:ProductionCompany ;
+    rdfs:label "Paramount Pictures" .
+
+mv:person_3223 a mvo:Person ;
+    rdfs:label "Robert Downey Jr." .
+
+mv:TV_Movie a mvo:Genre .
+
+mv:company_174 a mvo:ProductionCompany ;
+    rdfs:label "Warner Bros. Pictures" .
+
+mv:company_33 a mvo:ProductionCompany ;
+    rdfs:label "Universal Pictures" .
+
+mv:company_22213 a mvo:ProductionCompany ;
+    rdfs:label "TSG Entertainment" .
+
+mv:company_420 a mvo:ProductionCompany ;
+    rdfs:label "Marvel Studios" .
+
+mv:company_5 a mvo:ProductionCompany ;
+    rdfs:label "Columbia Pictures" .
+
+mv:Mystery a mvo:Genre .
+
+mv:Family a mvo:Genre .
+
+mv:Animation a mvo:Genre .
+
+mv:Romance a mvo:Genre .
+
+mvo:Genre a owl:Class .
+
+mv:Fantasy a mvo:Genre .
+
+mv:Crime a mvo:Genre .
+
+mv:Horror a mvo:Genre .
+
+mv:Adventure a mvo:Genre .
+
+mv:Science_Fiction a mvo:Genre .
+
+mv:Comedy a mvo:Genre .
+
+mv:Thriller a mvo:Genre .
+
+mv:Drama a mvo:Genre .
+
+mv:Action a mvo:Genre .
+
+mvo:Movie a owl:Class .
+
+mvo:ProductionCompany a owl:Class .
+
+mvo:Person a owl:Class .
+

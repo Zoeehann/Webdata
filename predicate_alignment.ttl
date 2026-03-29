@@ -1,0 +1,17 @@
+@prefix mvo: <http://moviekg.local/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+mvo:hasActor owl:equivalentProperty wdt:P161 .
+
+mvo:hasDirector owl:equivalentProperty wdt:P57 .
+
+mvo:hasGenre owl:equivalentProperty wdt:P136 .
+
+mvo:hasTitle rdfs:subPropertyOf rdfs:label .
+
+mvo:producedBy owl:equivalentProperty wdt:P272 .
+
+mvo:releaseYear owl:equivalentProperty wdt:P577 .
+
